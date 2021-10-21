@@ -67,7 +67,7 @@
 * קשת - הקשת משתמש בחץ וקשת על מנת להילחם. בנוסף לקשת יש יכולות ריפוי.
 הקשת הינה דמות אשר מתקיפה מרחוק.
   
-![archer](https://user-images.githubusercontent.com/20986238/138348791-b5d06371-1c09-47da-bb2a-2fadfda854f4.jpg)
+  ![archer](https://user-images.githubusercontent.com/20986238/138348791-b5d06371-1c09-47da-bb2a-2fadfda854f4.jpg)
 
 
 #### חוקים בסייסים:
