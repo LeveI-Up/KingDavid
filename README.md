@@ -134,8 +134,20 @@
 #### משחקים דומים:
 
 * [World Of Warcraft](https://worldofwarcraft.com/en-us/)
+  
+  
+  ![MP](https://user-images.githubusercontent.com/20986238/138346985-9742030f-363e-4690-bae0-40db5089fc34.png)
+
 * [Black Desert](https://www.naeu.playblackdesert.com/en-US/Main/Index)
+  
+  
+  ![BD](https://user-images.githubusercontent.com/20986238/138346992-f0995cad-d48b-4d9b-980b-edd63fbd4d36.png)
+
 * [Maple Story](https://maplestory.nexon.net/) 
+  
+  
+  ![MP](https://user-images.githubusercontent.com/20986238/138346985-9742030f-363e-4690-bae0-40db5089fc34.png)
+
 
 
 * בשונה מהמשחקים האלו, במשחק שלי קיים פן לימודי. חידות מטמטיות, פתירת מבוכים, השלמת נוסחאות, חידות לוגיות, פתרון פאזלים, כתבי סתרים ועוד המון!
