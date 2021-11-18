@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 
 public class Player : MonoBehaviour
@@ -16,9 +15,7 @@ public class Player : MonoBehaviour
     public string transitionName;
     private Vector3 bottomLeftEdge;
     private Vector3 topRightEdge;
-    [SerializeField] Tilemap tilemap;
-    private float yLimit = 0.5f;
-    private float maxxLimit = 0.5f;
+
 
 
     // Start is called before the first frame update
@@ -35,9 +32,7 @@ public class Player : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
         
-        //camera limits
-        bottomLeftEdge = tilemap.localBounds.min + new Vector3(yLimit, yLimit, 0);
-        topRightEdge = tilemap.localBounds.max + new Vector3(-maxxLimit, -yLimit, 0);
+        
     }
 
     // Update is called once per frame
@@ -64,5 +59,12 @@ public class Player : MonoBehaviour
             Mathf.Clamp(transform.position.z, bottomLeftEdge.z, topRightEdge.z)
         );
 
+    }
+
+    //set camera limits
+    public void SetLimit(Vector3 bottomEdgeToSet,Vector3 topEdgeToSet)
+    {
+        bottomLeftEdge = bottomEdgeToSet;
+        topRightEdge = topEdgeToSet;
     }
 }

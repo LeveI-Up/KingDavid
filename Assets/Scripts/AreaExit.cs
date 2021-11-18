@@ -8,6 +8,7 @@ public class AreaExit : MonoBehaviour
     [SerializeField] private string sceneToLoad;
     [SerializeField] string transitionAreaName;
     [SerializeField] AreaEnter theAreaEnter;
+    private float sec = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,15 @@ public class AreaExit : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Player.instance.transitionName = transitionAreaName;
-            SceneManager.LoadScene(sceneToLoad);
+            MenuManager.instance.FadeImage();
+            StartCoroutine(LoadSceneCoroutine());
         }
+    }
+    IEnumerator LoadSceneCoroutine()
+    {
+        yield return new WaitForSeconds(sec);
+        SceneManager.LoadScene(sceneToLoad);
+
+
     }
 }
