@@ -382,6 +382,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504868992}
   m_CullTransparentMesh: 0
+--- !u!1 &588476603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6616424981147699220, guid: 844e67647d47c474db699994b57c3103,
+    type: 3}
+  m_PrefabInstance: {fileID: 6616424982601621837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &588476604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588476603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5082921e31c4e1142b1c37c759e8cdc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogText: {fileID: 1663308416}
+  nameText: {fileID: 504868994}
+  dialogBox: {fileID: 1723173148}
+  nameBox: {fileID: 1033406998}
+  dialogSentences:
+  - Hey There
+  - I'm Saul
+  - Someone send me to talk with you
+  - Your name is Uriya right?
+  - 'You are a Mother Fucker Cock Sucker AssHole licker Shit Smeller '
+  currentSentence: 0
 --- !u!1001 &624330119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,18 +525,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033406998}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 504868993}
-  m_Father: {fileID: 10672086}
-  m_RootOrder: 2
+  m_Father: {fileID: 1723173149}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -752.8, y: -191.86}
-  m_SizeDelta: {x: -1778.6, y: -1003}
+  m_AnchoredPosition: {x: -720.4, y: 165.5}
+  m_SizeDelta: {x: -1511.6, y: -182.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1033407000
 MonoBehaviour:
@@ -556,6 +585,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1394693753}
   - component: {fileID: 1394693752}
+  - component: {fileID: 1394693756}
+  - component: {fileID: 1394693755}
+  - component: {fileID: 1394693754}
   m_Layer: 0
   m_Name: Saul
   m_TagString: Untagged
@@ -622,12 +654,77 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394693751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 18.17, z: 0}
+  m_LocalPosition: {x: 1.42, y: 18.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394693754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394693751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072cec6b5dc7a6447b9435cc5b7d07c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences: []
+--- !u!61 &1394693755
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394693751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.15592432, y: -0.7944746}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.125}
+    newSize: {x: 0.32, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.361147, y: 1.4368496}
+  m_EdgeRadius: 0
+--- !u!61 &1394693756
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394693751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.125}
+    newSize: {x: 0.32, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.125}
+  m_EdgeRadius: 0
 --- !u!1001 &1415637719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -908,6 +1005,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1663308415}
+  - {fileID: 1033406999}
   m_Father: {fileID: 10672086}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
