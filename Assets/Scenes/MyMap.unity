@@ -127,6 +127,36 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6616424982601621837}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &134670954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 973002421152257453, guid: e235bc830aed10d40b0c74e6e0164a57,
+    type: 3}
+  m_PrefabInstance: {fileID: 624330119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &134670961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134670954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915ec039b0dad2d48a0031e03bfb4546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: David
+  playerLevel: 1
+  currentXP: 36
+  maxLevel: 50
+  xpForEachLevel: 
+  baseLevelXP: 100
+  maxHP: 100
+  currentHP: 0
+  maxMana: 30
+  currnetMana: 0
+  defence: 30
+  dexterity: 10
 --- !u!1001 &316788937
 PrefabInstance:
   m_ObjectHideFlags: 0

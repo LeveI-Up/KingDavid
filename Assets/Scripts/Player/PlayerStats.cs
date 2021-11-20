@@ -21,6 +21,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int defence;
     [SerializeField] int dexterity;
 
+    private float[] expCalc = { 0.02f, 3.06f, 105.6f };
+
 
 
     // Start is called before the first frame update
@@ -30,7 +32,7 @@ public class PlayerStats : MonoBehaviour
         xpForEachLevel[1] = baseLevelXP;
         for(int i = 2; i < xpForEachLevel.Length; i++)
         {
-            xpForEachLevel[i] = i * baseLevelXP;
+            xpForEachLevel[i] = (int)(expCalc[0]*i*i*i+expCalc[1]*i*i+expCalc[2]*i);
         }
     }
 
