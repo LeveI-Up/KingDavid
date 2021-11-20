@@ -672,7 +672,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072cec6b5dc7a6447b9435cc5b7d07c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - Hello There!
+  - My name is Saul
+  - God sent me to you
+  - Your name is David right?
+  - Nice to meat you!
 --- !u!61 &1394693755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -992,7 +997,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1723173149
 RectTransform:
   m_ObjectHideFlags: 0

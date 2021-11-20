@@ -15,12 +15,13 @@ public class DialogHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canActiveBox && Input.GetButtonDown("Fire1"))
+        if(canActiveBox && Input.GetButtonDown("Fire1") && !DialogController.instacne.IsDialogBoxActive())
         {
-            Debug.Log("We can activate dialog box");
+            DialogController.instacne.ActivateDialog(sentences);
         }
     }
 
+    //Check if player tag is around the npc
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

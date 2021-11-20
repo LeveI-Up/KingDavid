@@ -11,6 +11,7 @@ public class DialogController : MonoBehaviour
     [SerializeField] string[] dialogSentences;
     [SerializeField] int currentSentence;
     public static DialogController instacne;
+    private bool dialogJustStarted;
 
     // Start is called before the first frame update
     void Start()
@@ -26,19 +27,40 @@ public class DialogController : MonoBehaviour
         {
             if (Input.GetButtonUp("Fire1")) //skip dialog when pressing on the mouse
             {
-                currentSentence++;
-                if (currentSentence >= dialogSentences.Length) 
+                if (!dialogJustStarted) 
                 {
-                    dialogBox.SetActive(false);
+                    currentSentence++;
+                    if (currentSentence >= dialogSentences.Length)
+                    {
+                        dialogBox.SetActive(false);
+                    }
+                    else
+                    {
+                        dialogText.text = dialogSentences[currentSentence];
+
+                    }
                 }
                 else
                 {
-                    dialogText.text = dialogSentences[currentSentence];
-
+                    dialogJustStarted = false;
                 }
+                
 
 
             }
         }
+    }
+
+    public void ActivateDialog(string[] newSentencesToUse)
+    {
+        dialogSentences = newSentencesToUse;
+        currentSentence = 0;
+        dialogText.text = dialogSentences[currentSentence]; //first sentence of dialog showed here
+        dialogBox.SetActive(true);
+        dialogJustStarted = true;
+    }
+    public bool IsDialogBoxActive()
+    {
+        return dialogBox.activeInHierarchy;
     }
 }
