@@ -421,12 +421,17 @@ PrefabInstance:
     - target: {fileID: 973002421152257446, guid: e235bc830aed10d40b0c74e6e0164a57,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.0066375732
+      value: 0.031278595
       objectReference: {fileID: 0}
     - target: {fileID: 973002421152257446, guid: e235bc830aed10d40b0c74e6e0164a57,
         type: 3}
       propertyPath: m_Radius
-      value: 0.34395218
+      value: 0.4709697
+      objectReference: {fileID: 0}
+    - target: {fileID: 973002421152257446, guid: e235bc830aed10d40b0c74e6e0164a57,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.08816531
       objectReference: {fileID: 0}
     - target: {fileID: 973002421152257448, guid: e235bc830aed10d40b0c74e6e0164a57,
         type: 3}
@@ -654,7 +659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394693751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 18.41, z: 0}
+  m_LocalPosition: {x: 1.42, y: 18.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -673,10 +678,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - Hello There!
+  - '#Saul'
   - My name is Saul
   - God sent me to you
   - Your name is David right?
+  - '#David'
+  - Yes yout right
+  - '#Saul'
   - Nice to meat you!
 --- !u!61 &1394693755
 BoxCollider2D:
@@ -717,7 +725,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.1299038}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -728,7 +736,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.125}
+  m_Size: {x: 1, y: 0.8651924}
   m_EdgeRadius: 0
 --- !u!1001 &1415637719
 PrefabInstance:

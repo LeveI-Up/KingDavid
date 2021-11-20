@@ -37,8 +37,8 @@ public class DialogController : MonoBehaviour
                     }
                     else
                     {
+                        CheckForName();
                         dialogText.text = dialogSentences[currentSentence];
-
                     }
                 }
                 else
@@ -56,6 +56,7 @@ public class DialogController : MonoBehaviour
     {
         dialogSentences = newSentencesToUse;
         currentSentence = 0;
+        CheckForName();
         dialogText.text = dialogSentences[currentSentence]; //first sentence of dialog showed here
         dialogBox.SetActive(true);
         dialogJustStarted = true;
@@ -64,5 +65,14 @@ public class DialogController : MonoBehaviour
     public bool IsDialogBoxActive()
     {
         return dialogBox.activeInHierarchy;
+    }
+    
+    void CheckForName()
+    {
+        if (dialogSentences[currentSentence].StartsWith("#"))
+        {
+            nameText.text = dialogSentences[currentSentence].Replace("#", "");
+            currentSentence++;
+        }
     }
 }
