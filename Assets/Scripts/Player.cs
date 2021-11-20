@@ -10,11 +10,15 @@ public class Player : MonoBehaviour
 
     private int move = 1;
     [SerializeField] int movespeed=1;
+
     [SerializeField] Rigidbody2D playerRigidBody;
     [SerializeField] Animator playerAnimator;
+
     public string transitionName;
     private Vector3 bottomLeftEdge;
     private Vector3 topRightEdge;
+
+    private bool deactivatedMovement = false;
 
 
 
@@ -41,13 +45,22 @@ public class Player : MonoBehaviour
         //player movement
         float horizontalMovement = Input.GetAxisRaw("Horizontal");
         float verticalMovement = Input.GetAxisRaw("Vertical");
-        playerRigidBody.velocity = new Vector2(horizontalMovement, verticalMovement) * movespeed;
+        if (deactivatedMovement)
+        {
+            playerRigidBody.velocity = Vector2.zero;
+        }
+        else
+        {
+            playerRigidBody.velocity = new Vector2(horizontalMovement, verticalMovement) * movespeed;
+        }
+        
 
         playerAnimator.SetFloat("movementX", playerRigidBody.velocity.x);
         playerAnimator.SetFloat("movementY", playerRigidBody.velocity.y);
 
         if(horizontalMovement == move || horizontalMovement == -move || verticalMovement == move || verticalMovement == -move)
         {
+            if(!deactivatedMovement)
             playerAnimator.SetFloat("lastX", horizontalMovement);
             playerAnimator.SetFloat("lastY", verticalMovement);
 
@@ -66,5 +79,11 @@ public class Player : MonoBehaviour
     {
         bottomLeftEdge = bottomEdgeToSet;
         topRightEdge = topEdgeToSet;
+    }
+
+    //deactive player movement while he is in dialog
+    public void DeactiveMovement(bool b)
+    {
+        deactivatedMovement = b;
     }
 }
