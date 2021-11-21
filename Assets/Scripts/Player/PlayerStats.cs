@@ -11,8 +11,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int maxLevel = 50;
     [SerializeField] int[] xpForNextLevel;
     [SerializeField] int baseLevelXP = 100;
-    [SerializeField] float hpGrow = 1.18f;
-    [SerializeField] float manaGrow = 1.06f;
+    private float hpGrow = 1.18f;
+    private float manaGrow = 1.06f;
 
     [SerializeField] int maxHP = 100;
     [SerializeField] int currentHP;
