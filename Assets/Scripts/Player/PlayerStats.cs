@@ -11,7 +11,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int maxLevel = 50;
     [SerializeField] int[] xpForNextLevel;
     [SerializeField] int baseLevelXP = 100;
-    [SerializeField] float hpManaGrow = 1.06f;
+    [SerializeField] float hpGrow = 1.18f;
+    [SerializeField] float manaGrow = 1.06f;
 
     [SerializeField] int maxHP = 100;
     [SerializeField] int currentHP;
@@ -53,9 +54,9 @@ public class PlayerStats : MonoBehaviour
         {
             currentXP -= xpForNextLevel[playerLevel];
             playerLevel++;
-            maxHP = (int)(maxHP * 1.18f);
+            maxHP = (int)(maxHP * hpGrow);
             currentHP = maxHP;
-            maxMana = (int)(maxMana * hpManaGrow);
+            maxMana = (int)(maxMana * manaGrow);
             currnetMana = maxMana;
             if (playerLevel % 2 == 0)
             {
