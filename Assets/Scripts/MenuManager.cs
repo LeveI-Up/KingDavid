@@ -55,17 +55,18 @@ public class MenuManager : MonoBehaviour
             levelText[i].text = "Current XP: " + playerStats[i].GetCurrentXP();
             charcterImage[i].sprite = playerStats[i].GetCharcterImage();
             charLevelText[i].text ="Level: " + playerStats[i].GetPlayerLevel().ToString();
-
             xpText[i].text = playerStats[i].GetCurrentXP().ToString() + "/" + playerStats[i].GetXpForNextLevel()[playerStats[i].GetPlayerLevel()];
 
             xpSlider[i].maxValue = playerStats[i].GetXpForNextLevel()[playerStats[i].GetPlayerLevel()];
             xpSlider[i].value = playerStats[i].GetCurrentXP();
 
-
-
-
-
         }
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("QuitGame");
     }
     public void FadeImage()
     {
