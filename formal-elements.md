@@ -128,11 +128,13 @@
 
 * לכל מפה יש שער שמוביל למפה הבאה אותו תצטרכו למצוא לבדכם על ידי חקירת המפה.
 
-* כאשר תגיעו במפה לאיזור שלא ניתן לעבור דרכו - תדעו שהגעתם לגבול של המפה.
+* כאשר תגיעו במפה לאיזור שלא ניתן לעבור דרכו - תדעו שהגעתם לגבול של המפה
 
 * בכל מפה יש: אויבים המותאמים לרמה של אותה מפה.
 
 * למשתמש ניתנת האופציה לסייר ולחקור את המפה כרצונו ללא מגע ועימותים עם האויבים במשחק.
+
+
 
 
 
@@ -154,19 +156,22 @@
 
 * [World Of Warcraft](https://worldofwarcraft.com/en-us/)
 
-
 ![WOW](https://user-images.githubusercontent.com/20986238/138870772-a68ccdc9-3fb6-4074-957e-a7020c2d47f3.png)
 
 
 * [Black Desert](https://www.naeu.playblackdesert.com/en-US/Main/Index)
 
-
 ![BD](https://user-images.githubusercontent.com/20986238/138346992-f0995cad-d48b-4d9b-980b-edd63fbd4d36.png)
+
 
 * [Maple Story](https://maplestory.nexon.net/)
 
 
 ![MP](https://user-images.githubusercontent.com/20986238/138346985-9742030f-363e-4690-bae0-40db5089fc34.png)
+
+
+
+
 
 
 
