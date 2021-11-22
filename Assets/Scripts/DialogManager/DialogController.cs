@@ -33,7 +33,7 @@ public class DialogController : MonoBehaviour
                     if (currentSentence >= dialogSentences.Length)
                     {
                         dialogBox.SetActive(false);
-                        Player.instance.DeactiveMovement(false);
+                        GameManager.instance.dialogBoxOpned = false;
                     }
                     else
                     {
@@ -60,7 +60,7 @@ public class DialogController : MonoBehaviour
         dialogText.text = dialogSentences[currentSentence]; //first sentence of dialog showed here
         dialogBox.SetActive(true);
         dialogJustStarted = true;
-        Player.instance.DeactiveMovement(true);
+        GameManager.instance.dialogBoxOpned = true;
     }
     public bool IsDialogBoxActive()
     {

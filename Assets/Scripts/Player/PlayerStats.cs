@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
     [SerializeField] string playerName;
+
+    [SerializeField] Sprite charcterImage;
 
     [SerializeField] int playerLevel = 1;
     [SerializeField] int currentXP;
@@ -67,5 +70,57 @@ public class PlayerStats : MonoBehaviour
                 defence++;
             }
         }
+    }
+    public string GetPlayerName()
+    {
+        return playerName;
+    }
+    public Sprite GetCharcterImage()
+    {
+        return charcterImage;
+    }
+    public int GetPlayerLevel()
+    {
+        return playerLevel;
+    }
+    public int GetCurrentXP()
+    {
+        return currentXP;
+    }
+    public int GetMaxLevel()
+    {
+        return maxLevel;
+    }
+    public int[] GetXpForNextLevel()
+    {
+        return xpForNextLevel;
+    }
+    public int GetBaseLevelXP()
+    {
+        return baseLevelXP;
+    }
+    public int GetMaxHP()
+    {
+        return maxHP;
+    }
+    public int GetCurrentHP()
+    {
+        return currentHP;
+    }
+    public int GetMaxMana()
+    {
+        return maxMana;
+    }
+    public int GetCurrnetMana()
+    {
+        return currnetMana;
+    }
+    public int GetDefence()
+    {
+        return defence;
+    }
+    public int GetDexterity()
+    {
+        return dexterity;
     }
 }
