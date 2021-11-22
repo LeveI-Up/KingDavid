@@ -12,7 +12,7 @@
 המשחק מיועד לפלטפורמת המחשב, המחשב הינו משחק רב משתתפים ברשת (אולי בעתיד יצא לפלאפון)
 
 
-![Atlantis](https://user-images.githubusercontent.com/20986238/138324497-51c4cac3-7b75-4f28-b6a8-cc1a9af1fc8a.png)
+![WhatsApp Image 2021-11-22 at 19 48 28](https://user-images.githubusercontent.com/63556870/142910808-9f23aa50-5e86-4dad-a9f3-51f302287158.jpeg)
 
 ---
 
@@ -110,7 +110,7 @@
 * לכל דמות יש תיק אישי שהיא יכולה לפתוח בכל שלב של המשחק. בתיק אפשר למצוא את כל החפצים שאספתם
 * לכל חפץ יש נקודות התקפה/הגנה שהוא מוסיף לדמות. את הנקודות שהחפץ מוסיף ניתן לראות בעזרת העכבר (הניחו את העכבר על החפץ)
   
-  ![inv](https://user-images.githubusercontent.com/20986238/138869868-51500905-54b3-4001-b55e-18175eb6e0b0.JPG)    ![item](https://user-images.githubusercontent.com/20986238/138869876-034a907a-21a6-462e-be98-376da6f5af79.JPG)
+![WhatsApp Image 2021-11-22 at 19 48 28 (1)](https://user-images.githubusercontent.com/63556870/142911146-f8bd63a8-a7c1-4619-9d2a-dad21bb63d01.jpeg)
   
   
 #### נקודות משחק - כל רמה שהדמות שלכם תעלה תקבלו 5 נקודות משחק
