@@ -13,7 +13,7 @@
   
   לפירוט המלא יש ללחוץ [כאן](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
-לכניסה למשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=7OodMuA2MYU)
+לצפייה בסירטון של המשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=7OodMuA2MYU)
 
 
 
