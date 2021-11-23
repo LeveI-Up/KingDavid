@@ -22,6 +22,8 @@ public class MenuManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI statName, statHp, statMana, statDex, statDef;
     [SerializeField] Image charcterStatImage;
 
+    [SerializeField] GameObject itemSlotContainer;
+    [SerializeField] Transform itemSlotContainerParent;
     private void Start()
     {
         instance = this;
@@ -87,8 +89,20 @@ public class MenuManager : MonoBehaviour
         statDef.text = playerSelected.GetDefence().ToString();
         charcterStatImage.sprite = playerSelected.GetCharcterImage();
 
+    }
 
-
+    public void UpdateItemsInventory()
+    {
+        foreach (Transform itemSlot in itemSlotContainerParent)
+        {
+            Destroy(itemSlot.gameObject);
+        }
+            foreach (ItemsManager item in Inventory.instance.GetItemsList())
+        {
+            RectTransform itemSlot = Instantiate(itemSlotContainer, itemSlotContainerParent).GetComponent<RectTransform>();
+            Image itemImage = itemSlot.Find("Items Image").GetComponent<Image>();
+            itemImage.sprite = item.itemImage;
+        }
     }
 
     public void QuitGame()
