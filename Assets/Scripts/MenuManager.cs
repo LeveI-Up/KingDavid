@@ -11,12 +11,16 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject menu;
 
     public static MenuManager instance;
-
+    //player stats at the menu
     private PlayerStats[] playerStats;
     [SerializeField] TextMeshProUGUI[] nameText, hpText, manaText, xpText, levelText,charLevelText;
     [SerializeField] Slider[] xpSlider;
     [SerializeField] Image[] charcterImage;
     [SerializeField] GameObject[] charcterPanel;
+    //player stats at the stats button
+    [SerializeField] GameObject[] statsButtons;
+    [SerializeField] TextMeshProUGUI statName, statHp, statMana, statDex, statDef;
+    [SerializeField] Image charcterStatImage;
 
     private void Start()
     {
@@ -61,6 +65,30 @@ public class MenuManager : MonoBehaviour
             xpSlider[i].value = playerStats[i].GetCurrentXP();
 
         }
+    }
+    //update the details on stats button
+    public void StatsMenu()
+    {
+        for(int i=0; i < playerStats.Length; i++)
+        {
+            statsButtons[i].SetActive(true);
+            statsButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = playerStats[i].GetPlayerName();
+        }
+        StatsMenuUpdate(0);
+    }
+
+    public void StatsMenuUpdate(int playerSelectedNumber)
+    {
+        PlayerStats playerSelected = playerStats[playerSelectedNumber];
+        statName.text = playerSelected.GetPlayerName();
+        statHp.text = playerSelected.GetCurrentHP().ToString() + "/"+ playerSelected.GetMaxHP();
+        statMana.text = playerSelected.GetCurrnetMana().ToString() + "/" + playerSelected.GetMaxMana();
+        statDex.text = playerSelected.GetDexterity().ToString();
+        statDef.text = playerSelected.GetDefence().ToString();
+        charcterStatImage.sprite = playerSelected.GetCharcterImage();
+
+
+
     }
 
     public void QuitGame()
