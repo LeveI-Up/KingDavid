@@ -15,6 +15,10 @@ public class ItemsManager : MonoBehaviour
     public effecType effectType;
     public int weaponAttackPower, ArmorDef;
 
+    [SerializeField] bool isStackable;
+    public int amount;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -41,4 +45,9 @@ public class ItemsManager : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    public bool GetIsStackable()
+    {
+        return isStackable;
+    }
+
 }
