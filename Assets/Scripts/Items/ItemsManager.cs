@@ -18,20 +18,39 @@ public class ItemsManager : MonoBehaviour
     [SerializeField] bool isStackable;
     public int amount;
 
-    public void UseItem()
+    public void UseItem(int charcterToUseOn)
     {
+        //add stackable items
+        PlayerStats selectedCharcter = GameManager.instance.GetPlayerStats()[charcterToUseOn];
         if(itemType == ItemType.Item)
         {
             if(effectType == effecType.HP)
             {
-                PlayerStats.instance.AddHP(amountOfEffect);
+                selectedCharcter.AddHP(amountOfEffect);
             }
             else if (effectType == effecType.Mana)
             {
-                PlayerStats.instance.AddMana(amountOfEffect);
+                selectedCharcter.AddMana(amountOfEffect);
             }
         }
-
+        //try to add non stackable item
+        else if(itemType == ItemType.Weapon)
+        {
+            //check if the player already got weapon
+            if (selectedCharcter.GetEquipedWeaponName() != "")
+            {
+                Inventory.instance.AddItems(selectedCharcter.GetEquipedWeapon());
+            }
+            selectedCharcter.EquipWeapon(this);
+        }
+        else if (itemType == ItemType.Armor)
+        {
+            if (selectedCharcter.GetEquipedArmorName() != "")
+            {
+                Inventory.instance.AddItems(selectedCharcter.GetEquipedArmor());
+            }
+            selectedCharcter.EquipArmor(this);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

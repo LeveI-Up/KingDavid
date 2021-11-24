@@ -26,7 +26,15 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField] int defence;
     [SerializeField] int dexterity;
+    [SerializeField] string equipedWeaponName;
+    [SerializeField] string equipedArmorName;
+    [SerializeField] int weaponPower;
+    [SerializeField] int armorDefence;
 
+    [SerializeField] ItemsManager equipedWeapon, equipedArmor;
+
+
+    //Unique Formula to calc the exp
     private float[] expCalc = { 0.02f, 3.06f, 105.6f };
 
 
@@ -51,6 +59,7 @@ public class PlayerStats : MonoBehaviour
             AddXP(baseLevelXP);
         }
     }
+
 
     public void AddXP(int amountOfXp)
     {
@@ -89,6 +98,20 @@ public class PlayerStats : MonoBehaviour
         {
             currnetMana = maxMana;
         }
+    }
+
+    public void EquipWeapon(ItemsManager weaponToEquip)
+    {
+        equipedWeapon = weaponToEquip;
+        equipedWeaponName = equipedWeapon.itemName;
+        weaponPower = equipedWeapon.weaponAttackPower;
+    }
+
+    public void EquipArmor(ItemsManager armorToEquip)
+    {
+        equipedArmor = armorToEquip;
+        equipedArmorName = equipedArmor.itemName;
+        armorDefence = equipedArmor.ArmorDef;
     }
 
 
@@ -146,5 +169,29 @@ public class PlayerStats : MonoBehaviour
     public int GetDexterity()
     {
         return dexterity;
+    }
+    public string GetEquipedWeaponName()
+    {
+        return equipedWeaponName;
+    }
+    public string GetEquipedArmorName()
+    {
+        return equipedArmorName;
+    }
+    public int GetWeaponPower()
+    {
+        return weaponPower;
+    }
+    public int GetArmorDefence()
+    {
+        return armorDefence;
+    }
+    public ItemsManager GetEquipedWeapon()
+    {
+        return equipedWeapon;
+    }
+    public ItemsManager GetEquipedArmor()
+    {
+        return equipedArmor;
     }
 }

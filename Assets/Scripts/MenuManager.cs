@@ -11,26 +11,23 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject menu;
 
     public static MenuManager instance;
-    //player stats at the menu
+    //player stats at the menu screen
     private PlayerStats[] playerStats;
-    [SerializeField] TextMeshProUGUI[] nameText, hpText, manaText, xpText, levelText,charLevelText;
+    [SerializeField] TextMeshProUGUI[] nameText, hpText, manaText, xpText, levelText, charLevelText;
     [SerializeField] Slider[] xpSlider;
     [SerializeField] Image[] charcterImage;
     [SerializeField] GameObject[] charcterPanel;
     //player stats at the stats button
     [SerializeField] GameObject[] statsButtons;
-    [SerializeField] TextMeshProUGUI statName, statHp, statMana, statDex, statDef;
+    [SerializeField] TextMeshProUGUI statName, statHp, statMana, statDex, statDef, statEquipedWeapon, statEquipedArmor, statWeaponPower, statArmorDefence;
     [SerializeField] Image charcterStatImage;
-    //Inventory
+    //Inventory & items
     [SerializeField] GameObject itemSlotContainer;
     [SerializeField] Transform itemSlotContainerParent;
-
     [SerializeField] ItemsManager activeItem;
-
-
-    
-
     [SerializeField] TextMeshProUGUI itemName, itemDescription;
+    [SerializeField] GameObject charcterChoicePanel;
+    [SerializeField] TextMeshProUGUI[] itemsCharcterChoiceNames;
 
     private void Start()
     {
@@ -87,6 +84,7 @@ public class MenuManager : MonoBehaviour
         StatsMenuUpdate(0);
     }
 
+    //update stats on the menu screen
     public void StatsMenuUpdate(int playerSelectedNumber)
     {
         PlayerStats playerSelected = playerStats[playerSelectedNumber];
@@ -96,6 +94,11 @@ public class MenuManager : MonoBehaviour
         statDex.text = playerSelected.GetDexterity().ToString();
         statDef.text = playerSelected.GetDefence().ToString();
         charcterStatImage.sprite = playerSelected.GetCharcterImage();
+        statEquipedWeapon.text = playerSelected.GetEquipedWeaponName();
+        statEquipedArmor.text = playerSelected.GetEquipedArmorName();
+        statWeaponPower.text = playerSelected.GetWeaponPower().ToString();
+        statArmorDefence.text = playerSelected.GetArmorDefence().ToString();
+
 
     }
 
@@ -134,11 +137,34 @@ public class MenuManager : MonoBehaviour
         UpdateItemsInventory();
     }
 
-    public void UseItem()
+    public void UseItem(int selectedCharcter)
     {
-        activeItem.UseItem();
+        activeItem.UseItem(selectedCharcter);
+        OpenCharcterChoicePanel();
         DiscardItem();
     }
+
+    //open charcter panel when the player try to use item
+    public void OpenCharcterChoicePanel()
+    {
+        if (activeItem)
+        {
+            charcterChoicePanel.SetActive(true);
+            for (int i = 0; i < playerStats.Length; i++)
+            {
+                PlayerStats activePlayer = GameManager.instance.GetPlayerStats()[i];
+                itemsCharcterChoiceNames[i].text = activePlayer.GetPlayerName();
+                bool activePlayerAvailbale = activePlayer.gameObject.activeInHierarchy;
+                itemsCharcterChoiceNames[i].transform.parent.gameObject.SetActive(activePlayerAvailbale);
+
+            }
+        }
+    }
+    public void CloseCharcterChoicePanel()
+    {
+        charcterChoicePanel.SetActive(false);
+    }
+
     public TextMeshProUGUI GetItemName()
     {
         return itemName;
