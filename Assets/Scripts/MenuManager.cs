@@ -21,11 +21,16 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject[] statsButtons;
     [SerializeField] TextMeshProUGUI statName, statHp, statMana, statDex, statDef;
     [SerializeField] Image charcterStatImage;
-
+    //Inventory
     [SerializeField] GameObject itemSlotContainer;
     [SerializeField] Transform itemSlotContainerParent;
 
-    public TextMeshProUGUI itemName, itemDescription;
+    [SerializeField] ItemsManager activeItem;
+
+
+    
+
+    [SerializeField] TextMeshProUGUI itemName, itemDescription;
 
     private void Start()
     {
@@ -122,6 +127,29 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("QuitGame");
+    }
+    public void DiscardItem()
+    {
+        Inventory.instance.RemoveItem(activeItem);
+        UpdateItemsInventory();
+    }
+
+    public void UseItem()
+    {
+        activeItem.UseItem();
+        DiscardItem();
+    }
+    public TextMeshProUGUI GetItemName()
+    {
+        return itemName;
+    }
+    public TextMeshProUGUI GetItemDescription( )
+    {
+        return itemDescription;
+    }
+    public void SetActiveItem(ItemsManager newActiveItem)
+    {
+        activeItem = newActiveItem;
     }
     public void FadeImage()
     {

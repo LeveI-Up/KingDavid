@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    public static PlayerStats instance;
     [SerializeField] string playerName;
 
     [SerializeField] Sprite charcterImage;
@@ -33,6 +34,7 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         xpForNextLevel = new int[maxLevel];
         xpForNextLevel[1] = baseLevelXP;
         for(int i = 2; i < xpForNextLevel.Length; i++)
@@ -71,6 +73,28 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+
+    public void AddHP(int amount)
+    {
+        currentHP += amount;
+        if (currentHP > maxHP)
+        {
+            currentHP = maxHP;
+        }
+    }
+    public void AddMana(int amount)
+    {
+        currnetMana += amount;
+        if (currnetMana > maxMana)
+        {
+            currnetMana = maxMana;
+        }
+    }
+
+
+
+
+    //Getters and Setters
     public string GetPlayerName()
     {
         return playerName;

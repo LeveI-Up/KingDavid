@@ -18,18 +18,20 @@ public class ItemsManager : MonoBehaviour
     [SerializeField] bool isStackable;
     public int amount;
 
-
-
-    // Start is called before the first frame update
-    void Start()
+    public void UseItem()
     {
-        
-    }
+        if(itemType == ItemType.Item)
+        {
+            if(effectType == effecType.HP)
+            {
+                PlayerStats.instance.AddHP(amountOfEffect);
+            }
+            else if (effectType == effecType.Mana)
+            {
+                PlayerStats.instance.AddMana(amountOfEffect);
+            }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,7 +45,7 @@ public class ItemsManager : MonoBehaviour
     }
     private void SelfDestroy()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
     public bool GetIsStackable()
     {

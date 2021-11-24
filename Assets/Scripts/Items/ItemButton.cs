@@ -5,12 +5,14 @@ using UnityEngine;
 public class ItemButton : MonoBehaviour
 {
 
-    private ItemsManager itemOnButton;
+    [SerializeField] ItemsManager itemOnButton;
 
     public void Press()
     {
-        MenuManager.instance.itemName.text = itemOnButton.itemName;
-        MenuManager.instance.itemDescription.text = itemOnButton.itemDescription;
+        MenuManager.instance.GetItemName().text = itemOnButton.itemName;
+        MenuManager.instance.GetItemDescription().text = itemOnButton.itemDescription;
+
+        MenuManager.instance.SetActiveItem(itemOnButton);
 
     }
     public void SetItemOnButton(ItemsManager newItemOnButton)
