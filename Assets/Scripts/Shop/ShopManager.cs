@@ -10,6 +10,8 @@ public class ShopManager : MonoBehaviour
 
     [SerializeField] GameObject shopMenu, buyPanel, sellPanel;
     [SerializeField] TextMeshProUGUI currentCoinsText;
+
+    [SerializeField] List<ItemsManager> itemsForSale;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,5 +49,15 @@ public class ShopManager : MonoBehaviour
     {
         buyPanel.SetActive(false);
         sellPanel.SetActive(true);
+    }
+
+    public GameObject GetShopMenu()
+    {
+        return shopMenu;
+    }
+
+    public void SetItemsForSale(List<ItemsManager> newItemsForSale)
+    {
+        itemsForSale = newItemsForSale;
     }
 }

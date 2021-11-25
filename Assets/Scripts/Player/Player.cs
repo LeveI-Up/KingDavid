@@ -86,4 +86,9 @@ public class Player : MonoBehaviour
     {
         deactivatedMovement = b;
     }
+
+    public bool GetDeactiveMovement()
+    {
+        return deactivatedMovement;
+    }
 }
