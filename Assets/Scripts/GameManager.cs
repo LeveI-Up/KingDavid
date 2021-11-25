@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] PlayerStats[] playerStats;
 
-    public bool gameMenuOpened, dialogBoxOpned;
+    public bool gameMenuOpened, dialogBoxOpned, shopOpened;
+
+    [SerializeField] int currentCoines;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameMenuOpened || dialogBoxOpned)
+        if(gameMenuOpened || dialogBoxOpned || shopOpened)
         {
             Player.instance.DeactiveMovement(true);
         }
@@ -42,5 +44,9 @@ public class GameManager : MonoBehaviour
     public PlayerStats[] GetPlayerStats()
     {
         return playerStats;
+    }
+    public int GetCurrentCoins()
+    {
+        return currentCoines;
     }
 }
