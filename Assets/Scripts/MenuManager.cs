@@ -101,7 +101,7 @@ public class MenuManager : MonoBehaviour
 
 
     }
-
+    //once this method called - update all the items in the inventory.
     public void UpdateItemsInventory()
     {
         foreach (Transform itemSlot in itemSlotContainerParent)
@@ -176,6 +176,10 @@ public class MenuManager : MonoBehaviour
     public void SetActiveItem(ItemsManager newActiveItem)
     {
         activeItem = newActiveItem;
+    }
+    public GameObject GetMenu()
+    {
+        return menu;
     }
     public void FadeImage()
     {

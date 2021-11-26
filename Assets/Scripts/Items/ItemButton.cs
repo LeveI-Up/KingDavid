@@ -9,10 +9,25 @@ public class ItemButton : MonoBehaviour
 
     public void Press()
     {
-        MenuManager.instance.GetItemName().text = itemOnButton.itemName;
-        MenuManager.instance.GetItemDescription().text = itemOnButton.itemDescription;
+        if (MenuManager.instance.GetMenu().activeInHierarchy)
+        {
+            MenuManager.instance.GetItemName().text = itemOnButton.itemName;
+            MenuManager.instance.GetItemDescription().text = itemOnButton.itemDescription;
 
-        MenuManager.instance.SetActiveItem(itemOnButton);
+            MenuManager.instance.SetActiveItem(itemOnButton);
+        }
+        if (ShopManager.instance.GetShopMenu().activeInHierarchy)
+        {
+            if (ShopManager.instance.GetBuyPanel().activeInHierarchy)
+            {
+                ShopManager.instance.SelectedBuyItem(itemOnButton);
+            }
+            else if (ShopManager.instance.GetSellPanel().activeInHierarchy)
+            {
+                ShopManager.instance.SelectedSellItem(itemOnButton);
+            }
+        }
+        
 
     }
     public void SetItemOnButton(ItemsManager newItemOnButton)
