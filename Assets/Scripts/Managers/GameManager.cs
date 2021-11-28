@@ -49,4 +49,8 @@ public class GameManager : MonoBehaviour
     {
         return currentCoines;
     }
+    public void SetCurrentCoins(int newCurrentCoins)
+    {
+        currentCoines = newCurrentCoins;
+    }
 }

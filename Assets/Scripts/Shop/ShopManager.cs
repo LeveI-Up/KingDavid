@@ -65,6 +65,7 @@ public class ShopManager : MonoBehaviour
         UpdateItemsInShop(itemSlotSellContainerParent, Inventory.instance.GetItemsList());
     }
 
+    //Every time this method called - Update the Shop Items
     private void UpdateItemsInShop(Transform itemSlotContainerParent, List<ItemsManager> itemsToLookThrough)
     {
         foreach (Transform itemSlot in itemSlotContainerParent)
@@ -113,6 +114,29 @@ public class ShopManager : MonoBehaviour
         sellItemName.text = selectedItem.itemName;
         sellItemDescription.text = selectedItem.itemDescription;
         sellItemValue.text = "Value: " + (int)(selectedItem.valueInCoins*sellProfit);
+    }
+
+    public void BuyItem()
+    {
+        if (GameManager.instance.GetCurrentCoins() >= selectedItem.valueInCoins)
+        {
+            GameManager.instance.SetCurrentCoins(GameManager.instance.GetCurrentCoins() - selectedItem.valueInCoins);
+            Inventory.instance.AddItems(selectedItem);
+
+            currentCoinsText.text = "Coins: " + GameManager.instance.GetCurrentCoins();
+        }
+    }
+
+    public void SellItem()
+    {
+        if (selectedItem)
+        {
+            GameManager.instance.SetCurrentCoins(GameManager.instance.GetCurrentCoins() + (int)(selectedItem.valueInCoins * sellProfit));
+            Inventory.instance.RemoveItem(selectedItem);
+            currentCoinsText.text = "Coins: " + GameManager.instance.GetCurrentCoins();
+            selectedItem = null;
+            OpenSellPanel();
+        }
     }
 
     //Getters and Setters

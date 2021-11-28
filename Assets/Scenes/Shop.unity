@@ -1339,8 +1339,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2139358593}
-        m_MethodName: OpenCharcterChoicePanel
+      - m_Target: {fileID: 2139358596}
+        m_MethodName: BuyItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1690,6 +1690,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 818924be19a12d94195b30ea9fbf08a1, type: 3}
+--- !u!1 &778472979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1215674947727949048, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1762085278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &778472980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778472979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6b8a1dee19c734fb195cbf687480c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questNames:
+  - 
+  - Kill Dragon
+  - Enter Cave
+  - Steal the Gem
+  - Take Monster Soul
+  questMarkers: 
 --- !u!1 &868870656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,7 +2151,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1000577729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2139358596}
+        m_MethodName: SellItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1000577729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5374,18 +5410,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 844e67647d47c474db699994b57c3103, type: 3}
---- !u!114 &2139358593 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8917204465569129823, guid: 844e67647d47c474db699994b57c3103,
-    type: 3}
-  m_PrefabInstance: {fileID: 2139358592}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139358595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 152dfae62b0a116459cc55be59b1c387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2139358594 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4519384929700682793, guid: 844e67647d47c474db699994b57c3103,
