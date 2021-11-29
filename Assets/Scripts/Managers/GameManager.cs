@@ -137,8 +137,8 @@ public class GameManager : MonoBehaviour
                 itemAmount = PlayerPrefs.GetInt("Items_" + i + "_Amount");
             }
 
-            Inventory.instance.AddItems(itemToadd);
-            Inventory.instance.RemoveItem(itemToadd);
+            //Inventory.instance.AddItems(itemToadd);
+            //Inventory.instance.RemoveItem(itemToadd);
 
             if (itemToadd.GetIsStackable() && itemAmount > 1)
             {
