@@ -24,7 +24,8 @@ public class ItemsManager : MonoBehaviour
         PlayerStats selectedCharcter = GameManager.instance.GetPlayerStats()[charcterToUseOn];
         if(itemType == ItemType.Item)
         {
-            if(effectType == effecType.HP)
+            AudioManager.instance.PlaySFX(1);
+            if (effectType == effecType.HP)
             {
                 selectedCharcter.AddHP(amountOfEffect);
             }
@@ -36,15 +37,18 @@ public class ItemsManager : MonoBehaviour
         //try to add non stackable item
         else if(itemType == ItemType.Weapon)
         {
+            AudioManager.instance.PlaySFX(0);
             //check if the player already got weapon
             if (selectedCharcter.GetEquipedWeaponName() != "")
             {
                 Inventory.instance.AddItems(selectedCharcter.GetEquipedWeapon());
             }
             selectedCharcter.EquipWeapon(this);
+
         }
         else if (itemType == ItemType.Armor)
         {
+            AudioManager.instance.PlaySFX(0);
             if (selectedCharcter.GetEquipedArmorName() != "")
             {
                 Inventory.instance.AddItems(selectedCharcter.GetEquipedArmor());
@@ -59,6 +63,7 @@ public class ItemsManager : MonoBehaviour
         {
             //print("This item is " + itemName);
             Inventory.instance.AddItems(this);
+            AudioManager.instance.PlaySFX(2);
             SelfDestroy();
         }
     }

@@ -41,6 +41,7 @@ public class ShopManager : MonoBehaviour
 
         currentCoinsText.text = "Coins: " + GameManager.instance.GetCurrentCoins();
         buyPanel.SetActive(true);
+        UpdateItemsInShop(itemSlotBuyContainerParent, itemsForSale);
     }
 
     public void CloseShopMenu()
@@ -124,6 +125,8 @@ public class ShopManager : MonoBehaviour
             Inventory.instance.AddItems(selectedItem);
 
             currentCoinsText.text = "Coins: " + GameManager.instance.GetCurrentCoins();
+
+            AudioManager.instance.PlaySFX(9);
         }
     }
 
@@ -136,6 +139,8 @@ public class ShopManager : MonoBehaviour
             currentCoinsText.text = "Coins: " + GameManager.instance.GetCurrentCoins();
             selectedItem = null;
             OpenSellPanel();
+
+            AudioManager.instance.PlaySFX(9);
         }
     }
 

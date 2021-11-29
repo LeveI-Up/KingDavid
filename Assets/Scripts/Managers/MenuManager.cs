@@ -8,7 +8,8 @@ using TMPro;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] Image imageToFade;
-    [SerializeField] GameObject menu;
+    [SerializeField] GameObject menu,itemsPanel,statsPanel;
+    
 
     public static MenuManager instance;
     //player stats at the menu screen
@@ -41,6 +42,8 @@ public class MenuManager : MonoBehaviour
             {
                 
                 menu.SetActive(false);
+                itemsPanel.SetActive(false);
+                statsPanel.SetActive(false);
                 GameManager.instance.gameMenuOpened = false;
             }
             else
@@ -141,13 +144,17 @@ public class MenuManager : MonoBehaviour
     {
         Inventory.instance.RemoveItem(activeItem);
         UpdateItemsInventory();
+        AudioManager.instance.PlaySFX(3);
     }
 
     public void UseItem(int selectedCharcter)
     {
         activeItem.UseItem(selectedCharcter);
         OpenCharcterChoicePanel();
-        DiscardItem();
+        //discard the item
+        Inventory.instance.RemoveItem(activeItem);
+        UpdateItemsInventory();
+
     }
 
     //open charcter panel when the player try to use item

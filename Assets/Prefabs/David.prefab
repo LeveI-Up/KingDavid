@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3054614680164496640}
   - component: {fileID: 3054614680164496642}
   - component: {fileID: 3054614680164496643}
+  - component: {fileID: 1546900908}
   m_Layer: 0
   m_Name: David
   m_TagString: Player
@@ -117,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f4590cbe8f1be4797111eb608a207c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 10
   playerRigidBody: {fileID: 3054614680164496643}
   playerAnimator: {fileID: 3054614680164496655}
   transitionName: 
@@ -158,3 +159,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1546900908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054614680164496652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915ec039b0dad2d48a0031e03bfb4546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: David
+  charcterImage: {fileID: -6793540789062311968, guid: 40d4233fef33441488cb07c763ceea87,
+    type: 3}
+  playerLevel: 1
+  currentXP: 99
+  maxLevel: 50
+  xpForNextLevel: 
+  baseLevelXP: 100
+  maxHP: 100
+  currentHP: 0
+  maxMana: 30
+  currnetMana: 0
+  defence: 30
+  dexterity: 10
+  equipedWeaponName: 
+  equipedArmorName: 
+  weaponPower: 0
+  armorDefence: 0
+  equipedWeapon: {fileID: 0}
+  equipedArmor: {fileID: 0}
