@@ -31,7 +31,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameMenuOpened || dialogBoxOpned || shopOpened)
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("Saved");
+            SaveData();
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Debug.Log("Loaded");
+            LoadData();
+        }
+
+        if (gameMenuOpened || dialogBoxOpned || shopOpened)
         {
             Player.instance.DeactiveMovement(true);
         }
@@ -41,6 +52,23 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void SaveData()
+    {
+        PlayerPrefs.SetFloat("Player_Pos_X", Player.instance.transform.position.x);
+        PlayerPrefs.SetFloat("Player_Pos_Y", Player.instance.transform.position.y);
+        PlayerPrefs.SetFloat("Player_Pos_Z", Player.instance.transform.position.z);
+    }
+
+    public void LoadData()
+    {
+        float x = PlayerPrefs.GetFloat("Player_Pos_X");
+        float y = PlayerPrefs.GetFloat("Player_Pos_Y");
+        float z = PlayerPrefs.GetFloat("Player_Pos_Z");
+        Player.instance.transform.position = new Vector3(x,y,z);
+
+    }
+
+    //Getters and Setters
     public PlayerStats[] GetPlayerStats()
     {
         return playerStats;
