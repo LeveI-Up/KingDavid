@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Mountains.unity
-    guid: ebcfe52a2e7df2545a49c84cf312ec2e
-  - enabled: 1
     path: Assets/Scenes/MyMap.unity
     guid: 979e1a24a14f5554c9bf8b811a074863
+  - enabled: 1
+    path: Assets/Scenes/Mountains.unity
+    guid: ebcfe52a2e7df2545a49c84cf312ec2e
   m_configObjects: {}

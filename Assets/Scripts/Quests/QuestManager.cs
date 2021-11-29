@@ -19,11 +19,15 @@ public class QuestManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.I))
         {
-            print(CheckIfComplete("Kill Dragon"));
-            MarkQuestComplete("Steal the Gem");
-            MarkQuestInComplete("Take Monster Soul");
+            Debug.Log("Saved");
+            SaveQuestData();
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Debug.Log("Loaded");
+            LoadQuestData();
         }
     }
 
@@ -76,6 +80,46 @@ public class QuestManager : MonoBehaviour
         questMarkersCompleted[questNumberToCheck] = false;
 
         UpdateQuestObjects();
+
+    }
+
+    public void SaveQuestData()
+    {
+        for(int i=0; i< questNames.Length; i++)
+        {
+            if (questMarkersCompleted[i])
+            {
+                PlayerPrefs.SetInt("QuestMarker_" + questNames[i], 1);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("QuestMarker_" + questNames[i], 0);
+            }
+        }
+    }
+
+    /*This method checks if the player have saved data of his active quests.
+     * If he have the method load the data from the saved quests.
+     * else do nothing.
+     * */
+    public void LoadQuestData()
+    {
+        for (int i = 0; i < questNames.Length; i++)
+        {
+            int valueToSet = 0;
+            if(PlayerPrefs.HasKey("QuestMarker_" + questNames[i]))
+            {
+                valueToSet = PlayerPrefs.GetInt("QuestMarker_" + questNames[i]);
+            }
+            if (valueToSet == 0)
+            {
+                questMarkersCompleted[i] = false;
+            }
+            else
+            {
+                questMarkersCompleted[i] = true;
+            }
+        }
 
     }
 

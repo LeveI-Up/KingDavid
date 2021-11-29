@@ -1233,6 +1233,9 @@ MonoBehaviour:
   - Yes yout right
   - '#Saul'
   - Nice to meat you!
+  shouldActivateQuest: 1
+  markAsComplete: 1
+  questToMark: Steal the Gem
 --- !u!61 &1394693755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1909,9 +1912,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questToMark: Steal the Gem
-  markAsComplet: 1
-  markOnEnter: 1
-  deactivateOnMarking: 1
+  markAsComplet: 0
+  markOnEnter: 0
+  deactivateOnMarking: 0
 --- !u!212 &2117418992
 SpriteRenderer:
   m_ObjectHideFlags: 0
