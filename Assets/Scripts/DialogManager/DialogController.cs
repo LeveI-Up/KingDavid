@@ -78,7 +78,7 @@ public class DialogController : MonoBehaviour
 
             
     }
-
+    //this method activate dialog with the selected npc. the dialog sentences can be changed inside unity inspector
     public void ActivateDialog(string[] newSentencesToUse)
     {
         dialogSentences = newSentencesToUse;
@@ -94,6 +94,7 @@ public class DialogController : MonoBehaviour
         return dialogBox.activeInHierarchy;
     }
     
+    //check for # symbol in the dialog box, if there is # its the npc name.
     void CheckForName()
     {
         if (dialogSentences[currentSentence].StartsWith("#"))

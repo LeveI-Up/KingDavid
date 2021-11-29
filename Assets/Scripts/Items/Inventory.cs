@@ -42,7 +42,7 @@ public class Inventory : MonoBehaviour
         {
             itemsList.Add(item);
         }
-        
+        MenuManager.instance.UpdateItemsInventory();
 
     }
     

@@ -49,6 +49,11 @@ public class MenuManager : MonoBehaviour
                 menu.SetActive(true);
                 GameManager.instance.gameMenuOpened = true;
             }
+            
+        }
+        if (!menu.activeInHierarchy)
+        {
+            GameManager.instance.gameMenuOpened = false;
         }
     }
 
@@ -126,6 +131,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    //Quit the game(not working on unity)
     public void QuitGame()
     {
         Application.Quit();

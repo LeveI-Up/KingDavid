@@ -488,31 +488,6 @@ Transform:
   m_Father: {fileID: 929286500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &489224948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1215674947727949048, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
-    type: 3}
-  m_PrefabInstance: {fileID: 1215674949315001902}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &489224949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489224948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df6b8a1dee19c734fb195cbf687480c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questNames:
-  - 
-  - Kill Dragon
-  - Enter Cave
-  - Steal the Gem
-  - Take Monster Soul
-  questMarkersCompleted: 0000000000
 --- !u!1001 &624330119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1495,6 +1470,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 673524281611205559, guid: e05a3f1450fff7d4eb40949b0acb949a,
     type: 3}
   m_PrefabInstance: {fileID: 673524283171149375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1604119381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2286866164666912966, guid: 844e67647d47c474db699994b57c3103,
+    type: 3}
+  m_PrefabInstance: {fileID: 8943894476761953289}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1625514150
 GameObject:
@@ -2793,15 +2774,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 988265579, guid: 844e67647d47c474db699994b57c3103, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134637793, guid: 844e67647d47c474db699994b57c3103, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2139358596, guid: 844e67647d47c474db699994b57c3103, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 47738080867395224, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2286866164666912966, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2569361088103248508, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
@@ -2913,40 +2906,40 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1604119381}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5199273718790859089, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8653932603844144302, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_AnchorMin.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -70
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 140
-      objectReference: {fileID: 0}
-    - target: {fileID: 8943894477087038895, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 140
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 844e67647d47c474db699994b57c3103, type: 3}

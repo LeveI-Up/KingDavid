@@ -194,4 +194,56 @@ public class PlayerStats : MonoBehaviour
     {
         return equipedArmor;
     }
+
+
+
+    public void SetPlayerLevel(int stats)
+    {
+        playerLevel = stats;
+    }
+    public void SetCurrentXP(int stats)
+    {
+        currentXP = stats;
+    }
+    public void SetMaxHP(int stats)
+    {
+         maxHP=stats;
+    }
+    public void SetCurrentHP(int stats)
+    {
+         currentHP = stats;
+    }
+    public void SetMaxMana(int stats)
+    {
+         maxMana = stats;
+    }
+    public void SetCurrnetMana(int stats)
+    {
+         currnetMana = stats;
+    }
+    public void SetDefence(int stats)
+    {
+         defence = stats;
+    }
+    public void SetDexterity(int stats)
+    {
+         dexterity = stats;
+    }
+    public void SetEquipedWeaponName(string stats)
+    {
+         equipedWeaponName = stats;
+    }
+    public void SetEquipedArmorName(string stats)
+    {
+         equipedArmorName = stats;
+    }
+    public void SetWeaponPower(int stats)
+    {
+         weaponPower = stats;
+    }
+    public void SetArmorDefence(int stats)
+    {
+         armorDefence = stats;
+    }
+
 }
