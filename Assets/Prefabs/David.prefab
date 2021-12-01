@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f4590cbe8f1be4797111eb608a207c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 10
+  movespeed: 5
   playerRigidBody: {fileID: 3054614680164496643}
   playerAnimator: {fileID: 3054614680164496655}
   transitionName: 

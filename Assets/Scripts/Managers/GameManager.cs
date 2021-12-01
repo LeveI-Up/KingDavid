@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -54,10 +55,10 @@ public class GameManager : MonoBehaviour
     //Save all player data
     public void SaveData()
     {
-
         SavingPlayerPosition();
         SavingPlayerStats();
         SavingPlayerItems();
+        PlayerPrefs.SetString("Current_Scene", SceneManager.GetActiveScene().name);
 
     }
     //loop through all the items in the player inventory saving his position and name, if the item is stackable saving his amount.
@@ -110,9 +111,12 @@ public class GameManager : MonoBehaviour
     //Save Player Postion
     private static void SavingPlayerPosition()
     {
+
         PlayerPrefs.SetFloat("Player_Pos_X", Player.instance.transform.position.x);
         PlayerPrefs.SetFloat("Player_Pos_Y", Player.instance.transform.position.y);
         PlayerPrefs.SetFloat("Player_Pos_Z", Player.instance.transform.position.z);
+        Debug.Log("Saved");
+
     }
 
     public void LoadData()
@@ -120,6 +124,10 @@ public class GameManager : MonoBehaviour
         LoadingPlayerPosition();
         LoadingPlayerStats();
         LoadingPlayerItems();
+        SceneManager.LoadScene(PlayerPrefs.GetString("Current_Scene"));
+        Debug.Log("Loaded");
+
+
 
     }
     //looping throuh saved items count, getting the items name,assets and amount. adding the items to the inventory using the "AddItems" method (including stackable items).
@@ -188,6 +196,8 @@ public class GameManager : MonoBehaviour
         float z = PlayerPrefs.GetFloat("Player_Pos_Z");
         Player.instance.transform.position = new Vector3(x, y, z);
     }
+
+
 
     //Getters and Setters
     public PlayerStats[] GetPlayerStats()

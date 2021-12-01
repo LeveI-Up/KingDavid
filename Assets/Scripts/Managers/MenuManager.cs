@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
+
 
 
 public class MenuManager : MonoBehaviour
@@ -45,12 +48,14 @@ public class MenuManager : MonoBehaviour
                 itemsPanel.SetActive(false);
                 statsPanel.SetActive(false);
                 GameManager.instance.gameMenuOpened = false;
+                AudioManager.instance.PlaySFX(11);
             }
             else
             {
                 UpdateStats();
                 menu.SetActive(true);
                 GameManager.instance.gameMenuOpened = true;
+                AudioManager.instance.PlaySFX(10);
             }
             
         }
@@ -172,6 +177,11 @@ public class MenuManager : MonoBehaviour
 
             }
         }
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
     public void CloseCharcterChoicePanel()
     {

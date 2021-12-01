@@ -20,6 +20,7 @@ public class MainMenu : MonoBehaviour
         {
             continueButton.SetActive(false);
         }
+        AudioManager.instance.PlayBackgroundMusic(7);
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class MainMenu : MonoBehaviour
     public void NewGameButton()
     {
         SceneManager.LoadScene(newGameScene);
+        Player.instance.transform.position = new Vector3(19, 4, 0);
     }
     
     public void ExitButton()
@@ -38,4 +40,11 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit the game");
     }
+
+    public void ContinueButton()
+    {
+        SceneManager.LoadScene("LoadingScene");
+    }
+
+ 
 }

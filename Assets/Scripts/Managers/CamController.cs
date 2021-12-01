@@ -26,5 +26,12 @@ public class CamController : MonoBehaviour
             musicAlreadyPlaying = true;
             AudioManager.instance.PlayBackgroundMusic(musicToPlay);
         }
+        while(playerTarget == null)
+        {
+            playerTarget = FindObjectOfType<Player>();
+            virtualCamera = GetComponent<CinemachineVirtualCamera>();
+            virtualCamera.Follow = playerTarget.transform;
+
+        }
     }
 }
