@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] PlayerStats[] playerStats;
 
-    public bool gameMenuOpened, dialogBoxOpned, shopOpened;
+    public bool gameMenuOpened, dialogBoxOpned, shopOpened, battleIsActive;
 
     [SerializeField] int currentCoines;
     // Start is called before the first frame update
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
             LoadData();
         }
 
-        if (gameMenuOpened || dialogBoxOpned || shopOpened)
+        if (gameMenuOpened || dialogBoxOpned || shopOpened || battleIsActive)
         {
             Player.instance.DeactiveMovement(true);
         }

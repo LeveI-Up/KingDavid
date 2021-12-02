@@ -22,4 +22,79 @@ public class BattleCharacters : MonoBehaviour
     {
         
     }
+
+
+    public string GetCharcterName()
+    {
+        return charcterName;
+    }
+    
+    public int GetMaxHP()
+    {
+        return maxHP;
+    }
+    public int GetCurrentHP()
+    {
+        return currentHP;
+    }
+    public int GetMaxMana()
+    {
+        return maxMana;
+    }
+    public int GetCurrnetMana()
+    {
+        return currentMana;
+    }
+    public int GetDefence()
+    {
+        return defence;
+    }
+    public int GetDexterity()
+    {
+        return dexterity;
+    }
+
+
+    public int GetWeaponPower()
+    {
+        return weaponPower;
+    }
+    public int GetArmorDefence()
+    {
+        return armorDefence;
+    }
+
+    public void SetMaxHP(int stats)
+    {
+        maxHP = stats;
+    }
+    public void SetCurrentHP(int stats)
+    {
+        currentHP = stats;
+    }
+    public void SetMaxMana(int stats)
+    {
+        maxMana = stats;
+    }
+    public void SetCurrnetMana(int stats)
+    {
+        currentMana = stats;
+    }
+    public void SetDefence(int stats)
+    {
+        defence = stats;
+    }
+    public void SetDexterity(int stats)
+    {
+        dexterity = stats;
+    }
+    public void SetWeaponPower(int stats)
+    {
+        weaponPower = stats;
+    }
+    public void SetArmorDefence(int stats)
+    {
+        armorDefence = stats;
+    }
+
 }
