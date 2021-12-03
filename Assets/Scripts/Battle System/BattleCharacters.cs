@@ -24,6 +24,11 @@ public class BattleCharacters : MonoBehaviour
     }
 
 
+    //Getters and Setters
+    public bool GetIsPlayer()
+    {
+        return isPlayer;
+    }
     public string GetCharcterName()
     {
         return charcterName;
