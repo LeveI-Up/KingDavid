@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7430414989302112098}
   - component: {fileID: 7430414989302112099}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Mage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  attacksAvailable: []
+  attacksAvailable:
+  - Slash
+  - Blue Flameball
+  - Shot
+  - Water
   charcterName: Mage
   currentHP: 500
   maxHP: 500

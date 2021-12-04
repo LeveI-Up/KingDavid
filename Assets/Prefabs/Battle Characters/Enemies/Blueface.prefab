@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1483790093332900919}
   - component: {fileID: 1483790093332900918}
   m_Layer: 0
-  m_Name: Enemy 2
+  m_Name: Blueface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 0
-  attacksAvailable: []
+  attacksAvailable:
+  - Blue Flameball
+  - Tentacles
+  - Slash
   charcterName: Blueface
   currentHP: 200
   maxHP: 200

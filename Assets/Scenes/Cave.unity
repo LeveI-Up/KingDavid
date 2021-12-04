@@ -3864,6 +3864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1422167199, guid: b58f1093ec8cb4a4a981e570df0020c1, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 162629439401944283, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3923,6 +3927,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201236275943069299, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4982625179418285907, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760471490720333865, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58f1093ec8cb4a4a981e570df0020c1, type: 3}
@@ -4550,6 +4569,37 @@ MonoBehaviour:
   currentTurn: 0
   waitingForTurn: 0
   UIButtonHolder: {fileID: 249425374}
+  battleMovesList:
+  - moveName: Blue Flameball
+    movePower: 15
+    manaCost: 15
+    effectToUse: {fileID: 1168163645779452871, guid: eb47fd856ddd56f4cb69f213e9b361be,
+      type: 3}
+  - moveName: Shot
+    movePower: 10
+    manaCost: 10
+    effectToUse: {fileID: 1812216446165205991, guid: b9c20bd07e694784bbc5a224c69fb7a4,
+      type: 3}
+  - moveName: Lighthing
+    movePower: 25
+    manaCost: 35
+    effectToUse: {fileID: 6666896607067127680, guid: d806038d1dfe6e94fa12fc59b391167b,
+      type: 3}
+  - moveName: Slash
+    movePower: 10
+    manaCost: 0
+    effectToUse: {fileID: 3910068422720033873, guid: 3f3fd8fd5d0fb52438da336806251ea4,
+      type: 3}
+  - moveName: Tentacles
+    movePower: 20
+    manaCost: 30
+    effectToUse: {fileID: 8963009818818813777, guid: cd01a36137add3b4e9a49d42a4ac7886,
+      type: 3}
+  - moveName: Water
+    movePower: 25
+    manaCost: 20
+    effectToUse: {fileID: 8315855847685771980, guid: 42c5cd3fb0ce4a7419f88b83ea979ee3,
+      type: 3}
 --- !u!4 &1765695298
 Transform:
   m_ObjectHideFlags: 0

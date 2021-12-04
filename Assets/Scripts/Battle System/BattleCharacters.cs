@@ -58,6 +58,10 @@ public class BattleCharacters : MonoBehaviour
     {
         return dexterity;
     }
+    public string[] GetAttacksAvaliable()
+    {
+        return attacksAvailable;
+    }
 
 
     public int GetWeaponPower()
