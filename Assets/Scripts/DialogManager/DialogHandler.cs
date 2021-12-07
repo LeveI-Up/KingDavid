@@ -13,13 +13,13 @@ public class DialogHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(canActiveBox && Input.GetButtonDown("Fire1") && !DialogController.instacne.IsDialogBoxActive())
+        if (canActiveBox && Input.GetButtonDown("Fire1") && !DialogController.instacne.IsDialogBoxActive())
         {
             DialogController.instacne.ActivateDialog(sentences);
 

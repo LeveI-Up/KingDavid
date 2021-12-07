@@ -23,6 +23,15 @@ public class BattleCharacters : MonoBehaviour
         
     }
 
+    public void TakeHPDamage(int damageToReceive)
+    {
+        currentHP -= damageToReceive;
+        if (currentHP < 0)
+        {
+            currentHP = 0;
+            gameObject.SetActive(false);
+        }
+    }
 
     //Getters and Setters
     public bool GetIsPlayer()

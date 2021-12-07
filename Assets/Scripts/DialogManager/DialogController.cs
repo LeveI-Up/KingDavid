@@ -31,7 +31,7 @@ public class DialogController : MonoBehaviour
         {
             if (Input.GetButtonUp("Fire1")) //skip dialog when pressing on the mouse
             {
-                if (!dialogJustStarted) 
+                if (!dialogJustStarted)
                 {
                     currentSentence++;
                     if (currentSentence >= dialogSentences.Length)
@@ -63,7 +63,7 @@ public class DialogController : MonoBehaviour
                 {
                     dialogJustStarted = false;
                 }
-                
+
 
 
             }
@@ -76,7 +76,7 @@ public class DialogController : MonoBehaviour
         markTheQuestComplete = markComplete;
         shouldMarkQuest = true;
 
-            
+
     }
     //this method activate dialog with the selected npc. the dialog sentences can be changed inside unity inspector
     public void ActivateDialog(string[] newSentencesToUse)
@@ -93,7 +93,7 @@ public class DialogController : MonoBehaviour
     {
         return dialogBox.activeInHierarchy;
     }
-    
+
     //check for # symbol in the dialog box, if there is # its the npc name.
     void CheckForName()
     {

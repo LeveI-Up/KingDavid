@@ -41,6 +41,7 @@ public class MenuManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.M))
         {
+            UpdateItemsInventory();
             if (menu.activeInHierarchy)
             {
                 
@@ -63,6 +64,7 @@ public class MenuManager : MonoBehaviour
         {
             GameManager.instance.gameMenuOpened = false;
         }
+     
     }
 
     public void UpdateStats()
@@ -196,7 +198,7 @@ public class MenuManager : MonoBehaviour
     {
         return itemDescription;
     }
-    public void SetActiveItem(ItemsManager newActiveItem)
+    public void SetActiveItem( ItemsManager newActiveItem)
     {
         activeItem = newActiveItem;
     }

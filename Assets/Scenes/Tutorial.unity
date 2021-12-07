@@ -155,17 +155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Mom'
-  - Good morning David, I got some instructions for you.
-  - Use the W,A,S,D/Arrows keyboard buttons to move in the world
-  - Use the left mouse button to interact with other characters in the world. You
-    cant move while talking to other characters
   - Press the M keyborad button to open the menu. You cant move when the menu is
     open.
   - You can equip items and view your stats at the menu.
-  - Each item have a unique bonus.
   - To collect items you have to walk through them.
-  - Use the I key to save your data, Use the O key to load the last data you have
-    saved.
   - You can get back to me whenever you want
   - Try it now, GOOD LUCK!
   shouldActivateQuest: 0
@@ -605,98 +598,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2139358596, guid: 844e67647d47c474db699994b57c3103, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+    - target: {fileID: 2134637794, guid: 844e67647d47c474db699994b57c3103, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.1000977
       objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[0]
-      value: Good morning David, I got some instructions for you.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[5]
-      value: Each item have a unique bonus.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[6]
-      value: To collect items you have to walk through them.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[7]
-      value: Use the I key to save your data, Use the O key to load the last data
-        you have saved.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[1]
-      value: Use the W,A,S,D or Arrows keyboard buttons to move in the world
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[2]
-      value: Use the left mouse button to interact with other characters in the world.
-        You cant move while talking to other characters
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[3]
-      value: Press the M keyborad button to open the menu. You cant move when the
-        menu is open.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[4]
-      value: You can equip items and view your stats at the menu.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[8]
-      value: You can get back to me whenever you want
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[9]
-      value: Try it now, GOOD LUCK!
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050584298443252729, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_text
-      value: Mom
-      objectReference: {fileID: 0}
-    - target: {fileID: 1050584298443252729, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1314206175726810341, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1143179127}
-    - target: {fileID: 1314206175726810341, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMainMenu
+    - target: {fileID: 2134637794, guid: 844e67647d47c474db699994b57c3103, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -99.19995
       objectReference: {fileID: 0}
     - target: {fileID: 1688182561673739939, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 292816809}
-    - target: {fileID: 1688182561673739939, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadData
-      objectReference: {fileID: 0}
     - target: {fileID: 2016853510065041193, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_IsActive
@@ -712,11 +626,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 292816809}
-    - target: {fileID: 3421216777916875803, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SaveData
-      objectReference: {fileID: 0}
     - target: {fileID: 4519384929700682793, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -822,20 +731,18 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8731336813280935010, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12.299805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731336813280935010, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -413.40015
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 844e67647d47c474db699994b57c3103, type: 3}
---- !u!114 &1143179127 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8917204465569129823, guid: 844e67647d47c474db699994b57c3103,
-    type: 3}
-  m_PrefabInstance: {fileID: 1143179126}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 152dfae62b0a116459cc55be59b1c387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1607815885
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,10 @@ public class BattleManager : MonoBehaviour
     [SerializeField] bool waitingForTurn;
     [SerializeField] GameObject UIButtonHolder;
 
+
     [SerializeField] BattleMoves[] battleMovesList;
+
+    [SerializeField] ParticleSystem characterAttackEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -210,7 +213,7 @@ public class BattleManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
         NextTurn();
     }
-    //Choose the target (player) that the enemy attack from all the players at the battle
+    //Choose the target (player) that the enemy attack from all the players at the battle and attack the target
     private void EnemyAttack()
     {
         List<int> players = new List<int>();
@@ -226,17 +229,54 @@ public class BattleManager : MonoBehaviour
         
         int selectedPlayerToAttack = players[UnityEngine.Random.Range(0, players.Count)]; //random select player
         int selectedAttack = UnityEngine.Random.Range(0, activeCharacters[currentTurn].GetAttacksAvaliable().Length); //random select attack
+        int movePower = 0;
         for(int i=0; i < battleMovesList.Length; i++)
         {
             if (battleMovesList[i].GetMoveName() == activeCharacters[currentTurn].GetAttacksAvaliable()[selectedAttack]) //check if the enemy got the attack
             {
-                print(battleMovesList[i].GetMoveName());
                 Instantiate(
                     battleMovesList[i].GetEffectToUse(),
                     activeCharacters[selectedPlayerToAttack].transform.position,
                     activeCharacters[selectedPlayerToAttack].transform.rotation
                 );
+
+                movePower = battleMovesList[i].GetMovePower();
             }
         }
+
+        //Instantiate the effect on the attack character.
+        Instantiate(
+            characterAttackEffect,
+            activeCharacters[currentTurn].transform.position,
+            activeCharacters[currentTurn].transform.rotation
+            );
+        DealDamageToCharacters(selectedPlayerToAttack, movePower);
+    }
+
+    private void DealDamageToCharacters(int selectedCharacterToAttack,int movePower)
+    {
+        float attackPower = activeCharacters[currentTurn].GetDexterity() + activeCharacters[currentTurn].GetWeaponPower();//the attacker
+        float defencePower = activeCharacters[selectedCharacterToAttack].GetDefence() + activeCharacters[selectedCharacterToAttack].GetArmorDefence();//the target
+
+        float damageAmount = (attackPower / defencePower) * movePower * UnityEngine.Random.Range(0.9f,1.1f); //random between 90% hit to 110% hit
+        int damageToGive = (int)damageAmount;
+
+        damageToGive = CalculateCritical(damageToGive); // chance to have critical hit
+
+        Debug.Log(activeCharacters[currentTurn].GetCharcterName() + " just dealt " + damageAmount + "(" + damageToGive + ") to "
+            + activeCharacters[selectedCharacterToAttack]);
+
+        activeCharacters[selectedCharacterToAttack].TakeHPDamage(damageToGive);
+
+    }
+
+    private int CalculateCritical(int damageToGive)
+    {
+        if(UnityEngine.Random.value<= 0.2f)
+        {
+            Debug.Log("CRITICAL HIT instaed of " + damageToGive + " points. " + (damageToGive * 2) + " was dealt");
+            return (damageToGive * 2);
+        }
+        return damageToGive;
     }
 }
