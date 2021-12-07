@@ -27,6 +27,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] GameObject[] playersBattleStats;
     [SerializeField] TextMeshProUGUI[] playersNameText;
     [SerializeField] Slider[] playerHealthSlider, PlayerManaSlider;
+    [SerializeField] GameObject enemyTargetPanel;
+    [SerializeField] BattleTargetButtons[] targetButtons;
     // Start is called before the first frame update
     void Start()
     {
@@ -233,44 +235,43 @@ public class BattleManager : MonoBehaviour
     private void EnemyAttack()
     {
         List<int> players = new List<int>();
-        
 
-        for(int i=0; i < activeCharacters.Count; i++)
+
+        for (int i = 0; i < activeCharacters.Count; i++)
         {
-            if(activeCharacters[i].GetIsPlayer() && activeCharacters[i].GetCurrentHP() > 0)
+            if (activeCharacters[i].GetIsPlayer() && activeCharacters[i].GetCurrentHP() > 0)
             {
                 players.Add(i);
             }
         }
-        
+
         int selectedPlayerToAttack = players[UnityEngine.Random.Range(0, players.Count)]; //random select player
         int selectedAttack = UnityEngine.Random.Range(0, activeCharacters[currentTurn].GetAttacksAvaliable().Length); //random select attack
         int movePower = 0;
-        for(int i=0; i < battleMovesList.Length; i++)
+        for (int i = 0; i < battleMovesList.Length; i++)
         {
             if (battleMovesList[i].GetMoveName() == activeCharacters[currentTurn].GetAttacksAvaliable()[selectedAttack]) //check if the enemy got the attack
             {
-                Instantiate(
-                    battleMovesList[i].GetEffectToUse(),
-                    activeCharacters[selectedPlayerToAttack].transform.position,
-                    activeCharacters[selectedPlayerToAttack].transform.rotation
-                );
-
-                movePower = battleMovesList[i].GetMovePower();
+                movePower = GettingMoverPowerAndEffect(selectedPlayerToAttack, i);
             }
         }
 
-        //Instantiate the effect on the attack character.
+        EffectOnAttackingCharacter();
+        DealDamageToCharacters(selectedPlayerToAttack, movePower);
+
+        UpdatePlayerStats();
+
+    }
+    //Instantiate the effect on the attack character.
+    private void EffectOnAttackingCharacter()
+    {
         Instantiate(
             characterAttackEffect,
             activeCharacters[currentTurn].transform.position,
             activeCharacters[currentTurn].transform.rotation
             );
-        DealDamageToCharacters(selectedPlayerToAttack, movePower);
-
-        UpdatePlayerStats();
-        
     }
+
     //Calculates the amount of the attack damage, the amount of the hit damage and Instantiate the damage text on the target.
     private void DealDamageToCharacters(int selectedCharacterToAttack,int movePower)
     {
@@ -331,5 +332,60 @@ public class BattleManager : MonoBehaviour
                 playersBattleStats[i].SetActive(false);
             }
         }
+    }
+    //player attacking methods
+    public void PlayerAttack(string moveName, int selectEnemyTarget)
+    {
+        
+        int movePower = 0;
+        for(int i = 0; i < battleMovesList.Length; i++)
+        {
+            if (battleMovesList[i].GetMoveName() == moveName)
+            {
+                movePower = GettingMoverPowerAndEffect(selectEnemyTarget, i);
+            }
+        }
+        EffectOnAttackingCharacter();
+        DealDamageToCharacters(selectEnemyTarget, movePower);
+        NextTurn();
+        enemyTargetPanel.SetActive(false);
+        
+    }
+
+    public void OpenTargetMenu(string moveName)
+    {
+        enemyTargetPanel.SetActive(true);
+        List<int> enemies = new List<int>();
+        for(int i = 0; i < activeCharacters.Count; i++)
+        {
+            if (!activeCharacters[i].GetIsPlayer())
+            {
+                enemies.Add(i);
+            }
+        }
+        //Debug.Log(enemies.Count);
+        for(int i = 0; i<targetButtons.Length; i++)
+        {
+            if (enemies.Count > i)
+            {
+                targetButtons[i].gameObject.SetActive(true);
+                targetButtons[i].SetMoveName(moveName);
+                targetButtons[i].SetActiveBattleTarget(enemies[i]);
+                targetButtons[i].SetTargetName(activeCharacters[enemies[i]].GetCharcterName());
+            }
+        }
+    }
+    //get move power and instantiate the effect of the attack move
+    private int GettingMoverPowerAndEffect(int selectCharacterTarget, int i)
+    {
+        int movePower;
+        Instantiate(
+               battleMovesList[i].GetEffectToUse(),
+               activeCharacters[selectCharacterTarget].transform.position,
+               activeCharacters[selectCharacterTarget].transform.rotation
+           );
+
+        movePower = battleMovesList[i].GetMovePower();
+        return movePower;
     }
 }
