@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class BattleManager : MonoBehaviour
 {
@@ -20,8 +22,11 @@ public class BattleManager : MonoBehaviour
 
 
     [SerializeField] BattleMoves[] battleMovesList;
-
     [SerializeField] ParticleSystem characterAttackEffect;
+    [SerializeField] CharacterDamageGUI damageText;
+    [SerializeField] GameObject[] playersBattleStats;
+    [SerializeField] TextMeshProUGUI[] playersNameText;
+    [SerializeField] Slider[] playerHealthSlider, PlayerManaSlider;
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +74,7 @@ public class BattleManager : MonoBehaviour
             SettingUpBattle();
             AddingPlayers();
             AddingEnemies(enemiesToSpawn);
+            UpdatePlayerStats();
             waitingForTurn = true;
             currentTurn = 0;  //UnityEngine.Random.Range(0, activeCharacters.Count);
         }
@@ -161,6 +167,7 @@ public class BattleManager : MonoBehaviour
         }
         waitingForTurn = true;
         UpdateBattle();
+        UpdatePlayerStats();
     }
     //Check the state of the players and ememies (dead or alive)
     private void UpdateBattle()
@@ -176,7 +183,7 @@ public class BattleManager : MonoBehaviour
             }
             if (activeCharacters[i].GetCurrentHP() == 0)
             {
-                // kill the character
+                activeCharacters[i].gameObject.SetActive(false);
             }
             else
             {
@@ -200,6 +207,15 @@ public class BattleManager : MonoBehaviour
             battleScene.SetActive(false);
             GameManager.instance.battleIsActive = false;
             isBattleActive = false;
+        }
+        else
+        {
+            while (activeCharacters[currentTurn].GetCurrentHP() == 0) // if player died - skip his turn.
+            {
+                currentTurn++;
+                if (currentTurn >= activeCharacters.Count)
+                    currentTurn = 0;
+            }
         }
 
     }
@@ -251,8 +267,11 @@ public class BattleManager : MonoBehaviour
             activeCharacters[currentTurn].transform.rotation
             );
         DealDamageToCharacters(selectedPlayerToAttack, movePower);
-    }
 
+        UpdatePlayerStats();
+        
+    }
+    //Calculates the amount of the attack damage, the amount of the hit damage and Instantiate the damage text on the target.
     private void DealDamageToCharacters(int selectedCharacterToAttack,int movePower)
     {
         float attackPower = activeCharacters[currentTurn].GetDexterity() + activeCharacters[currentTurn].GetWeaponPower();//the attacker
@@ -268,8 +287,15 @@ public class BattleManager : MonoBehaviour
 
         activeCharacters[selectedCharacterToAttack].TakeHPDamage(damageToGive);
 
-    }
+        CharacterDamageGUI CharacterDamageText = Instantiate(
+            damageText,
+            activeCharacters[selectedCharacterToAttack].transform.position,
+            activeCharacters[selectedCharacterToAttack].transform.rotation
+        );
+        CharacterDamageText.SetDamage(damageToGive);
 
+    }
+    //Calculate critical damage (20% to hit)
     private int CalculateCritical(int damageToGive)
     {
         if(UnityEngine.Random.value<= 0.2f)
@@ -278,5 +304,32 @@ public class BattleManager : MonoBehaviour
             return (damageToGive * 2);
         }
         return damageToGive;
+    }
+    //Update players battle stats (name,mana slider, hp slider).
+    public void UpdatePlayerStats()
+    {
+        for(int i = 0; i < playersNameText.Length; i++)
+        {
+            if (activeCharacters.Count > i)
+            {
+                if (activeCharacters[i].GetIsPlayer())
+                {
+                    BattleCharacters playerData = activeCharacters[i];
+                    playersNameText[i].text = playerData.GetCharcterName();
+                    playerHealthSlider[i].maxValue = playerData.GetMaxHP();
+                    playerHealthSlider[i].value = playerData.GetCurrentHP();
+                    PlayerManaSlider[i].maxValue = playerData.GetMaxMana();
+                    PlayerManaSlider[i].value = playerData.GetCurrentMana();
+                }
+                else
+                {
+                    playersBattleStats[i].SetActive(false);
+                }
+            }
+            else
+            {
+                playersBattleStats[i].SetActive(false);
+            }
+        }
     }
 }

@@ -12,6 +12,8 @@ public class Inventory : MonoBehaviour
     {
         instance = this;
         itemsList = new List<ItemsManager>();
+        
+
         //Debug.Log("new Inventory created");
     }
 

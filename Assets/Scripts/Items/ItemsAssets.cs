@@ -20,6 +20,7 @@ public class ItemsAssets : MonoBehaviour
         {
             instance = this;
         }
+        
     }
 
     

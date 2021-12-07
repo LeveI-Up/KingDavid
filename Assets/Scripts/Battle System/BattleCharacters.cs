@@ -27,10 +27,7 @@ public class BattleCharacters : MonoBehaviour
     {
         currentHP -= damageToReceive;
         if (currentHP < 0)
-        {
             currentHP = 0;
-            gameObject.SetActive(false);
-        }
     }
 
     //Getters and Setters
@@ -55,7 +52,7 @@ public class BattleCharacters : MonoBehaviour
     {
         return maxMana;
     }
-    public int GetCurrnetMana()
+    public int GetCurrentMana()
     {
         return currentMana;
     }

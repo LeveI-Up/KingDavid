@@ -569,11 +569,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: currentHP
-      value: 50
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: currnetMana
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3054614680164496641, guid: 820401e3b285f8546a217f070e4cf18c,
         type: 3}
@@ -936,8 +936,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -624.05, y: -347.5}
-  m_SizeDelta: {x: -1248.1, y: -693.2}
+  m_AnchoredPosition: {x: -624.05005, y: -425.45}
+  m_SizeDelta: {x: -1248.1, y: -849.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249425376
 MonoBehaviour:
@@ -1013,8 +1013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 335.95007, y: -347.05}
-  m_SizeDelta: {x: -671.9, y: -694.1}
+  m_AnchoredPosition: {x: 335.95007, y: -425}
+  m_SizeDelta: {x: -671.9, y: -850}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255932449
 MonoBehaviour:
@@ -1358,7 +1358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406.6, y: 60.999992}
+  m_AnchoredPosition: {x: -406.6, y: 68}
   m_SizeDelta: {x: 338.1, y: 71.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429717558
@@ -3713,7 +3713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406.6, y: 61}
+  m_AnchoredPosition: {x: -406.6, y: 68}
   m_SizeDelta: {x: 338.1, y: 71.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557833133
@@ -3979,7 +3979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -406.6, y: 60.999992}
+  m_AnchoredPosition: {x: -406.6, y: 67.99999}
   m_SizeDelta: {x: 338.1, y: 71.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675655965
@@ -4566,6 +4566,24 @@ MonoBehaviour:
       type: 3}
   characterAttackEffect: {fileID: 8393588910683652367, guid: f99bf42f9bd71494a834250d07e4ddd5,
     type: 3}
+  damageText: {fileID: -952312290169494208, guid: 972203a3192be9d49ae3e6749bd3e0f1,
+    type: 3}
+  playersBattleStats:
+  - {fileID: 1676994693}
+  - {fileID: 2102519959}
+  - {fileID: 1222464842}
+  playersNameText:
+  - {fileID: 1557833133}
+  - {fileID: 429717558}
+  - {fileID: 1675655965}
+  playerHealthSlider:
+  - {fileID: 2099690541}
+  - {fileID: 668436729}
+  - {fileID: 1293445456}
+  PlayerManaSlider:
+  - {fileID: 893960}
+  - {fileID: 1280254691}
+  - {fileID: 1757702438}
 --- !u!4 &1765695298
 Transform:
   m_ObjectHideFlags: 0
