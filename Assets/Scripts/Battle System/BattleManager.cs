@@ -112,13 +112,14 @@ public class BattleManager : MonoBehaviour
     //add all the players with PlayersStats script in the current scene to the battle
     private void AddingPlayers()
     {
-        for (int i = 0; i < GameManager.instance.GetPlayerStats().Length; i++)
+        for (int i = 0; i < FindObjectsOfType<PlayerStats>().Length; i++)
         {
-            if (GameManager.instance.GetPlayerStats()[i].gameObject.activeInHierarchy)
+            
+            if (FindObjectsOfType<PlayerStats>()[i].gameObject.activeInHierarchy)
             {
                 for (int j = 0; j < playersPrefabs.Length; j++)
                 {
-                    if (playersPrefabs[j].GetCharcterName() == GameManager.instance.GetPlayerStats()[i].GetPlayerName())
+                    if (playersPrefabs[j].GetCharcterName() == FindObjectsOfType<PlayerStats>()[i].GetPlayerName())
                     {
                         BattleCharacters newPlayer = Instantiate(
                             playersPrefabs[j],
@@ -139,7 +140,7 @@ public class BattleManager : MonoBehaviour
     //Update all the stats for all the BattleCharcters in the current scene
     private void ImportPlayerStats(int i)
     {
-        PlayerStats player = GameManager.instance.GetPlayerStats()[i];
+        PlayerStats player = FindObjectsOfType<PlayerStats>()[i];
         activeCharacters[i].SetCurrentHP(player.GetCurrentHP());
         activeCharacters[i].SetMaxHP(player.GetMaxHP());
         activeCharacters[i].SetCurrnetMana(player.GetCurrnetMana());

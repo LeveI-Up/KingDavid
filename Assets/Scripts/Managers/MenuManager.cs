@@ -122,6 +122,7 @@ public class MenuManager : MonoBehaviour
         foreach (Transform itemSlot in itemSlotContainerParent)
         {
             Destroy(itemSlot.gameObject);
+
         }
             foreach (ItemsManager item in Inventory.instance.GetItemsList())
         {
@@ -137,6 +138,8 @@ public class MenuManager : MonoBehaviour
             {
                 itemsAmountText.text = "";
             }
+            Debug.Log(item.itemName+" setting item on button");
+            
             itemSlot.GetComponent<ItemButton>().SetItemOnButton(item);
         }
     }

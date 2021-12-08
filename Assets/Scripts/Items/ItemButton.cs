@@ -32,7 +32,10 @@ public class ItemButton : MonoBehaviour
     }
     public void SetItemOnButton(ItemsManager newItemOnButton)
     {
+        Debug.Log(newItemOnButton.itemName + " new item" + newItemOnButton);
         itemOnButton = newItemOnButton;
+        Debug.Log(itemOnButton.itemName + " new item" + itemOnButton);
+
     }
 
 }
