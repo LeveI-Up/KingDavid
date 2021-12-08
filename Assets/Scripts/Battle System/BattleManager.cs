@@ -29,6 +29,8 @@ public class BattleManager : MonoBehaviour
     [SerializeField] Slider[] playerHealthSlider, PlayerManaSlider;
     [SerializeField] GameObject enemyTargetPanel;
     [SerializeField] BattleTargetButtons[] targetButtons;
+
+    [SerializeField] GameObject spellPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -387,5 +389,24 @@ public class BattleManager : MonoBehaviour
 
         movePower = battleMovesList[i].GetMovePower();
         return movePower;
+    }
+
+    public void OpenSpellPanel()
+    {
+        spellPanel.SetActive(true);
+    }
+
+    public BattleCharacters GetCurrentActiveCharacter()
+    {
+        return activeCharacters[currentTurn];
+    }
+
+
+
+
+
+    public GameObject GetSpellPanel()
+    {
+        return spellPanel;
     }
 }

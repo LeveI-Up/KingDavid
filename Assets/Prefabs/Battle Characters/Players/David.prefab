@@ -96,7 +96,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 1
-  attacksAvailable: []
+  attacksAvailable:
+  - Lighthing
+  - Blue Flameball
+  - Shot
+  - Tentacles
+  - Water
   charcterName: David
   currentHP: 0
   maxHP: 0
