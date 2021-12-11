@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 3054614680164496642}
   - component: {fileID: 3054614680164496643}
   - component: {fileID: 1546900908}
-  - component: {fileID: -2650084984175379001}
   m_Layer: 0
   m_Name: David
   m_TagString: Player
@@ -182,8 +181,8 @@ MonoBehaviour:
   baseLevelXP: 100
   maxHP: 500
   currentHP: 500
-  maxMana: 30
-  currnetMana: 0
+  maxMana: 100
+  currnetMana: 100
   defence: 30
   dexterity: 10
   equipedWeaponName: 
@@ -192,29 +191,3 @@ MonoBehaviour:
   armorDefence: 0
   equipedWeapon: {fileID: 0}
   equipedArmor: {fileID: 0}
---- !u!114 &-2650084984175379001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3054614680164496652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78044b81b243a5c4b8f40dbd9a82e0f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPlayer: 1
-  attacksAvailable:
-  - Lighthing
-  - Blue Flameball
-  charcterName: David
-  currentHP: 0
-  maxHP: 0
-  currentMana: 0
-  maxMana: 0
-  dexterity: 0
-  defence: 0
-  weaponPower: 0
-  armorDefence: 0
-  isDead: 0

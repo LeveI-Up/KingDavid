@@ -65,6 +65,7 @@ public class ItemsManager : MonoBehaviour
             Inventory.instance.AddItems(this);
             AudioManager.instance.PlaySFX(2);
             SelfDestroy();
+            
         }
     }
     private void SelfDestroy()
@@ -75,5 +76,6 @@ public class ItemsManager : MonoBehaviour
     {
         return isStackable;
     }
+
 
 }

@@ -18,8 +18,40 @@ public class MagicButtons : MonoBehaviour
             BattleManager.instance.OpenTargetMenu(spellName);
             BattleManager.instance.GetCurrentActiveCharacter().SetCurrnetMana(BattleManager.instance.GetCurrentActiveCharacter().GetCurrentMana() - spellCost);
         }
+        else
+        {
+            BattleManager.instance.GetBattleNotice().SetText("We don't have enough mane!");
+            BattleManager.instance.GetBattleNotice().ActivateBattleNotification();
+            BattleManager.instance.GetSpellPanel().SetActive(false);
+        }
+
        
-    
-        
     }
+    //Getters and Setters
+    public string GetSpellName()
+    {
+        return spellName;
+    }
+    public int GetSpellCost()
+    {
+        return spellCost;
+    }
+    public void SetSpellCost(int cost)
+    {
+        spellCost = cost;
+    }
+    public void SetSpellName(string name)
+    {
+        spellName = name;
+    }
+    public void SetSpellNameText(string name)
+    {
+        spellNameText.text = name;
+    }
+    public void SetSpellCostText(string name)
+    {
+        spellCostText.text = name;
+    }
+
+
 }

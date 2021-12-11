@@ -9,7 +9,7 @@ public class BattleManager : MonoBehaviour
 {
 
     public static BattleManager instance;
-    private bool isBattleActive;
+    [SerializeField] bool isBattleActive;
     [SerializeField] GameObject battleScene;
     [SerializeField] Transform[] playersPosition, enemiesPosition;
     [SerializeField] BattleCharacters[] playersPrefabs, enemiesPrefabs;
@@ -31,6 +31,11 @@ public class BattleManager : MonoBehaviour
     [SerializeField] BattleTargetButtons[] targetButtons;
 
     [SerializeField] GameObject spellPanel;
+    [SerializeField] MagicButtons[] magicButton;
+
+    [SerializeField] BattleNotification battleNotice;
+    [SerializeField] float chanceToRunAway = 0.5f;
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -395,6 +400,29 @@ public class BattleManager : MonoBehaviour
     public void OpenSpellPanel()
     {
         spellPanel.SetActive(true);
+        for (int i = 0; i < magicButton.Length; i++)
+        {
+            if (activeCharacters[currentTurn].GetAttacksAvaliable().Length > i)
+            {
+                magicButton[i].gameObject.SetActive(true);
+                magicButton[i].SetSpellName(GetCurrentActiveCharacter().GetAttacksAvaliable()[i]);
+                magicButton[i].SetSpellNameText(magicButton[i].GetSpellName());
+
+                for(int j = 0; j < battleMovesList.Length; j++)
+                {
+                    if (battleMovesList[j].GetMoveName() == magicButton[i].GetSpellName())
+                    {
+                        magicButton[i].SetSpellCost(battleMovesList[j].GetManaCost());
+                        magicButton[i].SetSpellCostText(battleMovesList[j].GetManaCost().ToString());
+                    }
+                }
+            }
+            else
+            {
+                magicButton[i].gameObject.SetActive(false);
+            }
+            
+        }
     }
 
     public BattleCharacters GetCurrentActiveCharacter()
@@ -402,12 +430,39 @@ public class BattleManager : MonoBehaviour
         return activeCharacters[currentTurn];
     }
 
+    public void RunAway()
+    {
+        if(UnityEngine.Random.value > chanceToRunAway)
+        {
+            //GetBattleNotice().SetText("We managed to escape successfully");
+            //GetBattleNotice().ActivateBattleNotification();
+            //StartCoroutine(CloseBattle());
+            isBattleActive = false;
+            battleScene.SetActive(false);
+            //Player.instance.DeactiveMovement(false);
 
+        }
+        else
+        {
+            NextTurn();
+            GetBattleNotice().SetText("There is no Escape,We can't run away!");
+            GetBattleNotice().ActivateBattleNotification();
+        }
+        
+    }
+    //IEnumerator CloseBattle()
+    //{
+        //yield return new WaitForSeconds(2);
+    //}
 
-
-
+    //Getters And Setters
     public GameObject GetSpellPanel()
     {
         return spellPanel;
     }
+    public BattleNotification GetBattleNotice()
+    {
+        return battleNotice;
+    }
+
 }

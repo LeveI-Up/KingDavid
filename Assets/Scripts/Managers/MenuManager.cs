@@ -32,6 +32,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI itemName, itemDescription;
     [SerializeField] GameObject charcterChoicePanel;
     [SerializeField] TextMeshProUGUI[] itemsCharcterChoiceNames;
+    
 
     private void Start()
     {
@@ -139,9 +140,14 @@ public class MenuManager : MonoBehaviour
                 itemsAmountText.text = "";
             }
             Debug.Log(item.itemName+" setting item on button");
-            
+            //itemSlot = GameObject.Find(item.itemName);
+            //ItemsManager newitem = item;
+            //newitem = GameObject.Find(item.itemName);
+            //Resources.Load("prefab path");
             itemSlot.GetComponent<ItemButton>().SetItemOnButton(item);
+            
         }
+        
     }
 
     //Quit the game(not working on unity)

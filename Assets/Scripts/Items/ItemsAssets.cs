@@ -30,9 +30,11 @@ public ItemsManager GetItemAsset(string itemToGetName)
         {
             if(item.itemName == itemToGetName)
             {
+                
                 return item;
             }
         }
+        print("IM HEREEEEEE");
         return null;
     }
 }
