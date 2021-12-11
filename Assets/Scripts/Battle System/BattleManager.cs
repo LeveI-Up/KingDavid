@@ -35,7 +35,17 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField] BattleNotification battleNotice;
     [SerializeField] float chanceToRunAway = 0.5f;
- 
+
+    [SerializeField] GameObject itemsToUseMenu;
+    [SerializeField] ItemsManager selectedItem;
+    [SerializeField] GameObject itemSlotContainer;
+    [SerializeField] Transform itemSlotContainerParent;
+    [SerializeField] TextMeshProUGUI itemName, itemDesc;
+    [SerializeField] GameObject CharacterChoicePanel;
+    [SerializeField] TextMeshProUGUI[] playerNames;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -450,10 +460,89 @@ public class BattleManager : MonoBehaviour
         }
         
     }
+
+
     //IEnumerator CloseBattle()
     //{
         //yield return new WaitForSeconds(2);
     //}
+
+    public void UpdateItemsInInventory()
+    {
+        itemsToUseMenu.SetActive(true);
+        foreach (Transform itemSlot in itemSlotContainerParent)
+        {
+            Destroy(itemSlot.gameObject);
+
+        }
+        foreach (ItemsManager item in Inventory.instance.GetItemsList())
+        {
+            RectTransform itemSlot = Instantiate(itemSlotContainer, itemSlotContainerParent).GetComponent<RectTransform>();
+            Image itemImage = itemSlot.Find("Items Image").GetComponent<Image>();
+            itemImage.sprite = item.itemImage;
+            TextMeshProUGUI itemsAmountText = itemSlot.Find("Amount Text").GetComponent<TextMeshProUGUI>();
+            if (item.amount > 1)
+            {
+                itemsAmountText.text = item.amount.ToString();
+            }
+            else
+            {
+                itemsAmountText.text = "";
+            }
+            Debug.Log(item.itemName + " setting item on button");
+            //itemSlot = GameObject.Find(item.itemName);
+            //ItemsManager newitem = item;
+            //newitem = GameObject.Find(item.itemName);
+            //Resources.Load("prefab path");
+            itemSlot.GetComponent<ItemButton>().SetItemOnButton(item);
+
+        }
+    }
+
+    public void SelectedItemToUse(ItemsManager itemToUse)
+    {
+        selectedItem = itemToUse;
+        itemName.text = itemToUse.itemName;
+        itemDesc.text = itemToUse.itemDescription;
+
+    }
+
+    public void OpenCharacterMenu()
+    {
+        if (selectedItem)
+        {
+            CharacterChoicePanel.SetActive(true);
+            for(int i = 0; i < activeCharacters.Count; i++)
+            {
+                if (activeCharacters[i].GetIsPlayer())
+                {
+                    PlayerStats activePlayer = GameManager.instance.GetPlayerStats()[i];
+                    playerNames[i].text = activePlayer.GetPlayerName();
+                    bool activePlayerInHierarchy = activePlayer.gameObject.activeInHierarchy;
+                    playerNames[i].transform.parent.gameObject.SetActive(activePlayerInHierarchy);
+                }
+            }
+        }
+        else
+        {
+            print("No item selected");
+        }
+    }
+
+    public void UseItemButton(int selectedPlayer)
+    {
+        activeCharacters[selectedPlayer].UseItemInBattle(selectedItem);
+        Inventory.instance.RemoveItem(selectedItem);
+        UpdatePlayerStats();
+        CloseCharacterChoicePanel();
+        UpdateItemsInInventory();
+    }
+
+    public void CloseCharacterChoicePanel()
+    {
+        CharacterChoicePanel.SetActive(false);
+        itemsToUseMenu.SetActive(false);
+    }
 
     //Getters And Setters
     public GameObject GetSpellPanel()
@@ -463,6 +552,10 @@ public class BattleManager : MonoBehaviour
     public BattleNotification GetBattleNotice()
     {
         return battleNotice;
+    }
+    public GameObject GetItemToUseMenu()
+    {
+        return itemsToUseMenu;
     }
 
 }

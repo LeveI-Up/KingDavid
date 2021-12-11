@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,6 +29,31 @@ public class BattleCharacters : MonoBehaviour
         currentHP -= damageToReceive;
         if (currentHP < 0)
             currentHP = 0;
+    }
+
+    public void UseItemInBattle(ItemsManager itemToUse)
+    {
+        if(itemToUse.itemType == ItemsManager.ItemType.Item)
+        {
+            if(itemToUse.effectType == ItemsManager.effecType.HP)
+            {
+                AddHP(itemToUse.amountOfEffect);
+            }
+            else if (itemToUse.effectType == ItemsManager.effecType.Mana)
+            {
+                AddMana(itemToUse.amountOfEffect);
+            }
+        }
+    }
+
+    private void AddMana(int amountOfEffect)
+    {
+        currentMana += amountOfEffect;
+    }
+
+    private void AddHP(int amountOfEffect)
+    {
+        currentHP += amountOfEffect;
     }
 
     //Getters and Setters
