@@ -103,4 +103,8 @@ public class DialogController : MonoBehaviour
             currentSentence++;
         }
     }
+    public GameObject GetDialogBox()
+    {
+        return dialogBox;
+    }
 }

@@ -65,6 +65,7 @@ public class MainMenu : MonoBehaviour
 
         SceneManager.LoadSceneAsync(newGameScene, LoadSceneMode.Additive);
         MenuManager.instance.FadeImage();
+        DialogController.instacne.GetDialogBox().SetActive(true);
 
         if (!unloaded)
         {
