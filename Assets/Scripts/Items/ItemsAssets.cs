@@ -11,15 +11,10 @@ public class ItemsAssets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Singelton
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
+      
+       
             instance = this;
-        }
+      
         
     }
 

@@ -5737,7 +5737,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 847084730}
+  - {fileID: 2709163689545695187}
   m_Father: {fileID: 244246911}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7100,7 +7100,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6451400584064229062}
+  - {fileID: 8943894477087038895}
   m_Father: {fileID: 988265580}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8648,7 +8648,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 535709779}
+  - {fileID: 2709163689991392058}
   m_Father: {fileID: 1209095012}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12613,7 +12613,7 @@ MonoBehaviour:
   charcterStatImage: {fileID: 862213792}
   itemSlotContainer: {fileID: 2709163689847325622, guid: 666ef7f036a43b849838b79edddad5a2,
     type: 3}
-  itemSlotContainerParent: {fileID: 1442981391}
+  itemSlotTest: {fileID: 1442981391}
   activeItem: {fileID: 0}
   itemName: {fileID: 2131259833}
   itemDescription: {fileID: 31088932}
@@ -17949,7 +17949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666ef7f036a43b849838b79edddad5a2, type: 3}
---- !u!224 &535709779 stripped
+--- !u!224 &2709163689991392058 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709163689847325621, guid: 666ef7f036a43b849838b79edddad5a2,
     type: 3}
@@ -18094,7 +18094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666ef7f036a43b849838b79edddad5a2, type: 3}
---- !u!224 &847084730 stripped
+--- !u!224 &2709163689545695187 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709163689847325621, guid: 666ef7f036a43b849838b79edddad5a2,
     type: 3}
@@ -18239,7 +18239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 666ef7f036a43b849838b79edddad5a2, type: 3}
---- !u!224 &6451400584064229062 stripped
+--- !u!224 &8943894477087038895 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2709163689847325621, guid: 666ef7f036a43b849838b79edddad5a2,
     type: 3}

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/NeverUnload.unity
+    guid: 816f599f874ffa34691df1b937f6a553
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 5cc93eada112b0b47b6dc0c584318d4f
   - enabled: 1

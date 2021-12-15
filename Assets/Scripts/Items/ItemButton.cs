@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class ItemButton : MonoBehaviour
 {
-
     [SerializeField] ItemsManager itemOnButton;
-
     public void Press()
     {
         if (MenuManager.instance.GetMenu().activeInHierarchy)
@@ -31,15 +29,11 @@ public class ItemButton : MonoBehaviour
         {
             BattleManager.instance.SelectedItemToUse(itemOnButton);
         }
-        
-
     }
     public void SetItemOnButton(ItemsManager newItemOnButton)
     {
         Debug.Log(newItemOnButton.itemName + " new item " + newItemOnButton);
         itemOnButton = newItemOnButton;
         Debug.Log(itemOnButton.itemName + " new item " + itemOnButton);
-
     }
-
 }

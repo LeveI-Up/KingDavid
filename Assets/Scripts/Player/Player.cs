@@ -25,18 +25,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //singelton
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-        DontDestroyOnLoad(gameObject);
-        
-        
+        instance = this;
     }
 
     // Update is called once per frame

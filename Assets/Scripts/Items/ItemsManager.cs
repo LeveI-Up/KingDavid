@@ -61,11 +61,15 @@ public class ItemsManager : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log("Item Trigger");// + collision.gameObject.GetComponent<ItemsManager>().itemName);
             //print("This item is " + itemName);
             Inventory.instance.AddItems(this);
             AudioManager.instance.PlaySFX(2);
             SelfDestroy();
-            
+            Debug.Log("Item Destroyed");
+            //collision.gameObject.SetActive(false);
+
+
         }
     }
     private void SelfDestroy()

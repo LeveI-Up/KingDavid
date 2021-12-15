@@ -8,9 +8,14 @@ public class Inventory : MonoBehaviour
 
     private List<ItemsManager> itemsList;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
-        instance = this;
+      
         itemsList = new List<ItemsManager>();
         
 
@@ -20,7 +25,7 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        instance = this;
     }
     public void AddItems(ItemsManager item)
     {

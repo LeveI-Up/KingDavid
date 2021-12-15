@@ -5,10 +5,12 @@ using Cinemachine;
 
 public class CamController : MonoBehaviour
 {
-    private Player playerTarget;
+    [SerializeField] Player playerTarget;
+    [SerializeField] GameObject player;
     private CinemachineVirtualCamera virtualCamera;
 
     [SerializeField] int musicToPlay;
+    
     private bool musicAlreadyPlaying;
     // Start is called before the first frame update
     void Start()
@@ -28,10 +30,9 @@ public class CamController : MonoBehaviour
         }
         while(playerTarget == null)
         {
-            playerTarget = FindObjectOfType<Player>();
+            playerTarget = player.GetComponent<Player>();
             virtualCamera = GetComponent<CinemachineVirtualCamera>();
             virtualCamera.Follow = playerTarget.transform;
-
         }
     }
 }

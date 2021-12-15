@@ -8,24 +8,20 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField] PlayerStats[] playerStats;
+    public GameObject[] sceneObjects;
 
     public bool gameMenuOpened, dialogBoxOpned, shopOpened, battleIsActive;
 
     [SerializeField] int currentCoines;
     // Start is called before the first frame update
+    private void OnEnable()
+    {
+        instance = this;
+    }
+   
     void Start()
     {
-        //singelton
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-        DontDestroyOnLoad(gameObject);
-
+        
         playerStats = FindObjectsOfType<PlayerStats>();
     }
 

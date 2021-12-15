@@ -27,7 +27,8 @@ public class MenuManager : MonoBehaviour
     [SerializeField] Image charcterStatImage;
     //Inventory & items
     [SerializeField] GameObject itemSlotContainer;
-    [SerializeField] Transform itemSlotContainerParent;
+    //[SerializeField] Transform itemSlotContainerParent;
+    [SerializeField] Transform itemSlotTest;
     [SerializeField] ItemsManager activeItem;
     [SerializeField] TextMeshProUGUI itemName, itemDescription;
     [SerializeField] GameObject charcterChoicePanel;
@@ -120,14 +121,20 @@ public class MenuManager : MonoBehaviour
     //once this method called - update all the items in the inventory.
     public void UpdateItemsInventory()
     {
-        foreach (Transform itemSlot in itemSlotContainerParent)
+       
+        
+        //Debug.Log(itemSlotContainerParent.childCount);
+        
+        foreach (Transform itemSlot in itemSlotTest)
         {
+          
             Destroy(itemSlot.gameObject);
 
         }
+        
             foreach (ItemsManager item in Inventory.instance.GetItemsList())
         {
-            RectTransform itemSlot = Instantiate(itemSlotContainer, itemSlotContainerParent).GetComponent<RectTransform>();
+            RectTransform itemSlot = Instantiate(itemSlotContainer, itemSlotTest).GetComponent<RectTransform>();
             Image itemImage = itemSlot.Find("Items Image").GetComponent<Image>();
             itemImage.sprite = item.itemImage;
             TextMeshProUGUI itemsAmountText = itemSlot.Find("Amount Text").GetComponent<TextMeshProUGUI>();
@@ -139,11 +146,8 @@ public class MenuManager : MonoBehaviour
             {
                 itemsAmountText.text = "";
             }
-            Debug.Log(item.itemName+" setting item on button");
-            //itemSlot = GameObject.Find(item.itemName);
-            //ItemsManager newitem = item;
-            //newitem = GameObject.Find(item.itemName);
-            //Resources.Load("prefab path");
+            
+
             itemSlot.GetComponent<ItemButton>().SetItemOnButton(item);
             
         }

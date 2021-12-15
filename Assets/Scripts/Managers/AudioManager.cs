@@ -11,25 +11,15 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //singelton
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
+       
             instance = this;
-        }
-        DontDestroyOnLoad(gameObject);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            PlayBackgroundMusic(5);
-        }
+
         
         
     }
