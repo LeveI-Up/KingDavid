@@ -169,11 +169,27 @@ public class MenuManager : MonoBehaviour
 
     public void UseItem(int selectedCharcter)
     {
-        activeItem.UseItem(selectedCharcter);
-        OpenCharcterChoicePanel();
-        //discard the item
-        Inventory.instance.RemoveItem(activeItem);
-        UpdateItemsInventory();
+        if (GameManager.instance.battleIsActive)
+        {
+            
+                activeItem.UseItem(selectedCharcter);
+                Inventory.instance.RemoveItem(activeItem);
+                UpdateItemsInventory();
+                BattleManager.instance.UpdatePlayerStats();
+                activeItem = null;  
+        }
+        else
+        {
+            activeItem.UseItem(selectedCharcter);
+            OpenCharcterChoicePanel();
+            //discard the item
+            Inventory.instance.RemoveItem(activeItem);
+            UpdateItemsInventory();
+
+
+            activeItem = null;
+        }
+        
 
     }
 
@@ -224,6 +240,7 @@ public class MenuManager : MonoBehaviour
         imageToFade.GetComponent<Animator>().SetTrigger("Start Fading");
 
     }
+    
 
 
 }

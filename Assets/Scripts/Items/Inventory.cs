@@ -9,10 +9,6 @@ public class Inventory : MonoBehaviour
     private List<ItemsManager> itemsList;
     // Start is called before the first frame update
 
-    private void Awake()
-    {
-        
-    }
     void Start()
     {
       

@@ -101,7 +101,7 @@ MonoBehaviour:
   - Tentacles
   - Slash
   charcterName: Blueface
-  currentHP: 200
+  currentHP: 10
   maxHP: 200
   currentMana: 300
   maxMana: 300
@@ -110,3 +110,5 @@ MonoBehaviour:
   weaponPower: 10
   armorDefence: 10
   isDead: 0
+  deadSprite: {fileID: 0}
+  deathEffect: {fileID: 0}

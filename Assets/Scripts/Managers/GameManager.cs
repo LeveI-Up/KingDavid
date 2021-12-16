@@ -198,7 +198,7 @@ public class GameManager : MonoBehaviour
     //Getters and Setters
     public PlayerStats[] GetPlayerStats()
     {
-        return playerStats;
+        return FindObjectsOfType<PlayerStats>();
     }
     public int GetCurrentCoins()
     {

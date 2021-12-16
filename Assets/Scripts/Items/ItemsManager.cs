@@ -28,6 +28,7 @@ public class ItemsManager : MonoBehaviour
             if (effectType == effecType.HP)
             {
                 selectedCharcter.AddHP(amountOfEffect);
+                BattleCharacters.instance.SetCurrentHP(BattleCharacters.instance.GetCurrentHP() + amountOfEffect);
             }
             else if (effectType == effecType.Mana)
             {
@@ -61,15 +62,9 @@ public class ItemsManager : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Item Trigger");// + collision.gameObject.GetComponent<ItemsManager>().itemName);
-            //print("This item is " + itemName);
             Inventory.instance.AddItems(this);
             AudioManager.instance.PlaySFX(2);
             SelfDestroy();
-            Debug.Log("Item Destroyed");
-            //collision.gameObject.SetActive(false);
-
-
         }
     }
     private void SelfDestroy()

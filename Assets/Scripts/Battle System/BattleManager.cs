@@ -151,7 +151,6 @@ public class BattleManager : MonoBehaviour
             }
         }
     }
-
     //Update all the stats for all the BattleCharcters in the current scene
     private void ImportPlayerStats(int i)
     {
@@ -203,7 +202,14 @@ public class BattleManager : MonoBehaviour
             }
             if (activeCharacters[i].GetCurrentHP() == 0)
             {
-                activeCharacters[i].gameObject.SetActive(false);
+                if(activeCharacters[i].GetIsPlayer() && !activeCharacters[i].GetIsDead())
+                {
+                    activeCharacters[i].KillPlayer();
+                }
+                if(!activeCharacters[i].GetIsPlayer() && !activeCharacters[i].GetIsDead())
+                {
+                    activeCharacters[i].KillEnemy();
+                }
             }
             else
             {
@@ -220,13 +226,18 @@ public class BattleManager : MonoBehaviour
         if(allPlayersAreDead || allEnemiesAreDead)
         {
             if (allPlayersAreDead)
-                print("We Lost");
-            else if(allEnemiesAreDead)
-                print("We Won");
-
-            battleScene.SetActive(false);
-            GameManager.instance.battleIsActive = false;
-            isBattleActive = false;
+            {
+                GetBattleNotice().SetText("We Lost!");
+                GetBattleNotice().ActivateBattleNotification();
+                StartCoroutine(CloseBattle());
+            }
+            else if (allEnemiesAreDead)
+            {
+                StartCoroutine(EndBattleCoroutine());
+            }
+            //StartCoroutine(CloseBattle());
+            
+            
         }
         else
         {
@@ -289,7 +300,6 @@ public class BattleManager : MonoBehaviour
             activeCharacters[currentTurn].transform.rotation
             );
     }
-
     //Calculates the amount of the attack damage, the amount of the hit damage and Instantiate the damage text on the target.
     private void DealDamageToCharacters(int selectedCharacterToAttack,int movePower)
     {
@@ -369,7 +379,7 @@ public class BattleManager : MonoBehaviour
         enemyTargetPanel.SetActive(false);
         
     }
-
+    //open the enemy to attack panel
     public void OpenTargetMenu(string moveName)
     {
         enemyTargetPanel.SetActive(true);
@@ -384,16 +394,20 @@ public class BattleManager : MonoBehaviour
         //Debug.Log(enemies.Count);
         for(int i = 0; i<targetButtons.Length; i++)
         {
-            if (enemies.Count > i)
+            if (enemies.Count > i && activeCharacters[enemies[i]].GetCurrentHP()>0)
             {
                 targetButtons[i].gameObject.SetActive(true);
                 targetButtons[i].SetMoveName(moveName);
                 targetButtons[i].SetActiveBattleTarget(enemies[i]);
                 targetButtons[i].SetTargetName(activeCharacters[enemies[i]].GetCharcterName());
             }
+            else
+            {
+                targetButtons[i].gameObject.SetActive(false);
+            }
         }
     }
-    //get move power and instantiate the effect of the attack move
+    //get move power and instantiate the effect of the attack move.
     private int GettingMoverPowerAndEffect(int selectCharacterTarget, int i)
     {
         int movePower;
@@ -406,7 +420,7 @@ public class BattleManager : MonoBehaviour
         movePower = battleMovesList[i].GetMovePower();
         return movePower;
     }
-
+    //open the spell panel (each player has unique spells).
     public void OpenSpellPanel()
     {
         spellPanel.SetActive(true);
@@ -434,22 +448,15 @@ public class BattleManager : MonoBehaviour
             
         }
     }
-
-    public BattleCharacters GetCurrentActiveCharacter()
-    {
-        return activeCharacters[currentTurn];
-    }
-
+    //50% chance to run awey from battle, if sucseed close the battle, else skip player turn.
     public void RunAway()
     {
         if(UnityEngine.Random.value > chanceToRunAway)
         {
-            //GetBattleNotice().SetText("We managed to escape successfully");
-            //GetBattleNotice().ActivateBattleNotification();
-            //StartCoroutine(CloseBattle());
-            isBattleActive = false;
-            battleScene.SetActive(false);
-            //Player.instance.DeactiveMovement(false);
+            GetBattleNotice().SetText("We managed to escape successfully");
+            GetBattleNotice().ActivateBattleNotification();
+            StartCoroutine(CloseBattle());
+            
 
         }
         else
@@ -460,13 +467,16 @@ public class BattleManager : MonoBehaviour
         }
         
     }
-
-
-    //IEnumerator CloseBattle()
-    //{
-        //yield return new WaitForSeconds(2);
-    //}
-
+    //close the battle after 2 seconds.
+    IEnumerator CloseBattle()
+    {
+        yield return new WaitForSeconds(2f);
+        battleScene.SetActive(false);
+        GameManager.instance.battleIsActive = false;
+        isBattleActive = false;
+        //Player.instance.DeactiveMovement(false);
+    }
+    //run through all the items in the player inventory and update them.
     public void UpdateItemsInInventory()
     {
         itemsToUseMenu.SetActive(true);
@@ -489,59 +499,101 @@ public class BattleManager : MonoBehaviour
             {
                 itemsAmountText.text = "";
             }
-            Debug.Log(item.itemName + " setting item on button");
-            //itemSlot = GameObject.Find(item.itemName);
-            //ItemsManager newitem = item;
-            //newitem = GameObject.Find(item.itemName);
-            //Resources.Load("prefab path");
+            
+            
             itemSlot.GetComponent<ItemButton>().SetItemOnButton(item);
 
         }
     }
-
+    //showing item name and desc in battle panel.
     public void SelectedItemToUse(ItemsManager itemToUse)
     {
+        
         selectedItem = itemToUse;
         itemName.text = itemToUse.itemName;
         itemDesc.text = itemToUse.itemDescription;
 
     }
-
+    //open panel with all the characters in the battle.
     public void OpenCharacterMenu()
     {
+        
         if (selectedItem)
         {
-            CharacterChoicePanel.SetActive(true);
-            for(int i = 0; i < activeCharacters.Count; i++)
-            {
-                if (activeCharacters[i].GetIsPlayer())
+            if (selectedItem.itemType == ItemsManager.ItemType.Item) {
+                CharacterChoicePanel.SetActive(true);
+                for (int i = 0; i < activeCharacters.Count; i++)
                 {
-                    PlayerStats activePlayer = GameManager.instance.GetPlayerStats()[i];
-                    playerNames[i].text = activePlayer.GetPlayerName();
-                    bool activePlayerInHierarchy = activePlayer.gameObject.activeInHierarchy;
-                    playerNames[i].transform.parent.gameObject.SetActive(activePlayerInHierarchy);
+                    if (activeCharacters[i].GetIsPlayer())
+                    {
+                        PlayerStats activePlayer = GameManager.instance.GetPlayerStats()[i];
+                        playerNames[i].text = activePlayer.GetPlayerName();
+                        bool activePlayerInHierarchy = activePlayer.gameObject.activeInHierarchy;
+                        playerNames[i].transform.parent.gameObject.SetActive(activePlayerInHierarchy);
+                    }
                 }
             }
+            else
+            {
+                GetBattleNotice().SetText("You can use only potions durning a battle");
+                GetBattleNotice().ActivateBattleNotification();
+            }
+            
         }
         else
         {
             print("No item selected");
         }
     }
-
+    //using items durning battle.
     public void UseItemButton(int selectedPlayer)
     {
-        activeCharacters[selectedPlayer].UseItemInBattle(selectedItem);
-        Inventory.instance.RemoveItem(selectedItem);
-        UpdatePlayerStats();
-        CloseCharacterChoicePanel();
-        UpdateItemsInInventory();
-    }
 
+        MenuManager.instance.UseItem(selectedPlayer);
+        activeCharacters[selectedPlayer].UseItemInBattle(selectedItem);
+        CloseCharacterChoicePanel();
+        UpdatePlayerStats();
+        UpdateItemsInInventory();
+        selectedItem = null;
+    }
+    //closeing the charcter choice panel.
     public void CloseCharacterChoicePanel()
     {
         CharacterChoicePanel.SetActive(false);
         itemsToUseMenu.SetActive(false);
+    }
+    //fill
+    public IEnumerator EndBattleCoroutine()
+    {
+        isBattleActive = false;
+        UIButtonHolder.SetActive(false);
+        enemyTargetPanel.SetActive(false);
+        CharacterChoicePanel.SetActive(false);
+        battleNotice.SetText("We Won");
+        battleNotice.ActivateBattleNotification();
+
+        yield return new WaitForSeconds(3f);
+
+        foreach(BattleCharacters playerInBattle in activeCharacters)
+        {
+            if (playerInBattle.GetIsPlayer())
+            {
+                foreach(PlayerStats playerInBattleStats in GameManager.instance.GetPlayerStats())
+                {
+                    if (playerInBattle.GetCharcterName() == playerInBattleStats.GetPlayerName())
+                    {
+                        playerInBattleStats.SetCurrentHP(playerInBattle.GetCurrentHP());
+                        playerInBattleStats.SetCurrnetMana(playerInBattle.GetCurrentMana());
+                    }
+                }
+            }
+            Destroy(playerInBattle.gameObject);
+        }
+        battleScene.SetActive(false);
+        activeCharacters.Clear(); //delete all the active character includeing enemies
+        currentTurn = 0;
+        GameManager.instance.battleIsActive = false;
+
     }
 
     //Getters And Setters
@@ -556,6 +608,10 @@ public class BattleManager : MonoBehaviour
     public GameObject GetItemToUseMenu()
     {
         return itemsToUseMenu;
+    }
+    public BattleCharacters GetCurrentActiveCharacter()
+    {
+        return activeCharacters[currentTurn];
     }
 
 }

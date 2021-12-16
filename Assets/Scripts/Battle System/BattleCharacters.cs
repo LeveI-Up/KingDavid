@@ -12,16 +12,40 @@ public class BattleCharacters : MonoBehaviour
     [SerializeField] string charcterName;
     [SerializeField] int currentHP, maxHP, currentMana, maxMana, dexterity, defence, weaponPower, armorDefence;
     [SerializeField] bool isDead;
+
+    [SerializeField] Sprite deadSprite;
+    [SerializeField] ParticleSystem deathEffect;
+    public static BattleCharacters instance;
     // Start is called before the first frame update
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(!isPlayer && isDead)
+        {
+            FadeOutEnemy();
+        }
+    }
+
+    private void FadeOutEnemy()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(
+            Mathf.MoveTowards(GetComponent<SpriteRenderer>().color.r, 1f,0.3f*Time.deltaTime),
+            Mathf.MoveTowards(GetComponent<SpriteRenderer>().color.g, 0f, 0.3f * Time.deltaTime),
+            Mathf.MoveTowards(GetComponent<SpriteRenderer>().color.b, 0f, 0.3f * Time.deltaTime),
+            Mathf.MoveTowards(GetComponent<SpriteRenderer>().color.a, 0f, 0.3f * Time.deltaTime)
+            );
+        if (GetComponent<SpriteRenderer>().color.a == 0){
+            gameObject.SetActive(false);
+        }
+    }
+    public void KillEnemy()
+    {
+        isDead = true;
     }
 
     public void TakeHPDamage(int damageToReceive)
@@ -43,6 +67,10 @@ public class BattleCharacters : MonoBehaviour
             {
                 AddMana(itemToUse.amountOfEffect);
             }
+            else if (itemToUse.itemType == ItemsManager.ItemType.Weapon)
+            {
+                print("You can use only potions durning a battle.");
+            }
         }
     }
 
@@ -54,6 +82,16 @@ public class BattleCharacters : MonoBehaviour
     private void AddHP(int amountOfEffect)
     {
         currentHP += amountOfEffect;
+    }
+
+    public void KillPlayer()
+    {
+        if (deadSprite)
+        {
+            GetComponent<SpriteRenderer>().sprite = deadSprite;
+            Instantiate(deathEffect, transform.position, transform.rotation);
+            isDead = true;
+        }
     }
 
     //Getters and Setters
@@ -93,6 +131,10 @@ public class BattleCharacters : MonoBehaviour
     public string[] GetAttacksAvaliable()
     {
         return attacksAvailable;
+    }
+    public bool GetIsDead()
+    {
+        return isDead;
     }
 
 

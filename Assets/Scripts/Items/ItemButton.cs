@@ -27,13 +27,14 @@ public class ItemButton : MonoBehaviour
         }
         if (BattleManager.instance.GetItemToUseMenu().activeInHierarchy)
         {
+            MenuManager.instance.SetActiveItem(itemOnButton);
             BattleManager.instance.SelectedItemToUse(itemOnButton);
         }
     }
     public void SetItemOnButton(ItemsManager newItemOnButton)
     {
-        Debug.Log(newItemOnButton.itemName + " new item " + newItemOnButton);
+        
         itemOnButton = newItemOnButton;
-        Debug.Log(itemOnButton.itemName + " new item " + itemOnButton);
+        
     }
 }
