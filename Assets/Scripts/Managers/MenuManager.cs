@@ -210,10 +210,11 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void LoadMainMenu()
+   /* public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
+   */
     public void CloseCharcterChoicePanel()
     {
         charcterChoicePanel.SetActive(false);

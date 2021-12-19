@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private Vector3 bottomLeftEdge;
     private Vector3 topRightEdge;
 
-    private bool deactivatedMovement = false;
+    [SerializeField] bool deactivatedMovement = false;
 
 
 

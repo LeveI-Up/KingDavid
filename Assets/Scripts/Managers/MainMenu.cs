@@ -9,8 +9,7 @@ public class MainMenu : MonoBehaviour
 
     [SerializeField] string newGameScene;
     [SerializeField] GameObject continueButton;
-    bool loaded;
-    bool unloaded;
+    private bool loaded, unloaded;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,11 +40,11 @@ public class MainMenu : MonoBehaviour
 
             StartCoroutine(LoadSceneCoroutine());
 
-            
+
 
             loaded = true;
         }
-        Player.instance.transform.position = new Vector3(19, 4, 0);
+        //Player.instance.transform.position = new Vector3(19, 4, 0);
     }
     
     public void ExitButton()
@@ -56,7 +55,20 @@ public class MainMenu : MonoBehaviour
 
     public void ContinueButton()
     {
-        SceneManager.LoadScene("LoadingScene");
+        if (!loaded)
+        {
+            Player.instance.transitionName = PlayerPrefs.GetString("Current_Scene");
+
+            MenuManager.instance.FadeImage();
+
+            StartCoroutine(LoadSavedSceneCoroutine());
+
+
+
+            loaded = true;
+            GameManager.instance.LoadData();
+
+        }
     }
 
     IEnumerator LoadSceneCoroutine()
@@ -95,5 +107,21 @@ public class MainMenu : MonoBehaviour
         arrivingFrom = SceneManager.GetActiveScene().name;
     }
     */
+    IEnumerator LoadSavedSceneCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
 
+        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("Current_Scene"), LoadSceneMode.Additive);
+        GameManager.instance.LoadData();
+        MenuManager.instance.FadeImage();
+
+
+        if (!unloaded)
+        {
+            unloaded = true;
+            AnyManager.anyManager.UnloadScene(SceneManager.GetSceneAt(1).name);
+            //Debug.Log("Scene unload called: " + arrivingFrom);
+        }
+
+    }
 }

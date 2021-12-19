@@ -21,12 +21,12 @@ public class QuestManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            Debug.Log("Saved");
+
             SaveQuestData();
         }
         if (Input.GetKeyDown(KeyCode.O))
         {
-            Debug.Log("Loaded");
+           
             LoadQuestData();
         }
     }

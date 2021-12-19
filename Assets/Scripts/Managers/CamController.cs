@@ -30,9 +30,10 @@ public class CamController : MonoBehaviour
         }
         while(playerTarget == null)
         {
-            playerTarget = player.GetComponent<Player>();
-            virtualCamera = GetComponent<CinemachineVirtualCamera>();
-            virtualCamera.Follow = playerTarget.transform;
+            playerTarget = FindObjectOfType<Player>();
+            if (virtualCamera)
+                virtualCamera.Follow = player.transform;
+            
         }
     }
 }

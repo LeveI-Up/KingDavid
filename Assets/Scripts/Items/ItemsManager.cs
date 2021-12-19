@@ -28,7 +28,7 @@ public class ItemsManager : MonoBehaviour
             if (effectType == effecType.HP)
             {
                 selectedCharcter.AddHP(amountOfEffect);
-                BattleCharacters.instance.SetCurrentHP(BattleCharacters.instance.GetCurrentHP() + amountOfEffect);
+                //BattleCharacters.instance.SetCurrentHP(BattleCharacters.instance.GetCurrentHP() + amountOfEffect);
             }
             else if (effectType == effecType.Mana)
             {

@@ -9,8 +9,17 @@ public class AnyManager : MonoBehaviour
     public static AnyManager anyManager;
 
 
-
     bool gameStart;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            BattleManager.instance.StartBattle(new string[] { "Mage Master", "Blueface", "Mage", "Warlock" });
+            BattleManager.instance.gameObject.SetActive(true);
+            
+        }
+    }
 
     void Awake()
     {

@@ -122,6 +122,7 @@ MonoBehaviour:
   playerRigidBody: {fileID: 3054614680164496643}
   playerAnimator: {fileID: 3054614680164496655}
   transitionName: 
+  deactivatedMovement: 0
 --- !u!58 &3054614680164496642
 CircleCollider2D:
   m_ObjectHideFlags: 0

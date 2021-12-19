@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class BattleManager : MonoBehaviour
@@ -44,23 +45,21 @@ public class BattleManager : MonoBehaviour
     [SerializeField] GameObject CharacterChoicePanel;
     [SerializeField] TextMeshProUGUI[] playerNames;
 
+    private bool loaded, unloaded;
+    [SerializeField] string gameOverScene;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-        DontDestroyOnLoad(gameObject);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            StartBattle(new string[] { "Mage Master", "Blueface", "Mage", "Warlock" });
-
-        }
         if (Input.GetKeyDown(KeyCode.N))
         {
             NextTurn();
@@ -90,6 +89,7 @@ public class BattleManager : MonoBehaviour
     {
         if (!isBattleActive)
         {
+            Debug.Log("Battle Is Starting");
             SettingUpBattle();
             AddingPlayers();
             AddingEnemies(enemiesToSpawn);
@@ -174,7 +174,8 @@ public class BattleManager : MonoBehaviour
             Camera.main.transform.position.y,
             charViewInGameMode); //2d game
         battleScene.SetActive(true);
-        
+
+
     }
     //Increase the turn after the Player/Enemies choose action.
     private void NextTurn()
@@ -227,9 +228,18 @@ public class BattleManager : MonoBehaviour
         {
             if (allPlayersAreDead)
             {
-                GetBattleNotice().SetText("We Lost!");
-                GetBattleNotice().ActivateBattleNotification();
-                StartCoroutine(CloseBattle());
+                if (!loaded)
+                {
+                    Player.instance.transitionName = gameOverScene;
+
+                    MenuManager.instance.FadeImage();
+
+                    StartCoroutine(GameOverCoroutine());
+
+
+
+                    loaded = true;
+                }
             }
             else if (allEnemiesAreDead)
             {
@@ -562,7 +572,7 @@ public class BattleManager : MonoBehaviour
         CharacterChoicePanel.SetActive(false);
         itemsToUseMenu.SetActive(false);
     }
-    //fill
+    //close the battle and update the remaining players stats
     public IEnumerator EndBattleCoroutine()
     {
         isBattleActive = false;
@@ -596,6 +606,65 @@ public class BattleManager : MonoBehaviour
 
     }
 
+    public IEnumerator GameOverCoroutine()
+    {
+        isBattleActive = false;
+        UIButtonHolder.SetActive(false);
+        enemyTargetPanel.SetActive(false);
+        CharacterChoicePanel.SetActive(false);
+        //UIButtonHolder.SetActive(false);
+        //enemyTargetPanel.SetActive(false);
+        //CharacterChoicePanel.SetActive(false);
+        //Player.instance.DeactiveMovement(false);
+        battleNotice.SetText("You Lost");
+        battleNotice.ActivateBattleNotification();
+        
+
+        yield return new WaitForSeconds(3f);
+        foreach (BattleCharacters playerInBattle in activeCharacters)
+        {
+            if (playerInBattle.GetIsPlayer())
+            {
+                foreach (PlayerStats playerInBattleStats in GameManager.instance.GetPlayerStats())
+                {
+                    if (playerInBattle.GetCharcterName() == playerInBattleStats.GetPlayerName())
+                    {
+                        playerInBattleStats.SetCurrentHP(playerInBattle.GetMaxHP());
+                        playerInBattleStats.SetCurrnetMana(playerInBattle.GetMaxHP());
+                        playerInBattle.GetComponent<SpriteRenderer>().sprite = playerInBattleStats.GetCharcterImage();
+
+                    }
+                }
+            }
+            Destroy(playerInBattle.gameObject);
+        }
+        battleScene.SetActive(false);
+        activeCharacters.Clear(); //delete all the active character includeing enemies
+        currentTurn = 0;
+        GameManager.instance.battleIsActive = false;
+        battleScene.SetActive(false);
+        SceneManager.LoadSceneAsync(gameOverScene, LoadSceneMode.Additive);
+        MenuManager.instance.FadeImage();
+
+        if (!unloaded)
+        {
+            unloaded = true;
+            AnyManager.anyManager.UnloadScene(SceneManager.GetSceneAt(1).name);
+            //Debug.Log("Scene unload called: " + arrivingFrom);
+        }
+    }
+    IEnumerator UnloadScene()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        if (!unloaded)
+        {
+            unloaded = true;
+            AnyManager.anyManager.UnloadScene(SceneManager.GetSceneAt(1).name);
+            Debug.Log("Scene unload called: " + SceneManager.GetSceneAt(1).name);
+
+        }
+    }
     //Getters And Setters
     public GameObject GetSpellPanel()
     {
@@ -612,6 +681,10 @@ public class BattleManager : MonoBehaviour
     public BattleCharacters GetCurrentActiveCharacter()
     {
         return activeCharacters[currentTurn];
+    }
+    public void SetIsBattleActive(bool val)
+    {
+        isBattleActive = val;
     }
 
 }

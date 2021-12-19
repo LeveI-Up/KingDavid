@@ -143,7 +143,7 @@ MonoBehaviour:
   xpForNextLevel: 
   baseLevelXP: 100
   maxHP: 70
-  currentHP: 70
+  currentHP: 1
   maxMana: 120
   currnetMana: 120
   defence: 20

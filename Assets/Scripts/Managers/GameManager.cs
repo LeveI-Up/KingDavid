@@ -30,12 +30,12 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            Debug.Log("Saved");
+            
             SaveData();
         }
         if (Input.GetKeyDown(KeyCode.O))
         {
-            Debug.Log("Loaded");
+            
             LoadData();
         }
 
@@ -52,14 +52,15 @@ public class GameManager : MonoBehaviour
     public void SaveData()
     {
         SavingPlayerPosition();
-        SavingPlayerStats();
-        SavingPlayerItems();
-        PlayerPrefs.SetString("Current_Scene", SceneManager.GetActiveScene().name);
+        //SavingPlayerStats();
+        //SavingPlayerItems();
+        PlayerPrefs.SetString("Current_Scene", SceneManager.GetSceneAt(1).name);
+        Debug.Log("Saved");
 
     }
     //loop through all the items in the player inventory saving his position and name, if the item is stackable saving his amount.
 
-    private static void SavingPlayerItems()
+    /*private static void SavingPlayerItems()
     {
         PlayerPrefs.SetInt("Number_Of_Items", Inventory.instance.GetItemsList().Count);
         for (int i = 0; i < Inventory.instance.GetItemsList().Count; i++)
@@ -72,7 +73,7 @@ public class GameManager : MonoBehaviour
                 PlayerPrefs.SetInt("Items_" + i + "_Amount", itemInInventory.amount);
             }
         }
-    }
+    }*/
 
     //Save Player Stats
     private void SavingPlayerStats()
@@ -111,16 +112,20 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetFloat("Player_Pos_X", Player.instance.transform.position.x);
         PlayerPrefs.SetFloat("Player_Pos_Y", Player.instance.transform.position.y);
         PlayerPrefs.SetFloat("Player_Pos_Z", Player.instance.transform.position.z);
-        Debug.Log("Saved");
+        Debug.Log("player transform x is: " + Player.instance.transform.position.x + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_X"));
+        Debug.Log("player transform y is: " + Player.instance.transform.position.y + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_Y"));
+        Debug.Log("player transform z is: " + Player.instance.transform.position.z + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_Z"));
+
+        Debug.Log("pos Saved");
 
     }
 
     public void LoadData()
     {
         LoadingPlayerPosition();
-        LoadingPlayerStats();
-        LoadingPlayerItems();
-        SceneManager.LoadScene(PlayerPrefs.GetString("Current_Scene"));
+        //LoadingPlayerStats();
+        //LoadingPlayerItems();
+        //SceneManager.LoadScene(PlayerPrefs.GetString("Current_Scene"));
         Debug.Log("Loaded");
 
 
@@ -128,7 +133,7 @@ public class GameManager : MonoBehaviour
     }
     //looping throuh saved items count, getting the items name,assets and amount. adding the items to the inventory using the "AddItems" method (including stackable items).
 
-    private static void LoadingPlayerItems()
+    /*private static void LoadingPlayerItems()
     {
         for (int i = 0; i < PlayerPrefs.GetInt("Number_Of_Items"); i++)
         {
@@ -152,6 +157,7 @@ public class GameManager : MonoBehaviour
         MenuManager.instance.UpdateItemsInventory();
 
     }
+    */
 
     //Load Player Stats
 
@@ -185,12 +191,17 @@ public class GameManager : MonoBehaviour
 
     //Load Player Postion
 
-    private static void LoadingPlayerPosition()
+    public static void LoadingPlayerPosition()
     {
         float x = PlayerPrefs.GetFloat("Player_Pos_X");
         float y = PlayerPrefs.GetFloat("Player_Pos_Y");
         float z = PlayerPrefs.GetFloat("Player_Pos_Z");
         Player.instance.transform.position = new Vector3(x, y, z);
+        Debug.Log("player transform x is: " + Player.instance.transform.position.x + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_X"));
+        Debug.Log("player transform y is: " + Player.instance.transform.position.y + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_Y"));
+        Debug.Log("player transform z is: " + Player.instance.transform.position.z + " and the pos saved is: " + PlayerPrefs.GetFloat("Player_Pos_Z"));
+        Debug.Log("pos Loaded");
+
     }
 
 
