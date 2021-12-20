@@ -30,7 +30,6 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] string equipedArmorName;
     [SerializeField] int weaponPower;
     [SerializeField] int armorDefence;
-
     [SerializeField] ItemsManager equipedWeapon, equipedArmor;
 
 
@@ -49,15 +48,13 @@ public class PlayerStats : MonoBehaviour
         {
             xpForNextLevel[i] = (int)(expCalc[0]*i*i*i+expCalc[1]*i*i+expCalc[2]*i);
         }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            AddXP(baseLevelXP);
-        }
+
     }
 
 

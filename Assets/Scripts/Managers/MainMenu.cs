@@ -76,7 +76,7 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         SceneManager.LoadSceneAsync(newGameScene, LoadSceneMode.Additive);
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
         DialogController.instacne.GetDialogBox().SetActive(true);
 
         if (!unloaded)
@@ -113,7 +113,7 @@ public class MainMenu : MonoBehaviour
 
         SceneManager.LoadSceneAsync(PlayerPrefs.GetString("Current_Scene"), LoadSceneMode.Additive);
         GameManager.instance.LoadData();
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
 
 
         if (!unloaded)

@@ -48,6 +48,14 @@ public class BattleManager : MonoBehaviour
     private bool loaded, unloaded;
     [SerializeField] string gameOverScene;
 
+    private bool runingAway;
+    [SerializeField] int xpRewardAmount;
+    [SerializeField] ItemsManager[] itemsRewad;
+
+    private bool canRun;
+
+    
+
 
 
     // Start is called before the first frame update
@@ -85,15 +93,17 @@ public class BattleManager : MonoBehaviour
     }
 
     //start battle with the Enemies in the current scene
-    public void StartBattle(string[] enemiesToSpawn)
+    public void StartBattle(string[] enemiesToSpawn,bool canRunAway)
     {
         if (!isBattleActive)
         {
+            canRun = canRunAway;
             Debug.Log("Battle Is Starting");
             SettingUpBattle();
             AddingPlayers();
             AddingEnemies(enemiesToSpawn);
             UpdatePlayerStats();
+            UpdateBattle();
             waitingForTurn = true;
             currentTurn = 0;  //UnityEngine.Random.Range(0, activeCharacters.Count);
         }
@@ -103,7 +113,7 @@ public class BattleManager : MonoBehaviour
 
     private void AddingEnemies(string[] enemiesToSpawn)
     {
-        for (int i = 0; i < enemiesPrefabs.Length; i++)
+        for (int i = 0; i < enemiesToSpawn.Length; i++)
         {
             if (enemiesToSpawn[i] != "")
             {
@@ -134,19 +144,24 @@ public class BattleManager : MonoBehaviour
             {
                 for (int j = 0; j < playersPrefabs.Length; j++)
                 {
-                    if (playersPrefabs[j].GetCharcterName() == FindObjectsOfType<PlayerStats>()[i].GetPlayerName())
-                    {
-                        BattleCharacters newPlayer = Instantiate(
-                            playersPrefabs[j],
-                            playersPosition[i].position,
-                            playersPosition[i].rotation,
-                            playersPosition[i]
-                      );
+                        if (playersPrefabs[j].GetCharcterName() == FindObjectsOfType<PlayerStats>()[i].GetPlayerName())
+                            {
+                                BattleCharacters newPlayer = Instantiate(
+                                    playersPrefabs[j],
+                                    playersPosition[i].position,
+                                    playersPosition[i].rotation,
+                                    playersPosition[i]
+                              );
 
-                        activeCharacters.Add(newPlayer);
-                        ImportPlayerStats(i);
+                                activeCharacters.Add(newPlayer);
+                                ImportPlayerStats(i);
+                                if (activeCharacters[i].GetCurrentHP() <= 0)
+                                {
+                                    activeCharacters[i].gameObject.SetActive(false);
 
-                    }
+                                }
+                            }
+                    
                 }
             }
         }
@@ -461,31 +476,31 @@ public class BattleManager : MonoBehaviour
     //50% chance to run awey from battle, if sucseed close the battle, else skip player turn.
     public void RunAway()
     {
-        if(UnityEngine.Random.value > chanceToRunAway)
+        if (canRun)
         {
-            GetBattleNotice().SetText("We managed to escape successfully");
-            GetBattleNotice().ActivateBattleNotification();
-            StartCoroutine(CloseBattle());
-            
-
+            if (UnityEngine.Random.value > chanceToRunAway)
+            {
+                runingAway = true;
+                GetBattleNotice().SetText("We managed to escape successfully");
+                GetBattleNotice().ActivateBattleNotification();
+                StartCoroutine(EndBattleCoroutine());
+            }
+            else
+            {
+                NextTurn();
+                GetBattleNotice().SetText("There is no Escape,We can't run away!");
+                GetBattleNotice().ActivateBattleNotification();
+            }
         }
         else
         {
-            NextTurn();
-            GetBattleNotice().SetText("There is no Escape,We can't run away!");
+            GetBattleNotice().SetText("There is no Escape,We can't run away vs Boss!");
             GetBattleNotice().ActivateBattleNotification();
         }
-        
+
     }
     //close the battle after 2 seconds.
-    IEnumerator CloseBattle()
-    {
-        yield return new WaitForSeconds(2f);
-        battleScene.SetActive(false);
-        GameManager.instance.battleIsActive = false;
-        isBattleActive = false;
-        //Player.instance.DeactiveMovement(false);
-    }
+
     //run through all the items in the player inventory and update them.
     public void UpdateItemsInInventory()
     {
@@ -579,8 +594,12 @@ public class BattleManager : MonoBehaviour
         UIButtonHolder.SetActive(false);
         enemyTargetPanel.SetActive(false);
         CharacterChoicePanel.SetActive(false);
-        battleNotice.SetText("We Won");
-        battleNotice.ActivateBattleNotification();
+        if (!runingAway)
+        {
+            battleNotice.SetText("We Won");
+            battleNotice.ActivateBattleNotification();
+        }
+        
 
         yield return new WaitForSeconds(3f);
 
@@ -601,8 +620,20 @@ public class BattleManager : MonoBehaviour
         }
         battleScene.SetActive(false);
         activeCharacters.Clear(); //delete all the active character includeing enemies
+
+        if (runingAway)
+        {
+            GameManager.instance.battleIsActive = false;
+            runingAway = false;
+        }
+        else
+        {
+            BattleRewardsManager.instance.OpenRewardScreen(xpRewardAmount, itemsRewad);
+        }
+
         currentTurn = 0;
         GameManager.instance.battleIsActive = false;
+        AudioManager.instance.PlayBackgroundMusic(CamController.instance.GetmusicToPlay());
 
     }
 
@@ -644,7 +675,7 @@ public class BattleManager : MonoBehaviour
         GameManager.instance.battleIsActive = false;
         battleScene.SetActive(false);
         SceneManager.LoadSceneAsync(gameOverScene, LoadSceneMode.Additive);
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
 
         if (!unloaded)
         {
@@ -685,6 +716,14 @@ public class BattleManager : MonoBehaviour
     public void SetIsBattleActive(bool val)
     {
         isBattleActive = val;
+    }
+    public void SetItemsReward(ItemsManager[] battleItemsReward)
+    {
+        itemsRewad = battleItemsReward;
+    }
+    public void SetXpRewardAmount(int battleXpAmount)
+    {
+        xpRewardAmount = battleXpAmount;
     }
 
 }

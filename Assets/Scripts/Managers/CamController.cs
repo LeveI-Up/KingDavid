@@ -5,6 +5,9 @@ using Cinemachine;
 
 public class CamController : MonoBehaviour
 {
+
+    public static CamController instance;
+
     [SerializeField] Player playerTarget;
     [SerializeField] GameObject player;
     private CinemachineVirtualCamera virtualCamera;
@@ -15,6 +18,7 @@ public class CamController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         playerTarget = FindObjectOfType<Player>();
         virtualCamera = GetComponent<CinemachineVirtualCamera>();
         virtualCamera.Follow = playerTarget.transform;
@@ -36,4 +40,10 @@ public class CamController : MonoBehaviour
             
         }
     }
+
+    public int GetmusicToPlay()
+    {
+        return musicToPlay;
+    }
+
 }

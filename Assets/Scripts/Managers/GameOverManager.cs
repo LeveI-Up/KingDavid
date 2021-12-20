@@ -15,7 +15,7 @@ public class GameOverManager : MonoBehaviour
         //Player.instance.gameObject.SetActive(false);
         //MenuManager.instance.gameObject.SetActive(false);
         BattleManager.instance.gameObject.SetActive(false);
-        AudioManager.instance.PlayBackgroundMusic(9);
+        //AudioManager.instance.PlayBackgroundMusic(9);
         GameManager.instance.battleIsActive = false;
         BattleManager.instance.SetIsBattleActive(false);
         Player.instance.DeactiveMovement(false);
@@ -76,7 +76,7 @@ public class GameOverManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         SceneManager.LoadSceneAsync("MainMenu", LoadSceneMode.Additive);
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
         
 
         if (!unloaded)
@@ -95,7 +95,7 @@ public class GameOverManager : MonoBehaviour
 
 
         GameManager.instance.LoadData();
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
         
 
         if (!unloaded)

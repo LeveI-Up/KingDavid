@@ -86,7 +86,7 @@ public class BattleCharacters : MonoBehaviour
 
     public void KillPlayer()
     {
-        if (deadSprite)
+        if (deadSprite && !isDead)
         {
             GetComponent<SpriteRenderer>().sprite = deadSprite;
             Instantiate(deathEffect, transform.position, transform.rotation);

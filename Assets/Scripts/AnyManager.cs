@@ -13,12 +13,13 @@ public class AnyManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
+        /*if (Input.GetKeyDown(KeyCode.B))
         {
             BattleManager.instance.StartBattle(new string[] { "Mage Master", "Blueface", "Mage", "Warlock" });
             BattleManager.instance.gameObject.SetActive(true);
+            AudioManager.instance.PlayBackgroundMusic(4);
             
-        }
+        }*/
     }
 
     void Awake()

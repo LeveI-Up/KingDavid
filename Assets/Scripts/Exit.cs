@@ -55,7 +55,7 @@ public class Exit : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         SceneManager.LoadSceneAsync(sceneToLoad, LoadSceneMode.Additive);
-        MenuManager.instance.FadeImage();
+        MenuManager.instance.FadeOut();
 
         if (!unloaded)
         {

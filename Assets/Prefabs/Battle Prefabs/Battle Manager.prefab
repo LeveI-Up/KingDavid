@@ -4401,7 +4401,9 @@ MonoBehaviour:
   - {fileID: 13459981269778021}
   - {fileID: 13459982472841400}
   - {fileID: 13459982640591336}
-  gameOverScene: 
+  gameOverScene: GameOver
+  xpRewardAmount: 0
+  itemsRewad: []
 --- !u!1 &13459981684227945
 GameObject:
   m_ObjectHideFlags: 0
