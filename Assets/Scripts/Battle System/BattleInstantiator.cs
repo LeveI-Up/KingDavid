@@ -14,6 +14,11 @@ public class BattleInstantiator : MonoBehaviour
     [SerializeField] int musicToPlay;
 
     [SerializeField] bool canRunAway;
+
+    [SerializeField] bool shouldCompleteQuest;
+    [SerializeField] string questToCompleteName;
+
+    
     
 
     private void Start()
@@ -45,6 +50,9 @@ public class BattleInstantiator : MonoBehaviour
         int selectedBattle = Random.Range(0, availableBattles.Length);
         BattleManager.instance.SetItemsReward(availableBattles[selectedBattle].GetRewardItems());
         BattleManager.instance.SetXpRewardAmount(availableBattles[selectedBattle].GetRewardXP());
+
+        BattleRewardsManager.instance.SetMarkQuestComplete(shouldCompleteQuest);
+        BattleRewardsManager.instance.SetQuestToMarkName(questToCompleteName);
 
         yield return new WaitForSeconds(2f);
         MenuManager.instance.FadeOut();

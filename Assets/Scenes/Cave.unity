@@ -238,9 +238,11 @@ MonoBehaviour:
     - {fileID: 3272878482505909580, guid: 818924be19a12d94195b30ea9fbf08a1, type: 3}
   activateOnEnter: 0
   timeBetweenBattles: 1
-  deactivateBattleAfterStart: 0
+  deactivateBattleAfterStart: 1
   musicToPlay: 10
   canRunAway: 0
+  shouldCompleteQuest: 1
+  questToCompleteName: Kill Dragon
 --- !u!61 &427876226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -709,6 +711,8 @@ MonoBehaviour:
   deactivateBattleAfterStart: 0
   musicToPlay: 4
   canRunAway: 1
+  shouldCompleteQuest: 0
+  questToCompleteName: 
 --- !u!1001 &1689283568
 PrefabInstance:
   m_ObjectHideFlags: 0
