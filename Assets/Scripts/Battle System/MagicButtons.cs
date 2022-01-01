@@ -20,7 +20,7 @@ public class MagicButtons : MonoBehaviour
         }
         else
         {
-            BattleManager.instance.GetBattleNotice().SetText("We don't have enough mane!");
+            BattleManager.instance.GetBattleNotice().SetText("We don't have enough mana!");
             BattleManager.instance.GetBattleNotice().ActivateBattleNotification();
             BattleManager.instance.GetSpellPanel().SetActive(false);
         }

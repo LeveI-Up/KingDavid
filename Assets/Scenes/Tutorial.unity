@@ -155,12 +155,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Mom'
+  - Hello David, Im happy to see you around. Here is some instruction for you.
   - Press the M keyborad button to open the menu. You cant move when the menu is
     open.
   - You can equip items and view your stats at the menu.
   - To collect items you have to walk through them.
-  - You can get back to me whenever you want
-  - Try it now, GOOD LUCK!
+  - I left for you 2 potions near the shop. Explore the map and find them!
+  - If you forget anything you can get back to me whenever you want.
+  - GoodLuck David!
   shouldActivateQuest: 0
   markAsComplete: 0
   questToMark: 
@@ -227,7 +229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &38310990
 BoxCollider2D:
@@ -486,7 +488,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -565,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 162629439401944283, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 162629439401944283, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
@@ -679,7 +681,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1683822767
 PrefabInstance:
@@ -726,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 7775788416945761796, guid: bc7a262be95cb2a4ca7b563620872519,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7775788416945761796, guid: bc7a262be95cb2a4ca7b563620872519,
         type: 3}
@@ -1352,7 +1354,7 @@ Transform:
   - {fileID: 4922482656664018202}
   - {fileID: 4922482655559361879}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4922482656664018197
 GameObject:

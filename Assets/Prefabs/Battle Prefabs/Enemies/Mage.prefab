@@ -102,14 +102,14 @@ MonoBehaviour:
   - Shot
   - Water
   charcterName: Mage
-  currentHP: 10
-  maxHP: 500
-  currentMana: 200
-  maxMana: 200
-  dexterity: 16
-  defence: 5
-  weaponPower: 30
-  armorDefence: 10
+  currentHP: 100
+  maxHP: 100
+  currentMana: 30
+  maxMana: 30
+  dexterity: 2
+  defence: 10
+  weaponPower: 0
+  armorDefence: 0
   isDead: 0
   deadSprite: {fileID: 0}
   deathEffect: {fileID: 0}

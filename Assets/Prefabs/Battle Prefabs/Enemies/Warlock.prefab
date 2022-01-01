@@ -101,14 +101,14 @@ MonoBehaviour:
   - Tentacles
   - Lighthing
   charcterName: Warlock
-  currentHP: 10
-  maxHP: 200
-  currentMana: 500
-  maxMana: 500
-  dexterity: 5
-  defence: 6
-  weaponPower: 60
-  armorDefence: 4
+  currentHP: 50
+  maxHP: 50
+  currentMana: 200
+  maxMana: 200
+  dexterity: 7
+  defence: 3
+  weaponPower: 0
+  armorDefence: 0
   isDead: 0
   deadSprite: {fileID: 0}
   deathEffect: {fileID: 0}

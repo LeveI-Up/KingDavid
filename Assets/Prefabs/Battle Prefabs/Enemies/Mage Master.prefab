@@ -102,14 +102,14 @@ MonoBehaviour:
   - Tentacles
   - Water
   charcterName: Mage Master
-  currentHP: 10
-  maxHP: 666
-  currentMana: 666
-  maxMana: 666
-  dexterity: 23
-  defence: 12
-  weaponPower: 45
-  armorDefence: 30
+  currentHP: 30
+  maxHP: 30
+  currentMana: 200
+  maxMana: 200
+  dexterity: 10
+  defence: 2
+  weaponPower: 0
+  armorDefence: 0
   isDead: 0
   deadSprite: {fileID: 0}
   deathEffect: {fileID: 0}

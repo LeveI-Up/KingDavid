@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         {
             continueButton.SetActive(false);
         }
-        AudioManager.instance.PlayBackgroundMusic(7);
+        
     }
 
     // Update is called once per frame
@@ -32,6 +32,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGameButton()
     {
+        
         if (!loaded)
         {
             Player.instance.transitionName = newGameScene;
@@ -43,8 +44,10 @@ public class MainMenu : MonoBehaviour
 
 
             loaded = true;
+            //AudioManager.instance.StopMusic();
         }
         //Player.instance.transform.position = new Vector3(19, 4, 0);
+        AudioManager.instance.StopMusic();
     }
     
     public void ExitButton()

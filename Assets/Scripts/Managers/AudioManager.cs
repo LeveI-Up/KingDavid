@@ -38,10 +38,11 @@ public class AudioManager : MonoBehaviour
             backgraoundMusic[musicToPlay].Play();
         }
     }
-    private void StopMusic()
+    public void StopMusic()
     {
         foreach(AudioSource music in backgraoundMusic)
         {
+            
             music.Stop();
         }
     }
