@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] PlayerStats[] playerStats;
     public GameObject[] sceneObjects;
 
+    private bool loaded, unloaded;
     public bool gameMenuOpened, dialogBoxOpned, shopOpened, battleIsActive;
 
     [SerializeField] int currentCoines;
@@ -122,6 +123,8 @@ public class GameManager : MonoBehaviour
 
     public void LoadData()
     {
+        LoadLastSave();
+
         LoadingPlayerPosition();
         //LoadingPlayerStats();
         //LoadingPlayerItems();
@@ -204,7 +207,41 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void LoadLastSave()
+    {
+        if (!loaded)
+        {
+            Player.instance.transitionName = PlayerPrefs.GetString("Current_Scene");
 
+            MenuManager.instance.FadeImage();
+
+            StartCoroutine(LoadSavedSceneCoroutine());
+
+
+
+            loaded = true;
+        }
+    }
+
+    IEnumerator LoadSavedSceneCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+
+        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("Current_Scene"), LoadSceneMode.Additive);
+
+
+        GameManager.instance.LoadData();
+        MenuManager.instance.FadeOut();
+
+
+        if (!unloaded)
+        {
+            unloaded = true;
+            AnyManager.anyManager.UnloadScene(SceneManager.GetSceneAt(1).name);
+            //Debug.Log("Scene unload called: " + arrivingFrom);
+        }
+
+    }
 
     //Getters and Setters
     public PlayerStats[] GetPlayerStats()
