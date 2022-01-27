@@ -9,14 +9,17 @@
   
   
 ![1](https://user-images.githubusercontent.com/20986238/142910402-7a07fb44-7e06-43d7-b309-72a94111da6d.png)
-
-  [Game Tutorial](https://www.youtube.com/watch?v=sxJfB0S_jXw)
   
   לפירוט המלא יש ללחוץ [כאן](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
-לצפייה בסירטון דמו קצר של המשחק יש ללחוץ [כאן](https://youtu.be/x6bMpKlQ_Uw)
+לטריילר של המשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=sxJfB0S_jXw)
+  
+  לצפייה בסירטון דמו קצר של המשחק יש ללחוץ [כאן](https://youtu.be/x6bMpKlQ_Uw)
+
   
   על מנת לשחק במשחק יש ללחוץ [כאן](https://saar95.itch.io/kingdavid)
+  
+  
 
 
 
