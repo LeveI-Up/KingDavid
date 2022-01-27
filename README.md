@@ -10,6 +10,7 @@
   
 ![1](https://user-images.githubusercontent.com/20986238/142910402-7a07fb44-7e06-43d7-b309-72a94111da6d.png)
 
+  [Game Tutorial](https://www.youtube.com/watch?v=sxJfB0S_jXw)
   
   לפירוט המלא יש ללחוץ [כאן](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
