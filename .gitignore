@@ -106,9 +106,9 @@ $RECYCLE.BIN/
 
 # Pycharm project
 .idea
-Assets/
+
 Assets/Design/Tiles/
-Assets/
+
 Assets/Sprite/
 Assets/Design/
 Assets/Design/UI/Background/background.png
