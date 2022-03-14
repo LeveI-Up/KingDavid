@@ -231,7 +231,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &510185475
 GameObject:
@@ -16447,22 +16447,22 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (MyMap)
+      value: Area Exit (EnterToCave)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Mountains-MyMap
+      value: EscapeCave-EnterToCave
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: MyMap
+      value: EnterToCave
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: Mountains
+      value: EscapeCave
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16542,7 +16542,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Mountains-MyMap
+      value: EscapeCave-EnterToCave
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
@@ -16560,7 +16560,7 @@ GameObject:
   - component: {fileID: 1868322322}
   - component: {fileID: 1868322321}
   m_Layer: 0
-  m_Name: Yonatan
+  m_Name: Saul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16631,11 +16631,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Yonatan'
-  - David!! you have to run
-  - Shaoul is coming to kill you
-  - Go out!!!
-  - You look like a nice guy!
+  - '#David'
+  - My people told me to kill you, but I didn't
+  - My people told me to kill you, but I didn't
+  - Why do you keep chasing me?
+  - '#Saul'
+  - Crying...
+  - I'm sorry son
+  - You will be the next king of Israel
   shouldActivateQuest: 1
   markAsComplete: 0
   questToMark: 
@@ -16678,7 +16681,7 @@ SpriteRenderer:
   m_SortingLayerID: 1206826079
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7778532581436288841, guid: d27a4b38259284a4aa4a8871a7feba8d,
+  m_Sprite: {fileID: 6586815544308170364, guid: 472912dd8c34ae74b9d0454a4a13f1c4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
