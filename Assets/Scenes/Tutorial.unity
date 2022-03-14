@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 38310991}
   - component: {fileID: 38310990}
   m_Layer: 0
-  m_Name: Ishay
+  m_Name: Ishayy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,7 +762,7 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.06561
+      value: 28.070635
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
