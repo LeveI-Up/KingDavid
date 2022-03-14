@@ -18470,7 +18470,7 @@ GameObject:
   - component: {fileID: 1844692340}
   - component: {fileID: 1844692339}
   m_Layer: 0
-  m_Name: Ishay
+  m_Name: Samuel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18541,8 +18541,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Ishay'
-  - 'Oh David, you''re here! '
+  - '#Sauls'
+  - Hi David, I was looking for you. My name is Samuel and Im a prophet.
+  - God likes you and he chose you to be a king over Kingdom of Judah
+  - Someone came looking for you, I sent him to the farm to check if you are there,
+    go to the farm and check what he wants
   - Someone came looking for you, I sent him to the farm to check if you are there,
     go to the farm and check what he wants
   shouldActivateQuest: 0
@@ -18587,7 +18590,7 @@ SpriteRenderer:
   m_SortingLayerID: 1206826079
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1932845869474429621, guid: 5bed42b625e4ad74e8054f15cee236aa,
+  m_Sprite: {fileID: 1211069477251174031, guid: 472912dd8c34ae74b9d0454a4a13f1c4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
