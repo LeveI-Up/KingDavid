@@ -1,0 +1,6859 @@
+fileFormatVersion: 2
+guid: 1cdb30d1628e405409936c203b5c3c29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9148424788327215137
+    second: house_inside_0
+  - first:
+      213: 3683722773119245193
+    second: house_inside_1
+  - first:
+      213: -4999600647837781678
+    second: house_inside_2
+  - first:
+      213: 3858617259711205749
+    second: house_inside_3
+  - first:
+      213: 1849840550986775337
+    second: house_inside_4
+  - first:
+      213: 6193240340550678066
+    second: house_inside_5
+  - first:
+      213: -1284556959847111471
+    second: house_inside_6
+  - first:
+      213: 74760179412108337
+    second: house_inside_7
+  - first:
+      213: -2543170857202912284
+    second: house_inside_8
+  - first:
+      213: 5216444334996508267
+    second: house_inside_9
+  - first:
+      213: -820457433851594732
+    second: house_inside_10
+  - first:
+      213: -3458579195802199619
+    second: house_inside_11
+  - first:
+      213: 5702040703865688475
+    second: house_inside_12
+  - first:
+      213: -5820467846323278761
+    second: house_inside_13
+  - first:
+      213: 3784867561938511510
+    second: house_inside_14
+  - first:
+      213: 3786028699559451800
+    second: house_inside_15
+  - first:
+      213: -875315614596829081
+    second: house_inside_16
+  - first:
+      213: 2813832418810350129
+    second: house_inside_17
+  - first:
+      213: -8530769444949031014
+    second: house_inside_18
+  - first:
+      213: 2079179655744606707
+    second: house_inside_19
+  - first:
+      213: -9193324871320334080
+    second: house_inside_20
+  - first:
+      213: -8027396995707209803
+    second: house_inside_21
+  - first:
+      213: -5978935110029729652
+    second: house_inside_22
+  - first:
+      213: -5094902281007842012
+    second: house_inside_23
+  - first:
+      213: -2268078611275853562
+    second: house_inside_24
+  - first:
+      213: 4088615829245851429
+    second: house_inside_25
+  - first:
+      213: 3760295308566809940
+    second: house_inside_26
+  - first:
+      213: -875937278188371660
+    second: house_inside_27
+  - first:
+      213: 283630505757842597
+    second: house_inside_28
+  - first:
+      213: 3537462834789896325
+    second: house_inside_29
+  - first:
+      213: -6069078433022016601
+    second: house_inside_30
+  - first:
+      213: -851104025000361787
+    second: house_inside_31
+  - first:
+      213: -5448089688964734502
+    second: house_inside_32
+  - first:
+      213: 7413017338891050784
+    second: house_inside_33
+  - first:
+      213: -2122170628480415522
+    second: house_inside_34
+  - first:
+      213: -7615732939544857688
+    second: house_inside_35
+  - first:
+      213: 4744556988742751272
+    second: house_inside_36
+  - first:
+      213: -6374584399854268834
+    second: house_inside_37
+  - first:
+      213: -4884869971244045434
+    second: house_inside_38
+  - first:
+      213: -8778659757642496502
+    second: house_inside_39
+  - first:
+      213: 8283849452797170047
+    second: house_inside_40
+  - first:
+      213: 7462444097848772087
+    second: house_inside_41
+  - first:
+      213: 678478589706770490
+    second: house_inside_42
+  - first:
+      213: 6506309357758034245
+    second: house_inside_43
+  - first:
+      213: 4704268330915323395
+    second: house_inside_44
+  - first:
+      213: -3021136398221027853
+    second: house_inside_45
+  - first:
+      213: -4449053926826600378
+    second: house_inside_46
+  - first:
+      213: -4535844427094764281
+    second: house_inside_47
+  - first:
+      213: -3349933922726364929
+    second: house_inside_48
+  - first:
+      213: -8410179788454241744
+    second: house_inside_49
+  - first:
+      213: 7343319541380564418
+    second: house_inside_50
+  - first:
+      213: 3557526658040774834
+    second: house_inside_51
+  - first:
+      213: -311065408754942564
+    second: house_inside_52
+  - first:
+      213: -3209482302565369892
+    second: house_inside_53
+  - first:
+      213: 3593879413866039466
+    second: house_inside_54
+  - first:
+      213: -1069566987513788859
+    second: house_inside_55
+  - first:
+      213: 8671795737409695010
+    second: house_inside_56
+  - first:
+      213: -1576458127506264609
+    second: house_inside_57
+  - first:
+      213: -2516487889321809500
+    second: house_inside_58
+  - first:
+      213: -2439049125969365689
+    second: house_inside_59
+  - first:
+      213: -5287967167398056361
+    second: house_inside_60
+  - first:
+      213: 4266552105246174529
+    second: house_inside_61
+  - first:
+      213: 8966755538673202170
+    second: house_inside_62
+  - first:
+      213: -5528984829652207608
+    second: house_inside_63
+  - first:
+      213: -7226403993643226058
+    second: house_inside_64
+  - first:
+      213: 3688935852489777389
+    second: house_inside_65
+  - first:
+      213: 808600731743771579
+    second: house_inside_66
+  - first:
+      213: -3197683948423655656
+    second: house_inside_67
+  - first:
+      213: 5207227615139951981
+    second: house_inside_68
+  - first:
+      213: -8089613225645046085
+    second: house_inside_69
+  - first:
+      213: 4288350556812296592
+    second: house_inside_70
+  - first:
+      213: -4647147166019103992
+    second: house_inside_71
+  - first:
+      213: -5524182481582995834
+    second: house_inside_72
+  - first:
+      213: 4701264073995020675
+    second: house_inside_73
+  - first:
+      213: 5314101208056349308
+    second: house_inside_74
+  - first:
+      213: 4165165375517546915
+    second: house_inside_75
+  - first:
+      213: -4288553687339480383
+    second: house_inside_76
+  - first:
+      213: 2226452327984773757
+    second: house_inside_77
+  - first:
+      213: 4001549175493786191
+    second: house_inside_78
+  - first:
+      213: 1034794406329892174
+    second: house_inside_79
+  - first:
+      213: 1041073317842458397
+    second: house_inside_80
+  - first:
+      213: 6978252407022797019
+    second: house_inside_81
+  - first:
+      213: 7613507124980161789
+    second: house_inside_82
+  - first:
+      213: -8306234966807226011
+    second: house_inside_83
+  - first:
+      213: 3727363219252326749
+    second: house_inside_84
+  - first:
+      213: -2572152524215904502
+    second: house_inside_85
+  - first:
+      213: 2524377514952829972
+    second: house_inside_86
+  - first:
+      213: 3869639092458999101
+    second: house_inside_87
+  - first:
+      213: 3511615340977340632
+    second: house_inside_88
+  - first:
+      213: 400467412687883205
+    second: house_inside_89
+  - first:
+      213: -8772544508618641700
+    second: house_inside_90
+  - first:
+      213: 2537966043465746731
+    second: house_inside_91
+  - first:
+      213: -6342379068499136698
+    second: house_inside_92
+  - first:
+      213: -2089089268261277979
+    second: house_inside_93
+  - first:
+      213: -4944645479401725522
+    second: house_inside_94
+  - first:
+      213: 7188585761032041963
+    second: house_inside_95
+  - first:
+      213: -8527825047938455102
+    second: house_inside_96
+  - first:
+      213: -6993440488548754609
+    second: house_inside_97
+  - first:
+      213: 3813588901821461375
+    second: house_inside_98
+  - first:
+      213: -8895719276556531305
+    second: house_inside_99
+  - first:
+      213: 2236149955429924384
+    second: house_inside_100
+  - first:
+      213: -1614067843277157330
+    second: house_inside_101
+  - first:
+      213: -1685313497584042872
+    second: house_inside_102
+  - first:
+      213: 5328614801524899934
+    second: house_inside_103
+  - first:
+      213: 3523051319767804612
+    second: house_inside_104
+  - first:
+      213: 4597379060901691743
+    second: house_inside_105
+  - first:
+      213: 1803357988461895470
+    second: house_inside_106
+  - first:
+      213: 3063682727153333270
+    second: house_inside_107
+  - first:
+      213: -1115780551136626176
+    second: house_inside_108
+  - first:
+      213: -4543214809320599551
+    second: house_inside_109
+  - first:
+      213: -4502346576803137385
+    second: house_inside_110
+  - first:
+      213: -8197899473675653646
+    second: house_inside_111
+  - first:
+      213: 4493141083065271355
+    second: house_inside_112
+  - first:
+      213: 2753769062754556513
+    second: house_inside_113
+  - first:
+      213: 522731767312041300
+    second: house_inside_114
+  - first:
+      213: -6027282059672766577
+    second: house_inside_115
+  - first:
+      213: -2025142511497603658
+    second: house_inside_116
+  - first:
+      213: 8158299983061724507
+    second: house_inside_117
+  - first:
+      213: 750455861349255799
+    second: house_inside_118
+  - first:
+      213: 3036846483435928543
+    second: house_inside_119
+  - first:
+      213: 53620134605926972
+    second: house_inside_120
+  - first:
+      213: -6717806759703769257
+    second: house_inside_121
+  - first:
+      213: -825828379190800890
+    second: house_inside_122
+  - first:
+      213: -2244929992188052084
+    second: house_inside_123
+  - first:
+      213: 1192182050904374553
+    second: house_inside_124
+  - first:
+      213: 3311998305072664078
+    second: house_inside_125
+  - first:
+      213: -7581782765385651938
+    second: house_inside_126
+  - first:
+      213: 4380235580758126414
+    second: house_inside_127
+  - first:
+      213: 3509674330675034930
+    second: house_inside_128
+  - first:
+      213: 7367963547084733447
+    second: house_inside_129
+  - first:
+      213: -6343051740415697200
+    second: house_inside_130
+  - first:
+      213: -5417968828976608341
+    second: house_inside_131
+  - first:
+      213: -928104489473320930
+    second: house_inside_132
+  - first:
+      213: -3633128125982403846
+    second: house_inside_133
+  - first:
+      213: 6365001399761147361
+    second: house_inside_134
+  - first:
+      213: 1751138937627276508
+    second: house_inside_135
+  - first:
+      213: 7156448521518952339
+    second: house_inside_136
+  - first:
+      213: -2333414699777251478
+    second: house_inside_137
+  - first:
+      213: 6868058610898111139
+    second: house_inside_138
+  - first:
+      213: 1155012181488150065
+    second: house_inside_139
+  - first:
+      213: -7358468184481985036
+    second: house_inside_140
+  - first:
+      213: -4104120776362562584
+    second: house_inside_141
+  - first:
+      213: -1955328455490519471
+    second: house_inside_142
+  - first:
+      213: 8641024140348805635
+    second: house_inside_143
+  - first:
+      213: 1183967736032515468
+    second: house_inside_144
+  - first:
+      213: 8365945121424757753
+    second: house_inside_145
+  - first:
+      213: -4095833987706574434
+    second: house_inside_146
+  - first:
+      213: 93777565292648770
+    second: house_inside_147
+  - first:
+      213: -5036556065967209129
+    second: house_inside_148
+  - first:
+      213: 1657341996508235909
+    second: house_inside_149
+  - first:
+      213: -1334423334070630958
+    second: house_inside_150
+  - first:
+      213: -1438961469009941939
+    second: house_inside_151
+  - first:
+      213: -1936789137028326033
+    second: house_inside_152
+  - first:
+      213: -6574622405714959409
+    second: house_inside_153
+  - first:
+      213: -6241010026693948422
+    second: house_inside_154
+  - first:
+      213: -5671850399975225736
+    second: house_inside_155
+  - first:
+      213: -1684581160806257139
+    second: house_inside_156
+  - first:
+      213: 5738482993926695605
+    second: house_inside_157
+  - first:
+      213: 2791885858738436952
+    second: house_inside_158
+  - first:
+      213: 5623127655252078724
+    second: house_inside_159
+  - first:
+      213: 2725742564575230480
+    second: house_inside_160
+  - first:
+      213: 6346540412148297360
+    second: house_inside_161
+  - first:
+      213: -1773445615747907224
+    second: house_inside_162
+  - first:
+      213: 7114022839665304171
+    second: house_inside_163
+  - first:
+      213: 5489383699737805851
+    second: house_inside_164
+  - first:
+      213: 2619755522042274004
+    second: house_inside_165
+  - first:
+      213: 7091288135402128724
+    second: house_inside_166
+  - first:
+      213: -1727010267198613557
+    second: house_inside_167
+  - first:
+      213: -21760170114135706
+    second: house_inside_168
+  - first:
+      213: -4925293649360136362
+    second: house_inside_169
+  - first:
+      213: -3433630373624741395
+    second: house_inside_170
+  - first:
+      213: 5854373238533102353
+    second: house_inside_171
+  - first:
+      213: -7256044971896356054
+    second: house_inside_172
+  - first:
+      213: 5835119424300546427
+    second: house_inside_173
+  - first:
+      213: 2443297242471385582
+    second: house_inside_174
+  - first:
+      213: -7960714496341298644
+    second: house_inside_175
+  - first:
+      213: 3495074120824486861
+    second: house_inside_176
+  - first:
+      213: 4840682655011066144
+    second: house_inside_177
+  - first:
+      213: 7940751070099872513
+    second: house_inside_178
+  - first:
+      213: 23003425401537016
+    second: house_inside_179
+  - first:
+      213: -6484530538731592921
+    second: house_inside_180
+  - first:
+      213: 381177601776248614
+    second: house_inside_181
+  - first:
+      213: -2000468787841152094
+    second: house_inside_182
+  - first:
+      213: -3650686998169798916
+    second: house_inside_183
+  - first:
+      213: -3812335734596098444
+    second: house_inside_184
+  - first:
+      213: -1394937315218821632
+    second: house_inside_185
+  - first:
+      213: -8089907157582342055
+    second: house_inside_186
+  - first:
+      213: -3467075676879816449
+    second: house_inside_187
+  - first:
+      213: -3706242999245011147
+    second: house_inside_188
+  - first:
+      213: -2728626951305058710
+    second: house_inside_189
+  - first:
+      213: 3536431936372302708
+    second: house_inside_190
+  - first:
+      213: 6643154578529382613
+    second: house_inside_191
+  - first:
+      213: -1306951089314853988
+    second: house_inside_192
+  - first:
+      213: -1207458869250706924
+    second: house_inside_193
+  - first:
+      213: -6618969102028414003
+    second: house_inside_194
+  - first:
+      213: 8753259562526429194
+    second: house_inside_195
+  - first:
+      213: -9074513947937472039
+    second: house_inside_196
+  - first:
+      213: -3007417651960341406
+    second: house_inside_197
+  - first:
+      213: 1830339138835875741
+    second: house_inside_198
+  - first:
+      213: -2501339718714010005
+    second: house_inside_199
+  - first:
+      213: -3973218167236905103
+    second: house_inside_200
+  - first:
+      213: -4492043008186455969
+    second: house_inside_201
+  - first:
+      213: 2424531238199577395
+    second: house_inside_202
+  - first:
+      213: 8883963646876043986
+    second: house_inside_203
+  - first:
+      213: 5953906172182200183
+    second: house_inside_204
+  - first:
+      213: -2354995126518706771
+    second: house_inside_205
+  - first:
+      213: -3995622147827765633
+    second: house_inside_206
+  - first:
+      213: -2591074435403218474
+    second: house_inside_207
+  - first:
+      213: -4841078032679369657
+    second: house_inside_208
+  - first:
+      213: -8833900624376949055
+    second: house_inside_209
+  - first:
+      213: -7204536811098001159
+    second: house_inside_210
+  - first:
+      213: 7334916519793663716
+    second: house_inside_211
+  - first:
+      213: -3878142140174048298
+    second: house_inside_212
+  - first:
+      213: 1535293233088540311
+    second: house_inside_213
+  - first:
+      213: -3372085459559960205
+    second: house_inside_214
+  - first:
+      213: -1857171356571518386
+    second: house_inside_215
+  - first:
+      213: -2059037553346567549
+    second: house_inside_216
+  - first:
+      213: 3256641965728793631
+    second: house_inside_217
+  - first:
+      213: 5013657087578147694
+    second: house_inside_218
+  - first:
+      213: -3628279648068679993
+    second: house_inside_219
+  - first:
+      213: 436806122624591531
+    second: house_inside_220
+  - first:
+      213: 1062771682876856845
+    second: house_inside_221
+  - first:
+      213: -6734471239690931970
+    second: house_inside_222
+  - first:
+      213: 5047665991612359514
+    second: house_inside_223
+  - first:
+      213: 5764452215147450604
+    second: house_inside_224
+  - first:
+      213: 3775731768258348917
+    second: house_inside_225
+  - first:
+      213: 2414933324794204308
+    second: house_inside_226
+  - first:
+      213: -5964000380442665620
+    second: house_inside_227
+  - first:
+      213: 6257548526233900450
+    second: house_inside_228
+  - first:
+      213: 3079990516781005053
+    second: house_inside_229
+  - first:
+      213: -3317419695054708431
+    second: house_inside_230
+  - first:
+      213: 5653645726698745829
+    second: house_inside_231
+  - first:
+      213: 3604331029191136090
+    second: house_inside_232
+  - first:
+      213: 3811275210363974065
+    second: house_inside_233
+  - first:
+      213: -1262984227700209547
+    second: house_inside_234
+  - first:
+      213: -4431273009000810984
+    second: house_inside_235
+  - first:
+      213: 1355023407776802461
+    second: house_inside_236
+  - first:
+      213: -7039925856911622972
+    second: house_inside_237
+  - first:
+      213: 3443651059452019556
+    second: house_inside_238
+  - first:
+      213: -270496752091540768
+    second: house_inside_239
+  - first:
+      213: -8997138712743877437
+    second: house_inside_240
+  - first:
+      213: 5478397005514000336
+    second: house_inside_241
+  - first:
+      213: 7469109200827133466
+    second: house_inside_242
+  - first:
+      213: 2802580149263661050
+    second: house_inside_243
+  - first:
+      213: -4702068309025341044
+    second: house_inside_244
+  - first:
+      213: 865391804200991082
+    second: house_inside_245
+  - first:
+      213: 7033038031399408100
+    second: house_inside_246
+  - first:
+      213: -5372022687187062227
+    second: house_inside_247
+  - first:
+      213: 2006711061267508694
+    second: house_inside_248
+  - first:
+      213: 1330976371355522018
+    second: house_inside_249
+  - first:
+      213: -2606583502551181576
+    second: house_inside_250
+  - first:
+      213: 7544749777832340467
+    second: house_inside_251
+  - first:
+      213: 4755811290348122032
+    second: house_inside_252
+  - first:
+      213: -4107757754840717397
+    second: house_inside_253
+  - first:
+      213: 8486434027357559943
+    second: house_inside_254
+  - first:
+      213: 6769768535665118401
+    second: house_inside_255
+  - first:
+      213: -5909244824092932122
+    second: house_inside_256
+  - first:
+      213: 8932318523010250783
+    second: house_inside_257
+  - first:
+      213: 4457117845093145164
+    second: house_inside_258
+  - first:
+      213: 2908411031597379220
+    second: house_inside_259
+  - first:
+      213: -523475874505312163
+    second: house_inside_260
+  - first:
+      213: -8855415295592018535
+    second: house_inside_261
+  - first:
+      213: 2328917031380011962
+    second: house_inside_262
+  - first:
+      213: 2196034831881038043
+    second: house_inside_263
+  - first:
+      213: -6229974165015181999
+    second: house_inside_264
+  - first:
+      213: -8214817418513708501
+    second: house_inside_265
+  - first:
+      213: -2882726842917997146
+    second: house_inside_266
+  - first:
+      213: -4251032944965556264
+    second: house_inside_267
+  - first:
+      213: 6379012955048671022
+    second: house_inside_268
+  - first:
+      213: -7988950731730428153
+    second: house_inside_269
+  - first:
+      213: -1422481766471690024
+    second: house_inside_270
+  - first:
+      213: 7493964267584363546
+    second: house_inside_271
+  - first:
+      213: -4995872649811975435
+    second: house_inside_272
+  - first:
+      213: -7083784028831860631
+    second: house_inside_273
+  - first:
+      213: 3463662737372181690
+    second: house_inside_274
+  - first:
+      213: 3883099314137296665
+    second: house_inside_275
+  - first:
+      213: -5637315535684770209
+    second: house_inside_276
+  - first:
+      213: -182842669417580125
+    second: house_inside_277
+  - first:
+      213: -5994331968790025013
+    second: house_inside_278
+  - first:
+      213: 1405225973833348699
+    second: house_inside_279
+  - first:
+      213: 559735805807500891
+    second: house_inside_280
+  - first:
+      213: -4739783325666915790
+    second: house_inside_281
+  - first:
+      213: 3123613602485596032
+    second: house_inside_282
+  - first:
+      213: -6098090465730593468
+    second: house_inside_283
+  - first:
+      213: 6845098839897409099
+    second: house_inside_284
+  - first:
+      213: -2885488243152416153
+    second: house_inside_285
+  - first:
+      213: 401227109919758485
+    second: house_inside_286
+  - first:
+      213: 5297533889823368246
+    second: house_inside_287
+  - first:
+      213: -7679868834608171556
+    second: house_inside_288
+  - first:
+      213: -7969466885799348039
+    second: house_inside_289
+  - first:
+      213: -4002046971881896927
+    second: house_inside_290
+  - first:
+      213: 7591654099373453685
+    second: house_inside_291
+  - first:
+      213: -6144700923629861026
+    second: house_inside_292
+  - first:
+      213: 7809667670254340743
+    second: house_inside_293
+  - first:
+      213: 8639432624562792325
+    second: house_inside_294
+  - first:
+      213: 2855740312332576936
+    second: house_inside_295
+  - first:
+      213: 4846245732105376199
+    second: house_inside_296
+  - first:
+      213: 5924307753278729013
+    second: house_inside_297
+  - first:
+      213: -6177708415968412711
+    second: house_inside_298
+  - first:
+      213: 3168230231107986634
+    second: house_inside_299
+  - first:
+      213: 6880100006299365453
+    second: house_inside_300
+  - first:
+      213: -4457805532145225420
+    second: house_inside_301
+  - first:
+      213: 3708083800468107412
+    second: house_inside_302
+  - first:
+      213: -4022145425308474854
+    second: house_inside_303
+  - first:
+      213: -6698846837708313225
+    second: house_inside_304
+  - first:
+      213: 6328965395562189726
+    second: house_inside_305
+  - first:
+      213: 3138580044931058529
+    second: house_inside_306
+  - first:
+      213: -1554996962029725120
+    second: house_inside_307
+  - first:
+      213: -8405399357281662392
+    second: house_inside_308
+  - first:
+      213: 5857659991071865638
+    second: house_inside_309
+  - first:
+      213: 8972558674357457473
+    second: house_inside_310
+  - first:
+      213: -1203489985969960713
+    second: house_inside_311
+  - first:
+      213: -2117943996371209865
+    second: house_inside_312
+  - first:
+      213: -2433879675987531102
+    second: house_inside_313
+  - first:
+      213: 7588683867450345804
+    second: house_inside_314
+  - first:
+      213: 2419138848082637320
+    second: house_inside_315
+  - first:
+      213: -5490842746438731958
+    second: house_inside_316
+  - first:
+      213: -6915497947982950055
+    second: house_inside_317
+  - first:
+      213: 8899028953525054953
+    second: house_inside_318
+  - first:
+      213: -3276331484393745557
+    second: house_inside_319
+  - first:
+      213: -1690537801974846283
+    second: house_inside_320
+  - first:
+      213: -6982767267342627849
+    second: house_inside_321
+  - first:
+      213: 4925296423706939886
+    second: house_inside_322
+  - first:
+      213: -6230608869625742427
+    second: house_inside_323
+  - first:
+      213: -3252136360117568361
+    second: house_inside_324
+  - first:
+      213: -8497577510970571525
+    second: house_inside_325
+  - first:
+      213: 6295803884569881961
+    second: house_inside_326
+  - first:
+      213: 8686945725384807441
+    second: house_inside_327
+  - first:
+      213: -1170232440519133359
+    second: house_inside_328
+  - first:
+      213: -2562984340469263703
+    second: house_inside_329
+  - first:
+      213: -7459744827893531046
+    second: house_inside_330
+  - first:
+      213: -7150793730409962331
+    second: house_inside_331
+  - first:
+      213: -1268609958126955161
+    second: house_inside_332
+  - first:
+      213: 3348422630051193587
+    second: house_inside_333
+  - first:
+      213: 630823787494108609
+    second: house_inside_334
+  - first:
+      213: -7431911053593397062
+    second: house_inside_335
+  - first:
+      213: -4888166646901005684
+    second: house_inside_336
+  - first:
+      213: 2535166063377978190
+    second: house_inside_337
+  - first:
+      213: 334927130271566808
+    second: house_inside_338
+  - first:
+      213: 5977342158851422787
+    second: house_inside_339
+  - first:
+      213: 6921619470285625278
+    second: house_inside_340
+  - first:
+      213: -3178567995745602876
+    second: house_inside_341
+  - first:
+      213: 9207757854737067865
+    second: house_inside_342
+  - first:
+      213: 6993089481830244760
+    second: house_inside_343
+  - first:
+      213: -5529487365943761421
+    second: house_inside_344
+  - first:
+      213: 512902669358876985
+    second: house_inside_345
+  - first:
+      213: 2944444026163174636
+    second: house_inside_346
+  - first:
+      213: 4220347810732365172
+    second: house_inside_347
+  - first:
+      213: 139518254453787360
+    second: house_inside_348
+  - first:
+      213: -5164374838208397385
+    second: house_inside_349
+  - first:
+      213: -3553064052865314668
+    second: house_inside_350
+  - first:
+      213: -6278499336500991171
+    second: house_inside_351
+  - first:
+      213: -1893575600100134000
+    second: house_inside_352
+  - first:
+      213: 7648670990330657789
+    second: house_inside_353
+  - first:
+      213: -5593877629935900845
+    second: house_inside_354
+  - first:
+      213: 8534255331870468499
+    second: house_inside_355
+  - first:
+      213: 6734349274466215199
+    second: house_inside_356
+  - first:
+      213: -9148126667278551577
+    second: house_inside_357
+  - first:
+      213: -4208860940311575492
+    second: house_inside_358
+  - first:
+      213: -2595875989675865122
+    second: house_inside_359
+  - first:
+      213: 4578179313411423004
+    second: house_inside_360
+  - first:
+      213: 828529758246084753
+    second: house_inside_361
+  - first:
+      213: -1781597627240758825
+    second: house_inside_362
+  - first:
+      213: 5091535196472930384
+    second: house_inside_363
+  - first:
+      213: -1434701622873582408
+    second: house_inside_364
+  - first:
+      213: -5224018025502256120
+    second: house_inside_365
+  - first:
+      213: 504690847590438617
+    second: house_inside_366
+  - first:
+      213: 7764400017919917825
+    second: house_inside_367
+  - first:
+      213: -3516949346443101711
+    second: house_inside_368
+  - first:
+      213: 3211572386635083215
+    second: house_inside_369
+  - first:
+      213: 6159304429782597952
+    second: house_inside_370
+  - first:
+      213: -7637485691571846065
+    second: house_inside_371
+  - first:
+      213: 2250427314583132645
+    second: house_inside_372
+  - first:
+      213: 2824352352646167548
+    second: house_inside_373
+  - first:
+      213: -1220433142429404428
+    second: house_inside_374
+  - first:
+      213: 7337429673876387963
+    second: house_inside_375
+  - first:
+      213: -4566902165440720707
+    second: house_inside_376
+  - first:
+      213: 1096864001086152016
+    second: house_inside_377
+  - first:
+      213: -7000464885569814124
+    second: house_inside_378
+  - first:
+      213: 2162431212041592486
+    second: house_inside_379
+  - first:
+      213: -5078607302967546242
+    second: house_inside_380
+  - first:
+      213: 1653564055244737865
+    second: house_inside_381
+  - first:
+      213: -1826461364873575411
+    second: house_inside_382
+  - first:
+      213: -1496101665567240021
+    second: house_inside_383
+  - first:
+      213: -6480320917108565407
+    second: house_inside_384
+  - first:
+      213: -5482339250968087556
+    second: house_inside_385
+  - first:
+      213: 8417609339853040857
+    second: house_inside_386
+  - first:
+      213: 7284240139328118841
+    second: house_inside_387
+  - first:
+      213: 4187492598272418389
+    second: house_inside_388
+  - first:
+      213: -217697044186962682
+    second: house_inside_389
+  - first:
+      213: -2428575091968140187
+    second: house_inside_390
+  - first:
+      213: 267406111294413005
+    second: house_inside_391
+  - first:
+      213: -632691145812881219
+    second: house_inside_392
+  - first:
+      213: 6205923556079457949
+    second: house_inside_393
+  - first:
+      213: -6317825286079342114
+    second: house_inside_394
+  - first:
+      213: 5178552298005232498
+    second: house_inside_395
+  - first:
+      213: 5601479601367320067
+    second: house_inside_396
+  - first:
+      213: -7154862571053736434
+    second: house_inside_397
+  - first:
+      213: -9127101702805162139
+    second: house_inside_398
+  - first:
+      213: -1975412157979367216
+    second: house_inside_399
+  - first:
+      213: -3077490273022439434
+    second: house_inside_400
+  - first:
+      213: -8263229694025831908
+    second: house_inside_401
+  - first:
+      213: 5061811101068174678
+    second: house_inside_402
+  - first:
+      213: -3549128409990844588
+    second: house_inside_403
+  - first:
+      213: -194203019697753790
+    second: house_inside_404
+  - first:
+      213: 1387205264127934398
+    second: house_inside_405
+  - first:
+      213: -8169927482979510332
+    second: house_inside_406
+  - first:
+      213: 4331698633748589158
+    second: house_inside_407
+  - first:
+      213: 7066441232902825896
+    second: house_inside_408
+  - first:
+      213: 4618646846900467602
+    second: house_inside_409
+  - first:
+      213: -8790218438869448397
+    second: house_inside_410
+  - first:
+      213: -7105742893120029005
+    second: house_inside_411
+  - first:
+      213: -7799130108680472604
+    second: house_inside_412
+  - first:
+      213: -5906956870380604952
+    second: house_inside_413
+  - first:
+      213: 744602631642655571
+    second: house_inside_414
+  - first:
+      213: 546102170006260583
+    second: house_inside_415
+  - first:
+      213: -5698876674737564846
+    second: house_inside_416
+  - first:
+      213: 7730423133235880111
+    second: house_inside_417
+  - first:
+      213: 7472134027054641965
+    second: house_inside_418
+  - first:
+      213: -45364149369217763
+    second: house_inside_419
+  - first:
+      213: 3595946014067958883
+    second: house_inside_420
+  - first:
+      213: -6978006599268251505
+    second: house_inside_421
+  - first:
+      213: -5198152325559502412
+    second: house_inside_422
+  - first:
+      213: -5085602336036345450
+    second: house_inside_423
+  - first:
+      213: 6665324866379358318
+    second: house_inside_424
+  - first:
+      213: 7174040596016675997
+    second: house_inside_425
+  - first:
+      213: -4581330322523234785
+    second: house_inside_426
+  - first:
+      213: 1265400037620128098
+    second: house_inside_427
+  - first:
+      213: 8386886861971368742
+    second: house_inside_428
+  - first:
+      213: -8521087348728837795
+    second: house_inside_429
+  - first:
+      213: 760201327316481931
+    second: house_inside_430
+  - first:
+      213: 8247605649410144229
+    second: house_inside_431
+  - first:
+      213: 5624101022672125495
+    second: house_inside_432
+  - first:
+      213: -4698595405137627027
+    second: house_inside_433
+  - first:
+      213: 1882227319203460146
+    second: house_inside_434
+  - first:
+      213: 7513412226634429490
+    second: house_inside_435
+  - first:
+      213: -298304918270058534
+    second: house_inside_436
+  - first:
+      213: -3675709884112074347
+    second: house_inside_437
+  - first:
+      213: -5758059090100023890
+    second: house_inside_438
+  - first:
+      213: 1132968303956154226
+    second: house_inside_439
+  - first:
+      213: -7120193852293422104
+    second: house_inside_440
+  - first:
+      213: -6958686562951627091
+    second: house_inside_441
+  - first:
+      213: 5183427515223276308
+    second: house_inside_442
+  - first:
+      213: -452765922871960622
+    second: house_inside_443
+  - first:
+      213: -8463073552071451219
+    second: house_inside_444
+  - first:
+      213: 8993243654411863289
+    second: house_inside_445
+  - first:
+      213: 8954243409937731268
+    second: house_inside_446
+  - first:
+      213: -7713523178315024866
+    second: house_inside_447
+  - first:
+      213: 8394171359809312522
+    second: house_inside_448
+  - first:
+      213: 3682863902190842510
+    second: house_inside_449
+  - first:
+      213: -3782094246351067127
+    second: house_inside_450
+  - first:
+      213: 1633899046439378278
+    second: house_inside_451
+  - first:
+      213: 2541936607985265683
+    second: house_inside_452
+  - first:
+      213: -7482218639324335660
+    second: house_inside_453
+  - first:
+      213: -3464598950088349930
+    second: house_inside_454
+  - first:
+      213: -1204402159683346339
+    second: house_inside_455
+  - first:
+      213: 8706208233525152685
+    second: house_inside_456
+  - first:
+      213: -2442274312304555011
+    second: house_inside_457
+  - first:
+      213: -2630270766501107216
+    second: house_inside_458
+  - first:
+      213: -2515301671299209560
+    second: house_inside_459
+  - first:
+      213: 8590218632553867609
+    second: house_inside_460
+  - first:
+      213: -8369146078198285109
+    second: house_inside_461
+  - first:
+      213: -973356197688831337
+    second: house_inside_462
+  - first:
+      213: 40171230037176017
+    second: house_inside_463
+  - first:
+      213: 2417670134701410434
+    second: house_inside_464
+  - first:
+      213: -3177795510935233996
+    second: house_inside_465
+  - first:
+      213: -4620734158570742134
+    second: house_inside_466
+  - first:
+      213: -4210040293208089899
+    second: house_inside_467
+  - first:
+      213: 5808109914497228985
+    second: house_inside_468
+  - first:
+      213: 8620337800922810110
+    second: house_inside_469
+  - first:
+      213: 4820538105779043606
+    second: house_inside_470
+  - first:
+      213: 4399383232038546137
+    second: house_inside_471
+  - first:
+      213: 5564635257926923740
+    second: house_inside_472
+  - first:
+      213: 8937911101599331889
+    second: house_inside_473
+  - first:
+      213: 8114904621020135128
+    second: house_inside_474
+  - first:
+      213: -905472514722168064
+    second: house_inside_475
+  - first:
+      213: -8071571591061136243
+    second: house_inside_476
+  - first:
+      213: -3016313867148182549
+    second: house_inside_477
+  - first:
+      213: -2345302494018122023
+    second: house_inside_478
+  - first:
+      213: 2196528533726614535
+    second: house_inside_479
+  - first:
+      213: -1691063539980234438
+    second: house_inside_480
+  - first:
+      213: 6585698482371893475
+    second: house_inside_481
+  - first:
+      213: 6720444272714929142
+    second: house_inside_482
+  - first:
+      213: 5322445597945900504
+    second: house_inside_483
+  - first:
+      213: 4013484509092664500
+    second: house_inside_484
+  - first:
+      213: 5822732543819902055
+    second: house_inside_485
+  - first:
+      213: 8908799878796624357
+    second: house_inside_486
+  - first:
+      213: -5004087578325052991
+    second: house_inside_487
+  - first:
+      213: 6609644385075213098
+    second: house_inside_488
+  - first:
+      213: -4928488179742596719
+    second: house_inside_489
+  - first:
+      213: -9146490769222356062
+    second: house_inside_490
+  - first:
+      213: 3106051743387116255
+    second: house_inside_491
+  - first:
+      213: 7785109749484396450
+    second: house_inside_492
+  - first:
+      213: -8877507944798242392
+    second: house_inside_493
+  - first:
+      213: 7811235236822492951
+    second: house_inside_494
+  - first:
+      213: -4123583970473437926
+    second: house_inside_495
+  - first:
+      213: 4340057325232096755
+    second: house_inside_496
+  - first:
+      213: 5967614835156765062
+    second: house_inside_497
+  - first:
+      213: -1053546349771852463
+    second: house_inside_498
+  - first:
+      213: -7913095807112326643
+    second: house_inside_499
+  - first:
+      213: -7885197380338672564
+    second: house_inside_500
+  - first:
+      213: 1474129639947900845
+    second: house_inside_501
+  - first:
+      213: -7164589673671033537
+    second: house_inside_502
+  - first:
+      213: 4946477023116940545
+    second: house_inside_503
+  - first:
+      213: 2148958625247342841
+    second: house_inside_504
+  - first:
+      213: 5032046734670205608
+    second: house_inside_505
+  - first:
+      213: -5206330729787823863
+    second: house_inside_506
+  - first:
+      213: -8181421510970022539
+    second: house_inside_507
+  - first:
+      213: -3157819505413188484
+    second: house_inside_508
+  - first:
+      213: 4218557963423836416
+    second: house_inside_509
+  - first:
+      213: -8838118373656339507
+    second: house_inside_510
+  - first:
+      213: -8461451103037798240
+    second: house_inside_511
+  - first:
+      213: 5875348544473038361
+    second: house_inside_512
+  - first:
+      213: -7008518021858954206
+    second: house_inside_513
+  - first:
+      213: -708440864658653954
+    second: house_inside_514
+  - first:
+      213: -2189750389324880687
+    second: house_inside_515
+  - first:
+      213: 4668274147058573398
+    second: house_inside_516
+  - first:
+      213: -3895162710150879842
+    second: house_inside_517
+  - first:
+      213: 7838500683498779995
+    second: house_inside_518
+  - first:
+      213: -4893025342433186690
+    second: house_inside_519
+  - first:
+      213: 1844770854199608735
+    second: house_inside_520
+  - first:
+      213: -2741241801706713294
+    second: house_inside_521
+  - first:
+      213: 5672619332961812606
+    second: house_inside_522
+  - first:
+      213: 4704991159609562464
+    second: house_inside_523
+  - first:
+      213: 6817359381924323804
+    second: house_inside_524
+  - first:
+      213: -7884904520218707777
+    second: house_inside_525
+  - first:
+      213: -5893000271067090011
+    second: house_inside_526
+  - first:
+      213: 2802625982355242081
+    second: house_inside_527
+  - first:
+      213: 8915595065425555918
+    second: house_inside_528
+  - first:
+      213: 7802770878486415386
+    second: house_inside_529
+  - first:
+      213: -2555344603815424261
+    second: house_inside_530
+  - first:
+      213: 7352854266839769446
+    second: house_inside_531
+  - first:
+      213: 8117633995902991443
+    second: house_inside_532
+  - first:
+      213: 871117013380920533
+    second: house_inside_533
+  - first:
+      213: -3995833649114739063
+    second: house_inside_534
+  - first:
+      213: 6389692226977443941
+    second: house_inside_535
+  - first:
+      213: -5454086537529053621
+    second: house_inside_536
+  - first:
+      213: 315207492795758777
+    second: house_inside_537
+  - first:
+      213: 2725669925100825583
+    second: house_inside_538
+  - first:
+      213: -4196367403264072002
+    second: house_inside_539
+  - first:
+      213: 1181438195785777941
+    second: house_inside_540
+  - first:
+      213: -2289545317077404573
+    second: house_inside_541
+  - first:
+      213: 3690439912645447972
+    second: house_inside_542
+  - first:
+      213: 1832901295786006166
+    second: house_inside_543
+  - first:
+      213: 6423114289579300129
+    second: house_inside_544
+  - first:
+      213: -7084208272827057164
+    second: house_inside_545
+  - first:
+      213: -4959042855901082161
+    second: house_inside_546
+  - first:
+      213: 976376151126407610
+    second: house_inside_547
+  - first:
+      213: 2715110942704605540
+    second: house_inside_548
+  - first:
+      213: -5761561320990492171
+    second: house_inside_549
+  - first:
+      213: 2594944006091833934
+    second: house_inside_550
+  - first:
+      213: -2995001242324996363
+    second: house_inside_551
+  - first:
+      213: -2032259039019330637
+    second: house_inside_552
+  - first:
+      213: 67169643868168111
+    second: house_inside_553
+  - first:
+      213: 3867449662966449060
+    second: house_inside_554
+  - first:
+      213: -9125063198469594502
+    second: house_inside_555
+  - first:
+      213: 7162280469050148067
+    second: house_inside_556
+  - first:
+      213: -3385052647771882118
+    second: house_inside_557
+  - first:
+      213: -6925836934433671791
+    second: house_inside_558
+  - first:
+      213: -4315222905137643834
+    second: house_inside_559
+  - first:
+      213: 1340170213354734853
+    second: house_inside_560
+  - first:
+      213: -4323463211074982563
+    second: house_inside_561
+  - first:
+      213: -324928352653687123
+    second: house_inside_562
+  - first:
+      213: 120793847771398520
+    second: house_inside_563
+  - first:
+      213: 4266548286893193628
+    second: house_inside_564
+  - first:
+      213: 2405646054611841203
+    second: house_inside_565
+  - first:
+      213: -9198471717700431854
+    second: house_inside_566
+  - first:
+      213: 1639879734060475693
+    second: house_inside_567
+  - first:
+      213: -2740524451690241458
+    second: house_inside_568
+  - first:
+      213: 6657200673484578280
+    second: house_inside_569
+  - first:
+      213: 3038857476554890044
+    second: house_inside_570
+  - first:
+      213: 31015145024480932
+    second: house_inside_571
+  - first:
+      213: -4252249205464610546
+    second: house_inside_572
+  - first:
+      213: -3149311095081781368
+    second: house_inside_573
+  - first:
+      213: -8518434592714357127
+    second: house_inside_574
+  - first:
+      213: 6170652019554751916
+    second: house_inside_575
+  - first:
+      213: 7495145493651139822
+    second: house_inside_576
+  - first:
+      213: -2667804872870781025
+    second: house_inside_577
+  - first:
+      213: -2593874187197349599
+    second: house_inside_578
+  - first:
+      213: 8787942899546117323
+    second: house_inside_579
+  - first:
+      213: -4747965742057855280
+    second: house_inside_580
+  - first:
+      213: -1981127438173631651
+    second: house_inside_581
+  - first:
+      213: 4202133724852201197
+    second: house_inside_582
+  - first:
+      213: -4465076695404427292
+    second: house_inside_583
+  - first:
+      213: 6716263236022689716
+    second: house_inside_584
+  - first:
+      213: -7217457993857760423
+    second: house_inside_585
+  - first:
+      213: -6743772029566349494
+    second: house_inside_586
+  - first:
+      213: -4645740719294937298
+    second: house_inside_587
+  - first:
+      213: 8704349177729625323
+    second: house_inside_588
+  - first:
+      213: -857413459245071263
+    second: house_inside_589
+  - first:
+      213: -5627147131296464247
+    second: house_inside_590
+  - first:
+      213: 6619030591984420075
+    second: house_inside_591
+  - first:
+      213: -2392661057631733291
+    second: house_inside_592
+  - first:
+      213: -5684624223176542929
+    second: house_inside_593
+  - first:
+      213: -2472644871740994113
+    second: house_inside_594
+  - first:
+      213: -765655812056809651
+    second: house_inside_595
+  - first:
+      213: 6749163507072425970
+    second: house_inside_596
+  - first:
+      213: -4272025769423586181
+    second: house_inside_597
+  - first:
+      213: 5323608543328543940
+    second: house_inside_598
+  - first:
+      213: 938006226885728371
+    second: house_inside_599
+  - first:
+      213: -6950740691457697293
+    second: house_inside_600
+  - first:
+      213: -5524339680315566132
+    second: house_inside_601
+  - first:
+      213: -1481894944468273366
+    second: house_inside_602
+  - first:
+      213: 685852708286508456
+    second: house_inside_603
+  - first:
+      213: -7095734313358755927
+    second: house_inside_604
+  - first:
+      213: 7865230321072242019
+    second: house_inside_605
+  - first:
+      213: 2005121033825469870
+    second: house_inside_606
+  - first:
+      213: -880573240179919738
+    second: house_inside_607
+  - first:
+      213: -1048754474617966058
+    second: house_inside_608
+  - first:
+      213: 5645707372892166716
+    second: house_inside_609
+  - first:
+      213: -1218102693326019844
+    second: house_inside_610
+  - first:
+      213: 2637722462528458640
+    second: house_inside_611
+  - first:
+      213: -2621211777259598777
+    second: house_inside_612
+  - first:
+      213: 2847265866346567756
+    second: house_inside_613
+  - first:
+      213: 4175882173611977891
+    second: house_inside_614
+  - first:
+      213: -7036721248660779720
+    second: house_inside_615
+  - first:
+      213: 835319550788103350
+    second: house_inside_616
+  - first:
+      213: 1322674912425332494
+    second: house_inside_617
+  - first:
+      213: 7083158459603865048
+    second: house_inside_618
+  - first:
+      213: -5548366768773708165
+    second: house_inside_619
+  - first:
+      213: 4881462482714203503
+    second: house_inside_620
+  - first:
+      213: -4157562927581861647
+    second: house_inside_621
+  - first:
+      213: 8581409567711432381
+    second: house_inside_622
+  - first:
+      213: 7441821120140797175
+    second: house_inside_623
+  - first:
+      213: 901690203138835837
+    second: house_inside_624
+  - first:
+      213: -7752472571503099732
+    second: house_inside_625
+  - first:
+      213: -1540998599790772832
+    second: house_inside_626
+  - first:
+      213: -7743748103273285154
+    second: house_inside_627
+  - first:
+      213: -5381591135659406999
+    second: house_inside_628
+  - first:
+      213: 9168988979616324863
+    second: house_inside_629
+  - first:
+      213: 4298780995384376085
+    second: house_inside_630
+  - first:
+      213: 2762147051532623553
+    second: house_inside_631
+  - first:
+      213: 7787324054113138945
+    second: house_inside_632
+  - first:
+      213: 3512707090541202799
+    second: house_inside_633
+  - first:
+      213: 8321510872060699380
+    second: house_inside_634
+  - first:
+      213: -8670790187981612492
+    second: house_inside_635
+  - first:
+      213: -3478776064271972485
+    second: house_inside_636
+  - first:
+      213: -666861109726082825
+    second: house_inside_637
+  - first:
+      213: -9092718718436799103
+    second: house_inside_638
+  - first:
+      213: -8964914126497010816
+    second: house_inside_639
+  - first:
+      213: 5009096090337208942
+    second: house_inside_640
+  - first:
+      213: -7175381665522434782
+    second: house_inside_641
+  - first:
+      213: 3384682308911441622
+    second: house_inside_642
+  - first:
+      213: -6042732050890554600
+    second: house_inside_643
+  - first:
+      213: -7821896035588770029
+    second: house_inside_644
+  - first:
+      213: 5214602072545382483
+    second: house_inside_645
+  - first:
+      213: 6639354113951969849
+    second: house_inside_646
+  - first:
+      213: 7550132768827809217
+    second: house_inside_647
+  - first:
+      213: -1502009602737016037
+    second: house_inside_648
+  - first:
+      213: -5549817680551450625
+    second: house_inside_649
+  - first:
+      213: 4541256254842442936
+    second: house_inside_650
+  - first:
+      213: -3406459486438086072
+    second: house_inside_651
+  - first:
+      213: 6705832199991789960
+    second: house_inside_652
+  - first:
+      213: -1070683395326166521
+    second: house_inside_653
+  - first:
+      213: -1254983305115449951
+    second: house_inside_654
+  - first:
+      213: 5471721054701163490
+    second: house_inside_655
+  - first:
+      213: 5767379140821190645
+    second: house_inside_656
+  - first:
+      213: -1155903741792084601
+    second: house_inside_657
+  - first:
+      213: -3794599278854363949
+    second: house_inside_658
+  - first:
+      213: 8921642458097467947
+    second: house_inside_659
+  - first:
+      213: -6504559735582243953
+    second: house_inside_660
+  - first:
+      213: -7001173804938620561
+    second: house_inside_661
+  - first:
+      213: 276775995501505950
+    second: house_inside_662
+  - first:
+      213: 7212642352807873201
+    second: house_inside_663
+  - first:
+      213: -3319502582247500190
+    second: house_inside_664
+  - first:
+      213: 8985084106912165571
+    second: house_inside_665
+  - first:
+      213: -8412221501482347863
+    second: house_inside_666
+  - first:
+      213: 6301455547540836120
+    second: house_inside_667
+  - first:
+      213: -7557428460711880180
+    second: house_inside_668
+  - first:
+      213: 5972972095722670336
+    second: house_inside_669
+  - first:
+      213: -3579040671462937188
+    second: house_inside_670
+  - first:
+      213: 4340035755097734143
+    second: house_inside_671
+  - first:
+      213: -6485460139775504267
+    second: house_inside_672
+  - first:
+      213: 1225746847080989047
+    second: house_inside_673
+  - first:
+      213: -6775374200303438581
+    second: house_inside_674
+  - first:
+      213: -5004307180801166178
+    second: house_inside_675
+  - first:
+      213: 4102453633904985138
+    second: house_inside_676
+  - first:
+      213: 8742668177248519372
+    second: house_inside_677
+  - first:
+      213: -4175942376346161313
+    second: house_inside_678
+  - first:
+      213: 3703029312852558382
+    second: house_inside_679
+  - first:
+      213: -1493419100421466451
+    second: house_inside_680
+  - first:
+      213: 7357077810042053220
+    second: house_inside_681
+  - first:
+      213: -5163462776632396666
+    second: house_inside_682
+  - first:
+      213: -5738378477591183717
+    second: house_inside_683
+  - first:
+      213: -3034669869957668245
+    second: house_inside_684
+  - first:
+      213: 4106302030177398027
+    second: house_inside_685
+  - first:
+      213: -826268584512315998
+    second: house_inside_686
+  - first:
+      213: 3421589910031273452
+    second: house_inside_687
+  - first:
+      213: -3449648766560823356
+    second: house_inside_688
+  - first:
+      213: 2035464603377253111
+    second: house_inside_689
+  - first:
+      213: 8003541177156974122
+    second: house_inside_690
+  - first:
+      213: 3926714177009543849
+    second: house_inside_691
+  - first:
+      213: 956789039622465296
+    second: house_inside_692
+  - first:
+      213: 8494443470506378903
+    second: house_inside_693
+  - first:
+      213: -7365253274691597141
+    second: house_inside_694
+  - first:
+      213: 544153821841663854
+    second: house_inside_695
+  - first:
+      213: -1163323166718719669
+    second: house_inside_696
+  - first:
+      213: -5366770466544105702
+    second: house_inside_697
+  - first:
+      213: -979116296952168187
+    second: house_inside_698
+  - first:
+      213: 5921055633339627565
+    second: house_inside_699
+  - first:
+      213: -4040158923758543932
+    second: house_inside_700
+  - first:
+      213: -4615106176502662225
+    second: house_inside_701
+  - first:
+      213: 8831178649106245805
+    second: house_inside_702
+  - first:
+      213: -2824049921682303218
+    second: house_inside_703
+  - first:
+      213: -7431232022829981889
+    second: house_inside_704
+  - first:
+      213: -5501974081852017778
+    second: house_inside_705
+  - first:
+      213: -6569841976583863339
+    second: house_inside_706
+  - first:
+      213: -938665508079502599
+    second: house_inside_707
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: house_inside_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfc06d10244a0180800000000000000
+      internalID: -9148424788327215137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b1ace48563f1330800000000000000
+      internalID: 3683722773119245193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251f0d623b9dd9ab0800000000000000
+      internalID: -4999600647837781678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571174134ff8c8530800000000000000
+      internalID: 3858617259711205749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bfda42e24fba910800000000000000
+      internalID: 1849840550986775337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236742bc64fc2f550800000000000000
+      internalID: 6193240340550678066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ae8a30465c2ee0800000000000000
+      internalID: -1284556959847111471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340431bcf9990100800000000000000
+      internalID: 74760179412108337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e37b456497d4bcd0800000000000000
+      internalID: -2543170857202912284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ec01a1c78846840800000000000000
+      internalID: 5216444334996508267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41872f59f462d94f0800000000000000
+      internalID: -820457433851594732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db957a6bb88a000d0800000000000000
+      internalID: -3458579195802199619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b919bb83fc7b12f40800000000000000
+      internalID: 5702040703865688475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c6159f45b893fa0800000000000000
+      internalID: -5820467846323278761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966e379efc868430800000000000000
+      internalID: 3784867561938511510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cdca20b0daa8430800000000000000
+      internalID: 3786028699559451800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7607a9d06114ad3f0800000000000000
+      internalID: -875315614596829081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a4ba43dadbc0720800000000000000
+      internalID: 2813832418810350129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a978e05436e9c9980800000000000000
+      internalID: -8530769444949031014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f150e481eabadc10800000000000000
+      internalID: 2079179655744606707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0011034ecbfba6080800000000000000
+      internalID: -9193324871320334080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b775df96f4f89090800000000000000
+      internalID: -8027396995707209803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c802197f13e860da0800000000000000
+      internalID: -5978935110029729652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d333f8e554b49b0800000000000000
+      internalID: -5094902281007842012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601dd34158a2680e0800000000000000
+      internalID: -2268078611275853562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527fc3d2f6eadb830800000000000000
+      internalID: 4088615829245851429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d41b509a04f2430800000000000000
+      internalID: 3760295308566809940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314f08bfab08d3f0800000000000000
+      internalID: -875937278188371660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac19273178afe300800000000000000
+      internalID: 283630505757842597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5805cc9b4b7971130800000000000000
+      internalID: 3537462834789896325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a30dbd025d46cba0800000000000000
+      internalID: -6069078433022016601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0c2fa06654034f0800000000000000
+      internalID: -851104025000361787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e9c80b4f7464b0800000000000000
+      internalID: -5448089688964734502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f996e6ef350e660800000000000000
+      internalID: 7413017338891050784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed848a0ae098c82e0800000000000000
+      internalID: -2122170628480415522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3ff2acd3b7f4690800000000000000
+      internalID: -7615732939544857688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824db9a817d08d140800000000000000
+      internalID: 4744556988742751272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e80f7234de887a0800000000000000
+      internalID: -6374584399854268834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ba60e64a4753cb0800000000000000
+      internalID: -4884869971244045434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06c3b5367feb2680800000000000000
+      internalID: -8778659757642496502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f711ac6003526f270800000000000000
+      internalID: 8283849452797170047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f58c788e5def8760800000000000000
+      internalID: 7462444097848772087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a381e2fbea07a6900800000000000000
+      internalID: 678478589706770490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b7f393ed0b4a50800000000000000
+      internalID: 6506309357758034245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed3586f1be84140800000000000000
+      internalID: 4704268330915323395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f55806d374c216d0800000000000000
+      internalID: -3021136398221027853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64891f09609c142c0800000000000000
+      internalID: -4449053926826600378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705d49686817d01c0800000000000000
+      internalID: -4535844427094764281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83dd298d4a281d0800000000000000
+      internalID: -3349933922726364929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad30c9a0a094b80800000000000000
+      internalID: -8410179788454241744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c54c206736b8e560800000000000000
+      internalID: 7343319541380564418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c08b95afde5130800000000000000
+      internalID: 3557526658040774834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dff39a8afdeabf0800000000000000
+      internalID: -311065408754942564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd730b2b9d0a573d0800000000000000
+      internalID: -3209482302565369892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa80315294600e130800000000000000
+      internalID: 3593879413866039466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54681cddd722821f0800000000000000
+      internalID: -1069566987513788859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d2d0d2748685870800000000000000
+      internalID: 8671795737409695010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_57
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd26ba7fab4f1ae0800000000000000
+      internalID: -1576458127506264609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9a66bf893a31dd0800000000000000
+      internalID: -2516487889321809500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_59
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7457ed81eb1c62ed0800000000000000
+      internalID: -2439049125969365689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6f4bc0ed5d96b0800000000000000
+      internalID: -5287967167398056361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14da4e8d886d53b30800000000000000
+      internalID: 4266552105246174529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3f16e87a0507c70800000000000000
+      internalID: 8966755538673202170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8087e0c57991543b0800000000000000
+      internalID: -5528984829652207608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c6e6bdad7a6bb90800000000000000
+      internalID: -7226403993643226058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de02bdeec9bb13330800000000000000
+      internalID: 3688935852489777389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb55b4d41ab83b00800000000000000
+      internalID: 808600731743771579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f4d36146b8f93d0800000000000000
+      internalID: -3197683948423655656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6575094de9c34840800000000000000
+      internalID: 5207227615139951981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb60023c1abebbf80800000000000000
+      internalID: -8089613225645046085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091452b5c18438b30800000000000000
+      internalID: 4288350556812296592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d77e2644028fb0800000000000000
+      internalID: -4647147166019103992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864fc62d492653b0800000000000000
+      internalID: -5524182481582995834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38967c554ce3e3140800000000000000
+      internalID: 4701264073995020675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c724ca6b4ea7fb940800000000000000
+      internalID: 5314101208056349308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9da7e47d3adc930800000000000000
+      internalID: 4165165375517546915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca40f1a42ffb74c0800000000000000
+      internalID: -4288553687339480383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7abfd69892f5ee10800000000000000
+      internalID: 2226452327984773757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a709426cb588730800000000000000
+      internalID: 4001549175493786191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dbadca7045c5e00800000000000000
+      internalID: 1034794406329892174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17132faaa2a27e00800000000000000
+      internalID: 1041073317842458397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0cb91879bb7d060800000000000000
+      internalID: 6978252407022797019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc195f546c98a960800000000000000
+      internalID: 7613507124980161789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569d6865e435abc80800000000000000
+      internalID: -8306234966807226011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51346879114ab330800000000000000
+      internalID: 3727363219252326749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a079cf538e0ed4cd0800000000000000
+      internalID: -2572152524215904502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c2fb1a9f3680320800000000000000
+      internalID: 2524377514952829972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dcbfa9048b3b530800000000000000
+      internalID: 3869639092458999101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d044ca1c83cbb030800000000000000
+      internalID: 3511615340977340632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb81657dfebe8500800000000000000
+      internalID: 400467412687883205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde6b739f39a14680800000000000000
+      internalID: -8772544508618641700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2987c87baaa83320800000000000000
+      internalID: 2537966043465746731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f6c3f27d75bf7a0800000000000000
+      internalID: -6342379068499136698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eea43501601203e0800000000000000
+      internalID: -2089089268261277979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e4046227116bb0800000000000000
+      internalID: -4944645479401725522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5feb3b9acf2c360800000000000000
+      internalID: 7188585761032041963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c923fe1d4417a980800000000000000
+      internalID: -8527825047938455102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b9732bdee42fe90800000000000000
+      internalID: -6993440488548754609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b074a6e69ce430800000000000000
+      internalID: 3813588901821461375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799c043137e0c8480800000000000000
+      internalID: -8895719276556531305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ef7ed6986680f10800000000000000
+      internalID: 2236149955429924384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c851629dda999e0800000000000000
+      internalID: -1614067843277157330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cf4599d409c98e0800000000000000
+      internalID: -1685313497584042872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50c7c50eea03f940800000000000000
+      internalID: 5328614801524899934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca2b38628464e030800000000000000
+      internalID: 3523051319767804612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f514dded5eb2dcf30800000000000000
+      internalID: 4597379060901691743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f52213980d60910800000000000000
+      internalID: 1803357988461895470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_107
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61479705533648a20800000000000000
+      internalID: 3063682727153333270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a363a1083f380f0800000000000000
+      internalID: -1115780551136626176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100d620b33243f0c0800000000000000
+      internalID: -4543214809320599551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798f3f194a37481c0800000000000000
+      internalID: -4502346576803137385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd633fecd53b3e80800000000000000
+      internalID: -8197899473675653646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34c1d56208da5e30800000000000000
+      internalID: 4493141083065271355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a12fa5f5a573620800000000000000
+      internalID: 2753769062754556513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4554277d5cd114700800000000000000
+      internalID: 522731767312041300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87be1096eaca5ca0800000000000000
+      internalID: -6027282059672766577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b594ae8d9f35e3e0800000000000000
+      internalID: -2025142511497603658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d287d2c9a183170800000000000000
+      internalID: 8158299983061724507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_118
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a055b31a72a6a00800000000000000
+      internalID: 750455861349255799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_119
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbb79a69cb052a20800000000000000
+      internalID: 3036846483435928543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_120
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32bef37a3f7eb000800000000000000
+      internalID: 53620134605926972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_121
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8322385e85c2a0800000000000000
+      internalID: -6717806759703769257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_122
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e45ece6711a84f0800000000000000
+      internalID: -825828379190800890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_123
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8db206f01868d0e0800000000000000
+      internalID: -2244929992188052084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d70c3424b7b8010800000000000000
+      internalID: 1192182050904374553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e4d8629e496fd20800000000000000
+      internalID: 3311998305072664078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e196201beb818c690800000000000000
+      internalID: -7581782765385651938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f6d9f9d09b9cc30800000000000000
+      internalID: 4380235580758126414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b313d653ed4b030800000000000000
+      internalID: 3509674330675034930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c33061fc3404660800000000000000
+      internalID: 7367963547084733447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de599c8c04f8f7a0800000000000000
+      internalID: -6343051740415697200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_131
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc5b04e028fc4b0800000000000000
+      internalID: -5417968828976608341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e185f7652e5be13f0800000000000000
+      internalID: -928104489473320930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_133
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af29653f739849dc0800000000000000
+      internalID: -3633128125982403846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e590a3cc07055850800000000000000
+      internalID: 6365001399761147361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_135
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4f0a9f59b4d4810800000000000000
+      internalID: 1751138937627276508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa18a8300d05360800000000000000
+      internalID: 7156448521518952339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672a1a81bb0e9fd0800000000000000
+      internalID: -2333414699777251478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa05270bee305f50800000000000000
+      internalID: 6868058610898111139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a9d4a57d670010800000000000000
+      internalID: 1155012181488150065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd00fc4c2871e990800000000000000
+      internalID: -7358468184481985036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebeb9106eb3b07c0800000000000000
+      internalID: -4104120776362562584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e364721274dd4e0800000000000000
+      internalID: -1955328455490519471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302d01d6ca51be770800000000000000
+      internalID: 8641024140348805635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ddbb026c4e6010800000000000000
+      internalID: 1183967736032515468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f35fe463cec91470800000000000000
+      internalID: 8365945121424757753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9927c750bca827c0800000000000000
+      internalID: -4095833987706574434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_147
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495b23e23a2d4100800000000000000
+      internalID: 93777565292648770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7558fac51fe8a1ab0800000000000000
+      internalID: -5036556065967209129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_149
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588c53dc3cf000710800000000000000
+      internalID: 1657341996508235909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d54ab83c0d2b7de0800000000000000
+      internalID: -1334423334070630958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_151
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a203afa28c70ce0800000000000000
+      internalID: -1438961469009941939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d579a9a842f15e0800000000000000
+      internalID: -1936789137028326033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_153
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3290f71cf32c4a0800000000000000
+      internalID: -6574622405714959409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb814f627a7369a0800000000000000
+      internalID: -6241010026693948422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_155
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876c15aac1a8941b0800000000000000
+      internalID: -5671850399975225736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ee3da0c5a2f98e0800000000000000
+      internalID: -1684581160806257139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_157
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baee9211ef23af40800000000000000
+      internalID: 5738482993926695605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7a8f7565ceb620800000000000000
+      internalID: 2791885858738436952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b9f15fcc590e40800000000000000
+      internalID: 5623127655252078724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a3baebb68c3d520800000000000000
+      internalID: 2725742564575230480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_161
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ea2c221e0731850800000000000000
+      internalID: 6346540412148297360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8614fdccb947367e0800000000000000
+      internalID: -1773445615747907224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_163
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62244ab4161ab260800000000000000
+      internalID: 7114022839665304171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1401b214653e2c40800000000000000
+      internalID: 5489383699737805851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0a2b964cd3b5420800000000000000
+      internalID: 2619755522042274004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4550696ecf0596260800000000000000
+      internalID: 7091288135402128724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_167
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc79c24ef4d6808e0800000000000000
+      internalID: -1727010267198613557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66948169d31b2bff0800000000000000
+      internalID: -21760170114135706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_169
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657d66f6587d5abb0800000000000000
+      internalID: -4925293649360136362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_170
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10b1a0e5b4950d0800000000000000
+      internalID: -3433630373624741395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_171
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b91515179ee3150800000000000000
+      internalID: 5854373238533102353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23cbdfca895d4b90800000000000000
+      internalID: -7256044971896356054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b797a6b53328af050800000000000000
+      internalID: 5835119424300546427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c23a95e558e120800000000000000
+      internalID: 2443297242471385582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22364fd75cd58190800000000000000
+      internalID: -7960714496341298644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb776b256ff08030800000000000000
+      internalID: 3495074120824486861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021545a4a3f8d2340800000000000000
+      internalID: 4840682655011066144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_178
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b1b1fb607333e60800000000000000
+      internalID: 7940751070099872513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_179
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f10da75e79b15000800000000000000
+      internalID: 23003425401537016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232bbfd4d15206a0800000000000000
+      internalID: -6484530538731592921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_181
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627653e52073a4500800000000000000
+      internalID: 381177601776248614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_182
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc8748c38ec34e0800000000000000
+      internalID: -2000468787841152094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_183
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b3ff6487265dc0800000000000000
+      internalID: -3650686998169798916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_184
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4762fd619dcd71bc0800000000000000
+      internalID: -3812335734596098444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_185
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee17a07ef24ace0800000000000000
+      internalID: -1394937315218821632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_186
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9581a666d40eabf80800000000000000
+      internalID: -8089907157582342055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_187
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff87e2e8a0972efc0800000000000000
+      internalID: -3467075676879816449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53709b2f0a7c09cc0800000000000000
+      internalID: -3706242999245011147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a7e2ae38f12ad0800000000000000
+      internalID: -2728626951305058710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47361dbfb1ee31130800000000000000
+      internalID: 3536431936372302708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_191
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f04964e9313c50800000000000000
+      internalID: 6643154578529382613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_192
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b0496a8e6ccdde0800000000000000
+      internalID: -1306951089314853988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_193
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412ba694e8e3e3fe0800000000000000
+      internalID: -1207458869250706924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_194
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc36f46aba2b424a0800000000000000
+      internalID: -6618969102028414003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_195
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00dd230233d97970800000000000000
+      internalID: 8753259562526429194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10cd7a4a9d01280800000000000000
+      internalID: -9074513947937472039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_197
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c1aab54918346d0800000000000000
+      internalID: -3007417651960341406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_198
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978ecccfbba66910800000000000000
+      internalID: 1830339138835875741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_199
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66d97b47c4794dd0800000000000000
+      internalID: -2501339718714010005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_200
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17737beb02b4cd8c0800000000000000
+      internalID: -3973218167236905103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_201
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58e4451fae09a1c0800000000000000
+      internalID: -4492043008186455969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_202
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b49bfb05aa5a120800000000000000
+      internalID: 2424531238199577395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_203
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dac7891edd2a4b70800000000000000
+      internalID: 8883963646876043986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ffce25e1680a250800000000000000
+      internalID: 5953906172182200183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_205
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad8314e860615fd0800000000000000
+      internalID: -2354995126518706771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_206
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eea0683d2bc88c0800000000000000
+      internalID: -3995622147827765633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_207
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d102337787aa0cd0800000000000000
+      internalID: -2591074435403218474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744033cad2901dcb0800000000000000
+      internalID: -4841078032679369657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c619e6af2ea76580800000000000000
+      internalID: -8833900624376949055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_210
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0374b01f7540c90800000000000000
+      internalID: -7204536811098001159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_211
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee127376bbdac560800000000000000
+      internalID: 7334916519793663716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3e37255421e2ac0800000000000000
+      internalID: -3878142140174048298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_213
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ead48af057e4510800000000000000
+      internalID: 1535293233088540311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_214
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713baef322f331d0800000000000000
+      internalID: -3372085459559960205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_215
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a368cad700a36e0800000000000000
+      internalID: -1857171356571518386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_216
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382a6952144dc63e0800000000000000
+      internalID: -2059037553346567549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_217
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1405e70d9ae13d20800000000000000
+      internalID: 3256641965728793631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_218
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b07b2ce86149540800000000000000
+      internalID: 5013657087578147694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_inside_219
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6461f22e2c5adc0800000000000000
+      internalID: -3628279648068679993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 782cb8ea7f55b3f49b306253ce9d3198
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
