@@ -18480,7 +18480,7 @@ GameObject:
   - component: {fileID: 1844692340}
   - component: {fileID: 1844692339}
   m_Layer: 0
-  m_Name: Samuel
+  m_Name: Saul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18552,12 +18552,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Saul'
-  - Hi David, I was looking for you. My name is Samuel and Im a prophet.
-  - God likes you and he chose you to be a king over Kingdom of Judah
-  - Someone came looking for you, I sent him to the farm to check if you are there,
-    go to the farm and check what he wants
-  - Someone came looking for you, I sent him to the farm to check if you are there,
-    go to the farm and check what he wants
+  - Hello David, i am king Saul. I was waiting for you
+  - I heard you are an excelent Harpist!
+  - From now on you are my new squire
+  - Before you can start you have to practice
+  - Now go to the bottom route and fight the enemies
+  - don't come back before you get enough experience, at least level 10!
   shouldActivateQuest: 0
   markAsComplete: 0
   questToMark: 
