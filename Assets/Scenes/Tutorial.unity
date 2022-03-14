@@ -154,15 +154,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Dad'
-  - Hello David, Im happy to see you around. Here is some instruction for you.
-  - Press the M keyborad button to open the menu. You cant move when the menu is
-    open.
-  - You can equip items and view your stats at the menu.
-  - To collect items you have to walk through them.
-  - I left for you 2 potions near the shop. Explore the map and find them!
-  - If you forget anything you can get back to me whenever you want.
-  - GoodLuck David!
+  - '#Ishay'
+  - 'Oh David, you''re here! '
+  - Someone came looking for you, I sent him to the farm to check if you are there,
+    go to the farm and check what he wants
   shouldActivateQuest: 0
   markAsComplete: 0
   questToMark: 
