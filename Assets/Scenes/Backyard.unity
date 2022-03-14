@@ -154,7 +154,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.7050772, y: -0.33160067}
+  m_Offset: {x: -0.8877001, y: -0.5402942}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6518345, y: 2.9521875}
+  m_Size: {x: 3.9387684, y: 3.9956503}
   m_EdgeRadius: 0
 --- !u!61 &457564829
 BoxCollider2D:
@@ -180,7 +180,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.062337875, y: 0}
+  m_Offset: {x: -0.0072259903, y: -0.2608652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -191,7 +191,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.87532425, y: 1.125}
+  m_Size: {x: 1.014452, y: 1.6467304}
   m_EdgeRadius: 0
 --- !u!114 &457564830
 MonoBehaviour:
@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457564827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.79, y: 0.82, z: 0}
+  m_LocalPosition: {x: 25.46, y: 16.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13960,7 +13960,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Mansion - Backyard
+      value: Mansion-Backyard
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -13975,12 +13975,22 @@ PrefabInstance:
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.40601242
+      value: -0.2578745
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Size.y
-      value: 2.4425008
+      value: 3.6594167
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -1.3376987
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5002007
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -22331,12 +22341,12 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (MyMap)
+      value: Area Exit (Shepherd)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Backyard -Shepherd
+      value: Backyard-Shepherd
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -22426,7 +22436,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Backyard -Shepherd
+      value: Backyard-Shepherd
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}

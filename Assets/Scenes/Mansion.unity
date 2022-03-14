@@ -6083,12 +6083,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -6297,17 +6297,17 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Mountains-MyMap
+      value: Mansion-Backyard
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: MyMap
+      value: Backyard
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: Mountains
+      value: Mansion
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -6377,17 +6377,17 @@ PrefabInstance:
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.22
+      value: 17.34
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.03
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Mountains-MyMap
+      value: Mansion-Backyard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
