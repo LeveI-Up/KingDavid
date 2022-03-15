@@ -396,12 +396,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -16632,12 +16632,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#David'
-  - My people told me to kill you, but I don't want to
-  - Why do you keep chasing me?
+  - Why do you listen to the people around you who say that I'm trying to hurt you?
+  - (David shows Saul the piece he cut from the wing of his coat)
+  - I had a chance to kill you, but I did not. Why do you keep chasing me?
+  - Who am I that you're after me? I'm a dead dog, a little flea, a worm. You are
+    the King of Israel!
   - '#Saul'
-  - Crying...
-  - I'm sorry son
-  - You will be the next king of Israel
+  - (Crying...)
+  - You are more righteous than I am and now I know that you will replace me and
+    reign over Israel!
+  - Swear to me that you will not kill my sons after you rule over Israel
+  - '#David'
+  - I swear.
   shouldActivateQuest: 1
   markAsComplete: 0
   questToMark: 
