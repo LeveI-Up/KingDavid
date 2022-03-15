@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 400619468}
   - component: {fileID: 400619467}
   m_Layer: 0
-  m_Name: Saul (1)
+  m_Name: Guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Saul'
+  - '#Guide'
   - Caution! You are in combat place.
   - Fight monsters wisely to gain items and experience points.
   - Do not go to the area of the dragon until you are confident in yourself!
@@ -327,7 +327,7 @@ SpriteRenderer:
   m_SortingLayerID: 1206826079
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Sprite: {fileID: 6586815544308170364, guid: 472912dd8c34ae74b9d0454a4a13f1c4,
+  m_Sprite: {fileID: 7326034899775742671, guid: f86eb2ae64661db44a9fa97a5f7211e5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -348,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 400619466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.71, y: 19.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
