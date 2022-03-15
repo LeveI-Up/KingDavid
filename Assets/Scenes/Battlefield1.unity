@@ -4739,15 +4739,6 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: -7, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 16
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
   - first: {x: -6, y: 4, z: 0}
     second:
       serializedVersion: 2
@@ -5203,15 +5194,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 5
       m_TileSpriteIndex: 5
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -7, y: 5, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -13514,7 +13496,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e60ea5f4fbd27d842ab5f7541c7b5eeb, type: 2}
   - m_RefCount: 43
     m_Data: {fileID: 11400000, guid: 03da8607a40656e4193c6abd2d804edf, type: 2}
-  - m_RefCount: 167
+  - m_RefCount: 165
     m_Data: {fileID: 11400000, guid: 0dbc4aa485be7e648a3de3dab7f6e9a7, type: 2}
   - m_RefCount: 45
     m_Data: {fileID: 11400000, guid: 604b1e829a67da04580d7826cae47f67, type: 2}
@@ -13612,7 +13594,7 @@ Tilemap:
   - m_RefCount: 43
     m_Data: {fileID: -3399804870439798714, guid: c78aecedd39e7254190166e834e535f3,
       type: 3}
-  - m_RefCount: 167
+  - m_RefCount: 165
     m_Data: {fileID: 8228274721300715475, guid: c78aecedd39e7254190166e834e535f3,
       type: 3}
   - m_RefCount: 45
@@ -13690,7 +13672,7 @@ Tilemap:
     m_Data: {fileID: -5820661553354792699, guid: c78aecedd39e7254190166e834e535f3,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1481
+  - m_RefCount: 1479
     m_Data:
       e00: 1
       e01: 0
@@ -13709,13 +13691,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1481
+  - m_RefCount: 1479
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -7, y: -6, z: 0}
-  m_Size: {x: 52, y: 29, z: 1}
+  m_Origin: {x: -6, y: -6, z: 0}
+  m_Size: {x: 51, y: 29, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -13926,7 +13908,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (MyMap)
+      value: Area Exit (Mountains)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -14316,7 +14298,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483537037
 GameObject:
