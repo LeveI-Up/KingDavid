@@ -105,8 +105,8 @@ MonoBehaviour:
   maxHP: 50
   currentMana: 200
   maxMana: 200
-  dexterity: 7
-  defence: 3
+  dexterity: 10
+  defence: 5
   weaponPower: 0
   armorDefence: 0
   isDead: 0

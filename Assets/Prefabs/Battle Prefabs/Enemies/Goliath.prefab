@@ -101,10 +101,10 @@ MonoBehaviour:
   - Tentacles
   - Water
   charcterName: Goliath
-  currentHP: 1000
-  maxHP: 1000
-  currentMana: 800
-  maxMana: 800
+  currentHP: 500
+  maxHP: 500
+  currentMana: 250
+  maxMana: 250
   dexterity: 50
   defence: 50
   weaponPower: 20
