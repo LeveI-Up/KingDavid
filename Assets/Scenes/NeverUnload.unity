@@ -1359,6 +1359,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 162629439401944282, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: backgraoundMusic.Array.data[11]
+      value: 
+      objectReference: {fileID: 1804437639}
     - target: {fileID: 162629439401944283, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1419,7 +1424,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Manager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6324038370533623787, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3085175488382522494, guid: b58f1093ec8cb4a4a981e570df0020c1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b58f1093ec8cb4a4a981e570df0020c1, type: 3}
 --- !u!1001 &1415103757
 PrefabInstance:
@@ -2257,6 +2268,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677993721}
   m_CullTransparentMesh: 0
+--- !u!82 &1804437639 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8781606688160288970, guid: b58f1093ec8cb4a4a981e570df0020c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1262898785}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1826456278
 PrefabInstance:
   m_ObjectHideFlags: 0

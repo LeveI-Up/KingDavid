@@ -221,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 38310986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 28.282, y: 1.832, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -243,7 +243,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.44}
+    oldSize: {x: 1, y: 1.125}
     newSize: {x: 1, y: 1.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -269,7 +269,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.44}
+    oldSize: {x: 1, y: 1.125}
     newSize: {x: 1, y: 1.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Shepherd-Tutorial
+      value: Tutorial-Shepherd
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
@@ -762,7 +762,7 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.499622
+      value: 31.448069
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
