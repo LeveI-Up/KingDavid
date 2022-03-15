@@ -13830,7 +13830,7 @@ PrefabInstance:
     - target: {fileID: 2452346997659516841, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: musicToPlay
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997659516842, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -14309,7 +14309,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 23.222578, y: -6.1930704}
+  m_Offset: {x: 24.126434, y: -7.1792917}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -14320,7 +14320,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 50.873013, y: 21.531355}
+  m_Size: {x: 45.12121, y: 19.558912}
   m_EdgeRadius: 0
 --- !u!4 &1483537040
 Transform:

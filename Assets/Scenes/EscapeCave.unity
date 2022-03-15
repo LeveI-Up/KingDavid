@@ -396,7 +396,7 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.692192
+      value: 34.69721
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -466,7 +466,7 @@ PrefabInstance:
     - target: {fileID: 2452346997659516841, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: musicToPlay
-      value: 3
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997659516842, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
