@@ -43,7 +43,8 @@ public class GameOverManager : MonoBehaviour
             loaded = true;
         }
     }
-    public void LoadLastSave()
+    public void LoadLast
+        ()
     {
         DestroyGameSession();
         if (!loaded)

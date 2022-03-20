@@ -805,6 +805,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13459982357319264, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: m_text
+      value: 'Prays
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459982357319264, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 13459982394664764, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
       propertyPath: m_IsActive
