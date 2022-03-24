@@ -61,7 +61,6 @@ public class Follow : MonoBehaviour
             // and Enemy starts to walk to the next waypoint
             if ((transform.position.x == waypoints[waypointIndex].transform.position.x) && (transform.position.y == waypoints[waypointIndex].transform.position.y))
             {
-                Debug.Log("b");
                 waypointIndex += 1;
             }
         }
