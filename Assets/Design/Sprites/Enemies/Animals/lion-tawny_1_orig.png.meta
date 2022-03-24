@@ -1,0 +1,1756 @@
+fileFormatVersion: 2
+guid: 61185ad19d359a44c947caf5007f8a21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4595968912576195215
+    second: lion-tawny_1_orig_0
+  - first:
+      213: 2046693307103211193
+    second: lion-tawny_1_orig_1
+  - first:
+      213: -7250594276019704458
+    second: lion-tawny_1_orig_2
+  - first:
+      213: -6207836554857407965
+    second: lion-tawny_1_orig_3
+  - first:
+      213: 1009149264778797641
+    second: lion-tawny_1_orig_4
+  - first:
+      213: -5513710277809771259
+    second: lion-tawny_1_orig_5
+  - first:
+      213: 4184876201922255939
+    second: lion-tawny_1_orig_6
+  - first:
+      213: -8275681839678603718
+    second: lion-tawny_1_orig_7
+  - first:
+      213: -1085691175234995179
+    second: lion-tawny_1_orig_8
+  - first:
+      213: -7921147702518481835
+    second: lion-tawny_1_orig_9
+  - first:
+      213: -8072239459387919518
+    second: lion-tawny_1_orig_10
+  - first:
+      213: -7571886153922753477
+    second: lion-tawny_1_orig_11
+  - first:
+      213: 1434848492981315066
+    second: lion-tawny_1_orig_12
+  - first:
+      213: -6036015842664371064
+    second: lion-tawny_1_orig_13
+  - first:
+      213: 8088360498552322288
+    second: lion-tawny_1_orig_14
+  - first:
+      213: 5670834939799407195
+    second: lion-tawny_1_orig_15
+  - first:
+      213: 9057919637574051097
+    second: lion-tawny_1_orig_16
+  - first:
+      213: 7094932739566143032
+    second: lion-tawny_1_orig_17
+  - first:
+      213: 6993498885851046822
+    second: lion-tawny_1_orig_18
+  - first:
+      213: -2890626628419900446
+    second: lion-tawny_1_orig_19
+  - first:
+      213: 3573877213538450729
+    second: lion-tawny_1_orig_20
+  - first:
+      213: 7587765363763320142
+    second: lion-tawny_1_orig_21
+  - first:
+      213: 3407742622648239565
+    second: lion-tawny_1_orig_22
+  - first:
+      213: 7517411752418497635
+    second: lion-tawny_1_orig_23
+  - first:
+      213: 1301772098703139644
+    second: lion-tawny_1_orig_24
+  - first:
+      213: -5969250453898877994
+    second: lion-tawny_1_orig_25
+  - first:
+      213: -8303498269116447699
+    second: lion-tawny_1_orig_26
+  - first:
+      213: 1299851420961536769
+    second: lion-tawny_1_orig_27
+  - first:
+      213: 6200533664774340080
+    second: lion-tawny_1_orig_28
+  - first:
+      213: 493942620906602567
+    second: lion-tawny_1_orig_29
+  - first:
+      213: 8539041258944356019
+    second: lion-tawny_1_orig_30
+  - first:
+      213: 149086657034695077
+    second: lion-tawny_1_orig_31
+  - first:
+      213: 4152899992365523885
+    second: lion-tawny_1_orig_32
+  - first:
+      213: 4903457506537285366
+    second: lion-tawny_1_orig_33
+  - first:
+      213: 2153752445357271977
+    second: lion-tawny_1_orig_34
+  - first:
+      213: -1546008402879242165
+    second: lion-tawny_1_orig_35
+  - first:
+      213: -5371973406285265931
+    second: lion-tawny_1_orig_36
+  - first:
+      213: -7830822559425972781
+    second: lion-tawny_1_orig_37
+  - first:
+      213: 2315299058185789437
+    second: lion-tawny_1_orig_38
+  - first:
+      213: -3159704998250756776
+    second: lion-tawny_1_orig_39
+  - first:
+      213: -8086943720450212415
+    second: lion-tawny_1_orig_40
+  - first:
+      213: 8012410814869061069
+    second: lion-tawny_1_orig_41
+  - first:
+      213: 7898436466610923888
+    second: lion-tawny_1_orig_42
+  - first:
+      213: -4589833382665123816
+    second: lion-tawny_1_orig_43
+  - first:
+      213: 4949302406563471114
+    second: lion-tawny_1_orig_44
+  - first:
+      213: 4157707057358761499
+    second: lion-tawny_1_orig_45
+  - first:
+      213: 8882388716152355209
+    second: lion-tawny_1_orig_46
+  - first:
+      213: 6941402669245038454
+    second: lion-tawny_1_orig_47
+  - first:
+      213: 4035395357080844285
+    second: lion-tawny_1_orig_48
+  - first:
+      213: -7808793059649308326
+    second: lion-tawny_1_orig_49
+  - first:
+      213: 5527497786429289610
+    second: lion-tawny_1_orig_50
+  - first:
+      213: 2522271878587493760
+    second: lion-tawny_1_orig_51
+  - first:
+      213: 7135520092651328760
+    second: lion-tawny_1_orig_52
+  - first:
+      213: -5094064137762035761
+    second: lion-tawny_1_orig_53
+  - first:
+      213: -1308085226811077771
+    second: lion-tawny_1_orig_54
+  - first:
+      213: -5232891393210497011
+    second: lion-tawny_1_orig_55
+  - first:
+      213: -8729934378509308751
+    second: lion-tawny_1_orig_56
+  - first:
+      213: 1135828348456080246
+    second: lion-tawny_1_orig_57
+  - first:
+      213: 6990901887790846229
+    second: lion-tawny_1_orig_58
+  - first:
+      213: -8022485118223802901
+    second: lion-tawny_1_orig_59
+  - first:
+      213: -1770551029533468994
+    second: lion-tawny_1_orig_60
+  - first:
+      213: 3190289436775654877
+    second: lion-tawny_1_orig_61
+  - first:
+      213: -5449567917079019789
+    second: lion-tawny_1_orig_62
+  - first:
+      213: 238008540461220372
+    second: lion-tawny_1_orig_63
+  - first:
+      213: 6932880570189292292
+    second: lion-tawny_1_orig_64
+  - first:
+      213: -795094426900445344
+    second: lion-tawny_1_orig_65
+  - first:
+      213: 1668040638359529251
+    second: lion-tawny_1_orig_66
+  - first:
+      213: -936801997612167949
+    second: lion-tawny_1_orig_67
+  - first:
+      213: -985851203280033982
+    second: lion-tawny_1_orig_68
+  - first:
+      213: 3148839729756217435
+    second: lion-tawny_1_orig_69
+  - first:
+      213: -3450239220024251610
+    second: lion-tawny_1_orig_70
+  - first:
+      213: 108806981703993453
+    second: lion-tawny_1_orig_71
+  - first:
+      213: -2018631622185211314
+    second: lion-tawny_1_orig_72
+  - first:
+      213: -1365544649007779698
+    second: lion-tawny_1_orig_73
+  - first:
+      213: -7346107477924014412
+    second: lion-tawny_1_orig_74
+  - first:
+      213: 8498450774866388969
+    second: lion-tawny_1_orig_75
+  - first:
+      213: 7838235063314645302
+    second: lion-tawny_1_orig_76
+  - first:
+      213: 784021738979132731
+    second: lion-tawny_1_orig_77
+  - first:
+      213: 8076737740525738529
+    second: lion-tawny_1_orig_78
+  - first:
+      213: 8468390933893168196
+    second: lion-tawny_1_orig_79
+  - first:
+      213: -3761706628065754771
+    second: lion-tawny_1_orig_80
+  - first:
+      213: -3189452079734055270
+    second: lion-tawny_1_orig_81
+  - first:
+      213: -2938295330095137257
+    second: lion-tawny_1_orig_82
+  - first:
+      213: -1017504299119366300
+    second: lion-tawny_1_orig_83
+  - first:
+      213: -4431102854879203376
+    second: lion-tawny_1_orig_84
+  - first:
+      213: -3283128065122892801
+    second: lion-tawny_1_orig_85
+  - first:
+      213: -5013554051548571737
+    second: lion-tawny_1_orig_86
+  - first:
+      213: 5988405401442219930
+    second: lion-tawny_1_orig_87
+  - first:
+      213: -2549797001020009709
+    second: lion-tawny_1_orig_88
+  - first:
+      213: 2998540906875779968
+    second: lion-tawny_1_orig_89
+  - first:
+      213: 137511808063037411
+    second: lion-tawny_1_orig_90
+  - first:
+      213: 1249830980407956018
+    second: lion-tawny_1_orig_91
+  - first:
+      213: -414553562898420086
+    second: lion-tawny_1_orig_92
+  - first:
+      213: 4732871955346163580
+    second: lion-tawny_1_orig_93
+  - first:
+      213: -4320548326686223365
+    second: lion-tawny_1_orig_94
+  - first:
+      213: -3931122717733035381
+    second: lion-tawny_1_orig_95
+  - first:
+      213: -4216150445454043820
+    second: lion-tawny_1_orig_96
+  - first:
+      213: -7381941608191756006
+    second: lion-tawny_1_orig_97
+  - first:
+      213: 594524877651248916
+    second: lion-tawny_1_orig_98
+  - first:
+      213: -7675936615719245173
+    second: lion-tawny_1_orig_99
+  - first:
+      213: -6957790293130678589
+    second: lion-tawny_1_orig_100
+  - first:
+      213: 4731364479441401525
+    second: lion-tawny_1_orig_101
+  - first:
+      213: -2722418595723187089
+    second: lion-tawny_1_orig_102
+  - first:
+      213: 1694760275068744108
+    second: lion-tawny_1_orig_103
+  - first:
+      213: -4070601956446297385
+    second: lion-tawny_1_orig_104
+  - first:
+      213: 6033324336997267675
+    second: lion-tawny_1_orig_105
+  - first:
+      213: -4807508459014298261
+    second: lion-tawny_1_orig_106
+  - first:
+      213: 7874579526075145510
+    second: lion-tawny_1_orig_107
+  - first:
+      213: 4566914736428920640
+    second: lion-tawny_1_orig_108
+  - first:
+      213: 6285970524729548208
+    second: lion-tawny_1_orig_109
+  - first:
+      213: 9003445131731671210
+    second: lion-tawny_1_orig_110
+  - first:
+      213: 2969216296935643208
+    second: lion-tawny_1_orig_111
+  - first:
+      213: -7186579338696320575
+    second: lion-tawny_1_orig_112
+  - first:
+      213: -621754627653259506
+    second: lion-tawny_1_orig_113
+  - first:
+      213: 4756585796966621840
+    second: lion-tawny_1_orig_114
+  - first:
+      213: -7422721214250231206
+    second: lion-tawny_1_orig_115
+  - first:
+      213: 6391297002282819656
+    second: lion-tawny_1_orig_116
+  - first:
+      213: -839206103138175476
+    second: lion-tawny_1_orig_117
+  - first:
+      213: -7478227583688543983
+    second: lion-tawny_1_orig_118
+  - first:
+      213: -7177165451585527612
+    second: lion-tawny_1_orig_119
+  - first:
+      213: 8651030834079903012
+    second: lion-tawny_1_orig_120
+  - first:
+      213: -7818950653128430092
+    second: lion-tawny_1_orig_121
+  - first:
+      213: -2594423460951110949
+    second: lion-tawny_1_orig_122
+  - first:
+      213: -4937816250822871586
+    second: lion-tawny_1_orig_123
+  - first:
+      213: 7981060367675136308
+    second: lion-tawny_1_orig_124
+  - first:
+      213: 1614749386166717297
+    second: lion-tawny_1_orig_125
+  - first:
+      213: 602691564777855048
+    second: lion-tawny_1_orig_126
+  - first:
+      213: 3364782557660534746
+    second: lion-tawny_1_orig_127
+  - first:
+      213: 8184268225563992942
+    second: lion-tawny_1_orig_128
+  - first:
+      213: 6985864475784524883
+    second: lion-tawny_1_orig_129
+  - first:
+      213: -7897077354847030701
+    second: lion-tawny_1_orig_130
+  - first:
+      213: 8117081932449725352
+    second: lion-tawny_1_orig_131
+  - first:
+      213: -3642098482169042646
+    second: lion-tawny_1_orig_132
+  - first:
+      213: 5112865740686178897
+    second: lion-tawny_1_orig_133
+  - first:
+      213: 3599228219024946341
+    second: lion-tawny_1_orig_134
+  - first:
+      213: 4385260615845390676
+    second: lion-tawny_1_orig_135
+  - first:
+      213: -7121613623052668230
+    second: lion-tawny_1_orig_136
+  - first:
+      213: -6403008586261958270
+    second: lion-tawny_1_orig_137
+  - first:
+      213: -2362650517441064093
+    second: lion-tawny_1_orig_138
+  - first:
+      213: 5139577490006163624
+    second: lion-tawny_1_orig_139
+  - first:
+      213: 4786038981613223259
+    second: lion-tawny_1_orig_140
+  - first:
+      213: -7636731867182208140
+    second: lion-tawny_1_orig_141
+  - first:
+      213: 4523022890649619606
+    second: lion-tawny_1_orig_142
+  - first:
+      213: 4497331881135893092
+    second: lion-tawny_1_orig_143
+  - first:
+      213: -5026694192564329741
+    second: lion-tawny_1_orig_144
+  - first:
+      213: 916851819218779939
+    second: lion-tawny_1_orig_145
+  - first:
+      213: -8852217663322952423
+    second: lion-tawny_1_orig_146
+  - first:
+      213: 8167035570707497298
+    second: lion-tawny_1_orig_147
+  - first:
+      213: 1091418368652653110
+    second: lion-tawny_1_orig_148
+  - first:
+      213: 7470943162655718327
+    second: lion-tawny_1_orig_149
+  - first:
+      213: -7193771606324523358
+    second: lion-tawny_1_orig_150
+  - first:
+      213: -5500430800647817650
+    second: lion-tawny_1_orig_151
+  - first:
+      213: -1510141866242701855
+    second: lion-tawny_1_orig_152
+  - first:
+      213: -9118535816857696631
+    second: lion-tawny_1_orig_153
+  - first:
+      213: 3948220972176519031
+    second: lion-tawny_1_orig_154
+  - first:
+      213: 5893404227546404721
+    second: lion-tawny_1_orig_155
+  - first:
+      213: 5399262291232670791
+    second: lion-tawny_1_orig_156
+  - first:
+      213: -5286942204214492980
+    second: lion-tawny_1_orig_157
+  - first:
+      213: 5945491902402044374
+    second: lion-tawny_1_orig_158
+  - first:
+      213: -8187981647212002285
+    second: lion-tawny_1_orig_159
+  - first:
+      213: -1095368578330500824
+    second: lion-tawny_1_orig_160
+  - first:
+      213: 6239088782328668797
+    second: lion-tawny_1_orig_161
+  - first:
+      213: -7873056640563837335
+    second: lion-tawny_1_orig_162
+  - first:
+      213: 5504110314946512299
+    second: lion-tawny_1_orig_163
+  - first:
+      213: 2687144059947250015
+    second: lion-tawny_1_orig_164
+  - first:
+      213: -540107210312450826
+    second: lion-tawny_1_orig_165
+  - first:
+      213: 625697195569294748
+    second: lion-tawny_1_orig_166
+  - first:
+      213: 7986963697626008861
+    second: lion-tawny_1_orig_167
+  - first:
+      213: -8347209617167388766
+    second: lion-tawny_1_orig_168
+  - first:
+      213: -7124451395304717252
+    second: lion-tawny_1_orig_169
+  - first:
+      213: -5443240425110860409
+    second: lion-tawny_1_orig_170
+  - first:
+      213: -1590198187522155621
+    second: lion-tawny_1_orig_171
+  - first:
+      213: -3077743732565261448
+    second: lion-tawny_1_orig_172
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8aa7d0206928cf30800000000000000
+      internalID: 4595968912576195215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be6e0e08b0576c10800000000000000
+      internalID: 2046693307103211193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6d57dbe6b06b90800000000000000
+      internalID: -7250594276019704458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a1a0c3b8559d9a0800000000000000
+      internalID: -6207836554857407965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942ac7cd8e7310e00800000000000000
+      internalID: 1009149264778797641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6ab817bd5b73b0800000000000000
+      internalID: -5513710277809771259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cdf84bbbaa31a30800000000000000
+      internalID: 4184876201922255939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e3ec7963fd62d80800000000000000
+      internalID: -8275681839678603718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c775cd0a9dee0f0800000000000000
+      internalID: -1085691175234995179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cfbf1f12e621290800000000000000
+      internalID: -7921147702518481835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ba41faf4a9ff80800000000000000
+      internalID: -8072239459387919518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c4cbb19a14be690800000000000000
+      internalID: -7571886153922753477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5e7aa2a1b99e310800000000000000
+      internalID: 1434848492981315066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c2c5f3293cb3ca0800000000000000
+      internalID: -6036015842664371064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8338bf401af3070800000000000000
+      internalID: 8088360498552322288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a0e96155ad2be40800000000000000
+      internalID: 5670834939799407195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915e2a16be134bd70800000000000000
+      internalID: 9057919637574051097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836012f6cb3467260800000000000000
+      internalID: 7094932739566143032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3ed3cfe26ed0160800000000000000
+      internalID: 6993498885851046822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb2fba856e62e7d0800000000000000
+      internalID: -2890626628419900446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d72d7f366f89130800000000000000
+      internalID: 3573877213538450729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45102a85682d4960800000000000000
+      internalID: 7587765363763320142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc508ec3cdbba4f20800000000000000
+      internalID: 3407742622648239565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364504de826335860800000000000000
+      internalID: 7517411752418497635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3327b1a3d2d01210800000000000000
+      internalID: 1301772098703139644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_25
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3a400b656f82da0800000000000000
+      internalID: -5969250453898877994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d244e3c615c04cc80800000000000000
+      internalID: -8303498269116447699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bf23ffafff90210800000000000000
+      internalID: 1299851420961536769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdb9ba2488bc0650800000000000000
+      internalID: 6200533664774340080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740409a5236dad600800000000000000
+      internalID: 493942620906602567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be58c188c4c08670800000000000000
+      internalID: 8539041258944356019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1bd415689a11200800000000000000
+      internalID: 149086657034695077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da36ba04a8012a930800000000000000
+      internalID: 4152899992365523885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a0606f949c0440800000000000000
+      internalID: 4903457506537285366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab26af107aa3ed10800000000000000
+      internalID: 2153752445357271977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b402d967c897b8ae0800000000000000
+      internalID: -1546008402879242165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3858f16aae275b0800000000000000
+      internalID: -5371973406285265931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5bc462f54535390800000000000000
+      internalID: -7830822559425972781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd5f7f938912020800000000000000
+      internalID: 2315299058185789437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cc308b097624d0800000000000000
+      internalID: -3159704998250756776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3dff588765cf80800000000000000
+      internalID: -8086943720450212415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_41
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb4ce3f2dc13f60800000000000000
+      internalID: 8012410814869061069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079e5516e12ec9d60800000000000000
+      internalID: 7898436466610923888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_43
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81804004bd2ad40c0800000000000000
+      internalID: -4589833382665123816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f9335f0547fa440800000000000000
+      internalID: 4949302406563471114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ee00a4a8423b930800000000000000
+      internalID: 4157707057358761499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f237f975944b70800000000000000
+      internalID: 8882388716152355209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f7c4753f0d45060800000000000000
+      internalID: 6941402669245038454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7701362ba900830800000000000000
+      internalID: 4035395357080844285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593113c51891a390800000000000000
+      internalID: -7808793059649308326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8430e863fd95bc40800000000000000
+      internalID: 5527497786429289610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d2a26f8e8e00320800000000000000
+      internalID: 2522271878587493760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4152af7b5760360800000000000000
+      internalID: 7135520092651328760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lion-tawny_1_orig_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc723adf7af3e49b0800000000000000
+      internalID: -5094064137762035761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 733f19b11ae017c458375050099d0f94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
