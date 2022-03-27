@@ -5,8 +5,8 @@ using UnityEngine;
 public class QuestObject : MonoBehaviour
 {
 
-    [SerializeField] GameObject objectToActivate;
-    [SerializeField] string questToCheck;
+    [SerializeField] GameObject[] objectToActivate;
+    [SerializeField] string[] questToCheck;
     [SerializeField] bool activateIfComplete;
 
     private void Update()
@@ -15,10 +15,13 @@ public class QuestObject : MonoBehaviour
     }
     public void CheckForCompletion()
     {
-        if (QuestManager.instance.CheckIfComplete(questToCheck))
+        for (int i = 0; i < questToCheck.Length; i++)
         {
-            objectToActivate.SetActive(activateIfComplete);
+            if (QuestManager.instance.CheckIfComplete(questToCheck[i]))
+            {
+                objectToActivate[i].SetActive(activateIfComplete);
 
+            }
         }
     }
 }

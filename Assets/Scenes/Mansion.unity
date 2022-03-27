@@ -18521,9 +18521,9 @@ MonoBehaviour:
   - Before you can start you have to practice
   - Now go to the bottom route and fight the enemies
   - don't come back before you get enough experience, at least level 10!
-  shouldActivateQuest: 0
-  markAsComplete: 0
-  questToMark: 
+  shouldActivateQuest: 1
+  markAsComplete: 1
+  questToMark: Talk Saul
 --- !u!212 &1844692342
 SpriteRenderer:
   m_ObjectHideFlags: 0
