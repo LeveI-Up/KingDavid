@@ -21105,21 +21105,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 996950936}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &996950938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996950937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 996950937}
-  questToCheck: 
-  activateIfComplete: 0
 --- !u!82 &997506616 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6812627939471016349, guid: b58f1093ec8cb4a4a981e570df0020c1,
