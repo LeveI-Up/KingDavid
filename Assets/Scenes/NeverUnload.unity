@@ -1177,6 +1177,14 @@ PrefabInstance:
       propertyPath: defence
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: questToMark
+      value: Level 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: levelAchive
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3054614680164496640, guid: 820401e3b285f8546a217f070e4cf18c,
         type: 3}
       propertyPath: movespeed
