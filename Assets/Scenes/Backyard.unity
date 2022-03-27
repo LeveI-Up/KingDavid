@@ -243,7 +243,6 @@ GameObject:
   - component: {fileID: 457564830}
   - component: {fileID: 457564829}
   - component: {fileID: 457564828}
-  - component: {fileID: 457564833}
   m_Layer: 0
   m_Name: Yonatan
   m_TagString: Untagged
@@ -397,13 +396,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &457564833
+--- !u!1 &538958675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 538958677}
+  - component: {fileID: 538958676}
+  m_Layer: 0
+  m_Name: Checking Quests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &538958676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457564827}
+  m_GameObject: {fileID: 538958675}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
@@ -417,7 +433,26 @@ MonoBehaviour:
   - Talk Yonatan
   - Talk Saul
   - Talk Saul
+  objectToUnActivate:
+  - {fileID: 457564827}
+  questToCheckForUnActivate:
+  - Talk Saul
   activateIfComplete: 1
+  unActivateIfComplete: 0
+--- !u!4 &538958677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538958675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.839254, y: 11.0568905, z: -65.78169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &657471095
 PrefabInstance:
   m_ObjectHideFlags: 0

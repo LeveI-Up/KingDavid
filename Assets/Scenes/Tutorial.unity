@@ -774,12 +774,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Ishay'
-  - 'Oh David, you''re here! '
-  - Someone came looking for you, I sent him to the farm to check if you are there,
-    go to the farm and check what he wants
+  - 
+  - 
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Ishay
+  questToMark: Taking Food
 --- !u!212 &1643977731
 SpriteRenderer:
   m_ObjectHideFlags: 0
