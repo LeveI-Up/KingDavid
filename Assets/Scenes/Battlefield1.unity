@@ -265,7 +265,7 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 0
+  canRunAway: 1
   shouldCompleteQuest: 0
   questToCompleteName: 
 --- !u!61 &176803627
@@ -14304,7 +14304,7 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 0
+  canRunAway: 1
   shouldCompleteQuest: 0
   questToCompleteName: 
 --- !u!61 &953635533
@@ -15012,7 +15012,7 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 0
+  canRunAway: 1
   shouldCompleteQuest: 0
   questToCompleteName: 
 --- !u!61 &1596461385
@@ -15167,7 +15167,7 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 0
+  canRunAway: 1
   shouldCompleteQuest: 0
   questToCompleteName: 
 --- !u!61 &1774721274
@@ -15323,7 +15323,7 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 0
+  canRunAway: 1
   shouldCompleteQuest: 0
   questToCompleteName: 
 --- !u!61 &1804210336
