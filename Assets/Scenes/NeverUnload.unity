@@ -2326,6 +2326,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[1]
+      value: Talk Samuel
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1215674947727949046, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
       propertyPath: m_LocalPosition.x

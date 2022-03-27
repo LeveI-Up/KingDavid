@@ -20997,6 +20997,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Exit (Backyard)
       objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
@@ -21094,6 +21099,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
+--- !u!1 &996950937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 996950936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &996950938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996950937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 996950937}
+  questToCheck: 
+  activateIfComplete: 0
 --- !u!82 &997506616 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6812627939471016349, guid: b58f1093ec8cb4a4a981e570df0020c1,
@@ -23140,8 +23166,9 @@ GameObject:
   - component: {fileID: 1962720114}
   - component: {fileID: 1962720113}
   - component: {fileID: 1962720112}
+  - component: {fileID: 1962720117}
   m_Layer: 0
-  m_Name: Ishay
+  m_Name: Samuel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23219,9 +23246,9 @@ MonoBehaviour:
     of Israel.
   - Now go to the mansion and meet King Saul there, he is waiting for you
   - From that day on, "the Spirit of the Lord came to David."
-  shouldActivateQuest: 0
-  markAsComplete: 0
-  questToMark: 
+  shouldActivateQuest: 1
+  markAsComplete: 1
+  questToMark: Talk Samuel
 --- !u!212 &1962720115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23287,6 +23314,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962720117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962720111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 996950937}
+  questToCheck: Talk Samuel
+  activateIfComplete: 1
 --- !u!1 &1971763076
 GameObject:
   m_ObjectHideFlags: 0
