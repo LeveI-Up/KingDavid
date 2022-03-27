@@ -2402,7 +2402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[6]
-      value: Kill Goliath
+      value: Appointment To The Squire
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[7]
@@ -2414,47 +2414,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[9]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[10]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[11]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[12]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[13]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[14]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[15]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[16]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[17]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[18]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[19]
-      value: Kill Goliath
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1215674947727949046, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}

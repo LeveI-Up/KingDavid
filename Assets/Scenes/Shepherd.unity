@@ -20985,6 +20985,59 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &981423214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981423216}
+  - component: {fileID: 981423215}
+  m_Layer: 0
+  m_Name: Checking Quests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &981423215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981423214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate:
+  - {fileID: 996950937}
+  questToCheck:
+  - Talk Samuel
+  objectToUnActivate:
+  - {fileID: 1962720111}
+  questToCheckForUnActivate:
+  - Talk Yonatan
+  activateIfComplete: 1
+  unActivateIfComplete: 0
+--- !u!4 &981423216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981423214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.943611, y: 7.1628637, z: -64.16779}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &996950936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23315,7 +23368,10 @@ MonoBehaviour:
   - {fileID: 996950937}
   questToCheck:
   - Talk Samuel
+  objectToUnActivate: []
+  questToCheckForUnActivate: []
   activateIfComplete: 1
+  unActivateIfComplete: 0
 --- !u!1 &1971763076
 GameObject:
   m_ObjectHideFlags: 0
