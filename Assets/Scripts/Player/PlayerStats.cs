@@ -33,6 +33,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int weaponPower;
     [SerializeField] int armorDefence;
     [SerializeField] ItemsManager equipedWeapon, equipedArmor;
+    public bool levelup;
 
 
     //Unique Formula to calc the exp
@@ -67,6 +68,7 @@ public class PlayerStats : MonoBehaviour
         {
             currentXP -= xpForNextLevel[playerLevel];
             playerLevel++;
+            levelup = true;
             if (playerLevel == levelAchive)
             {
                 QuestManager.instance.MarkQuestComplete(questToMark);

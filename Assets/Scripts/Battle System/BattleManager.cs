@@ -596,7 +596,7 @@ public class BattleManager : MonoBehaviour
         CharacterChoicePanel.SetActive(false);
         if (!runingAway)
         {
-            battleNotice.SetText("We Won");
+            battleNotice.SetText("You Won");
             battleNotice.ActivateBattleNotification();
         }
         

@@ -2378,7 +2378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questMarkersCompleted.Array.data[1]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[2]
@@ -2394,7 +2394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questMarkersCompleted.Array.data[0]
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[5]
@@ -2455,6 +2455,18 @@ PrefabInstance:
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[19]
       value: Kill Goliath
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[4]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1215674947727949046, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}

@@ -25,26 +25,37 @@ public class BattleRewardsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            OpenRewardScreen(15000, rewardItems);
-        }
+      
     }
 
     public void OpenRewardScreen(int xpEarned, ItemsManager[] itemsEarned)
     {
+        
         xpReward = xpEarned;
         rewardItems = itemsEarned;
-        XpText.text = xpEarned + " XP";
-        itemsText.text = "";
+        Debug.Log("xpfornextlevel: "+ PlayerStats.instance.GetXpForNextLevel()[PlayerStats.instance.GetPlayerLevel()]);
+        Debug.Log("curr exp: "+PlayerStats.instance.GetCurrentXP() + xpEarned);
+        if (PlayerStats.instance.GetXpForNextLevel()[PlayerStats.instance.GetPlayerLevel()]<=PlayerStats.instance.GetCurrentXP()+xpEarned)
+        {
+            XpText.text = xpEarned + " XP" +" Congratz, LEVEL UP!";
+        }
+        else
+        {
+            XpText.text = xpEarned + " XP";
+        }
         
-        foreach(ItemsManager rewardItemText in rewardItems)
+        itemsText.text = "";
+        PlayerStats.instance.levelup = false;
+
+
+        foreach (ItemsManager rewardItemText in rewardItems)
         {
             itemsText.text += rewardItemText.itemName + ", ";
         }
         itemsText.text = itemsText.text.Remove(itemsText.text.Length - 1);
         rewardScreen.SetActive(true);
     }
+
 
     public void CloseRewardScreen()
     {
