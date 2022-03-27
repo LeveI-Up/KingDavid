@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 36144890}
   - component: {fileID: 36144889}
   m_Layer: 0
-  m_Name: Boss Battle
+  m_Name: Goliath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
   musicToPlay: 10
   canRunAway: 0
   shouldCompleteQuest: 0
-  questToCompleteName: Kill Dragon
+  questToCompleteName: 
 --- !u!61 &36144890
 BoxCollider2D:
   m_ObjectHideFlags: 0

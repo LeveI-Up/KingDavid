@@ -711,7 +711,7 @@ PrefabInstance:
     - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
       propertyPath: enemiesPrefabs.Array.size
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
@@ -724,6 +724,30 @@ PrefabInstance:
       propertyPath: enemiesPrefabs.Array.data[5]
       value: 
       objectReference: {fileID: 1330108704660254645, guid: 7edc059854176f9469907b42147b1c7f,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: enemiesPrefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 5805582508224328408, guid: f83a9483f8dc09845b588e59ee66386d,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: enemiesPrefabs.Array.data[7]
+      value: 
+      objectReference: {fileID: 2763488044340082385, guid: c909e91a91b15984ca52423a4db2c7a8,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: enemiesPrefabs.Array.data[8]
+      value: 
+      objectReference: {fileID: 7538339782558001375, guid: 26b47b8cc24ec3740814c9f97e7c3d7a,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: enemiesPrefabs.Array.data[9]
+      value: 
+      objectReference: {fileID: 1426196107523159662, guid: 96dcda866efd5b042b1ee38ef69ecace,
         type: 3}
     - target: {fileID: 13459981676696310, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
@@ -794,6 +818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459982195267841, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.12
       objectReference: {fileID: 0}
     - target: {fileID: 13459982273544504, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
@@ -1121,7 +1150,7 @@ PrefabInstance:
     - target: {fileID: 3054614680164496640, guid: 820401e3b285f8546a217f070e4cf18c,
         type: 3}
       propertyPath: movespeed
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3054614680164496641, guid: 820401e3b285f8546a217f070e4cf18c,
         type: 3}
