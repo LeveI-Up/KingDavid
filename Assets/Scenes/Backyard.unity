@@ -746,12 +746,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -29610,6 +29610,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 162629439401944282, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: SFX.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 162629439401944282, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: SFX.Array.data[16]
+      value: 
+      objectReference: {fileID: 1541804760}
     - target: {fileID: 162629439401944283, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29672,6 +29682,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58f1093ec8cb4a4a981e570df0020c1, type: 3}
+--- !u!82 &1541804760 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4982625179418285907, guid: b58f1093ec8cb4a4a981e570df0020c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1541804759}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1578730439
 GameObject:
   m_ObjectHideFlags: 0

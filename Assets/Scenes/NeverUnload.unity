@@ -715,6 +715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
+      propertyPath: battleMovesList.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
       propertyPath: enemiesPrefabs.Array.data[4]
       value: 
       objectReference: {fileID: 5393366024481034198, guid: 3d0f9984ba5b8f94bbe1a7bc4c499703,
@@ -778,6 +783,43 @@ PrefabInstance:
       propertyPath: enemiesPrefabs.Array.data[14]
       value: 
       objectReference: {fileID: 6293393961365618298, guid: 9fedf7c0ca4b81d43958b756959075c9,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[6].moveName
+      value: Bite
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[6].movePower
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[6].manaCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[6].effectToUse
+      value: 
+      objectReference: {fileID: 7979281138678913761, guid: 01208785f7d02464dae85f1655c5a35d,
+        type: 3}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[7].moveName
+      value: Scratch
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[7].movePower
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 13459981676696309, guid: 3dd715475b5810d42be765de4b719f6a,
+        type: 3}
+      propertyPath: battleMovesList.Array.data[7].effectToUse
+      value: 
+      objectReference: {fileID: 4395743227519875280, guid: 70862fc25f71ef141806e52babf7b114,
         type: 3}
     - target: {fileID: 13459981676696310, guid: 3dd715475b5810d42be765de4b719f6a,
         type: 3}
@@ -1442,6 +1484,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 26238483981377811, guid: b58f1093ec8cb4a4a981e570df0020c1,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 162629439401944282, guid: b58f1093ec8cb4a4a981e570df0020c1,
         type: 3}
       propertyPath: backgraoundMusic.Array.data[11]
