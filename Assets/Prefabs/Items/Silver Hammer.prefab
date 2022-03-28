@@ -146,12 +146,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   itemName: Silver Hammer
-  itemDescription: +20 Defence
+  itemDescription: +30 Attack Power
   valueInCoins: 100
   itemImage: {fileID: 21300000, guid: a6014e82dd769fa4890d9d21cbe77739, type: 3}
   amountOfEffect: 0
   effectType: 0
-  weaponAttackPower: 20
+  weaponAttackPower: 30
   ArmorDef: 0
   isStackable: 0
   amount: 1

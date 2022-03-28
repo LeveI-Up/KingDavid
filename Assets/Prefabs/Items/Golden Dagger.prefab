@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   itemName: Golden Dagger
-  itemDescription: +20 Defence
+  itemDescription: +20 Attack Power
   valueInCoins: 100
   itemImage: {fileID: 21300000, guid: 4a9752f7adfd5b044bdea1a508f298f7, type: 3}
   amountOfEffect: 0
