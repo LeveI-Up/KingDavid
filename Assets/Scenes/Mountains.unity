@@ -278,9 +278,11 @@ MonoBehaviour:
   - {fileID: 1050731993}
   questToCheck:
   - Taking Food
-  - Taking aaa
-  objectToUnActivate: []
-  questToCheckForUnActivate: []
+  - Talk Eliav
+  objectToUnActivate:
+  - {fileID: 1195712609}
+  questToCheckForUnActivate:
+  - Kill Goliath
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!1 &251928753
