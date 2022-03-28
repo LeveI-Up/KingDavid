@@ -2295,35 +2295,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[7]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[8]
       value: Level 5
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[9]
+      propertyPath: questNames.Array.data[8]
       value: Appointment To The Squire
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[10]
+      propertyPath: questNames.Array.data[9]
       value: Talk Ishay About Food
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[11]
+      propertyPath: questNames.Array.data[10]
       value: Taking Food
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[12]
+      propertyPath: questNames.Array.data[11]
       value: Talk Saul Before Goliath
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[13]
+      propertyPath: questNames.Array.data[12]
       value: Talk Eliav
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
-      propertyPath: questNames.Array.data[14]
+      propertyPath: questNames.Array.data[13]
       value: Kill Goliath
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[14]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[15]

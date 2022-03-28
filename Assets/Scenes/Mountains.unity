@@ -275,12 +275,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToActivate:
   - {fileID: 1195712609}
-  - {fileID: 1050731993}
   - {fileID: 1495083086}
+  - {fileID: 1050731993}
   questToCheck:
   - Taking Food
-  - Talk Eliav
   - Talk Saul Before Goliath
+  - Talk Eliav
   objectToUnActivate:
   - {fileID: 1195712609}
   questToCheckForUnActivate:
@@ -382,7 +382,7 @@ MonoBehaviour:
   - 
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Taking aaa
+  questToMark: Talk Saul Before Goliath
 --- !u!212 &251928757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1726,7 +1726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1195712610
 Transform:
   m_ObjectHideFlags: 0
@@ -1968,7 +1968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1495083087
 MonoBehaviour:
   m_ObjectHideFlags: 0
