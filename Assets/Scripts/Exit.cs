@@ -36,14 +36,14 @@ public class Exit : MonoBehaviour
 
                 loaded = true;
 
-                if(sceneToLoad == "MyMap")
+                /*if(sceneToLoad == "MyMap")
                 {
                     GameManager.instance.sceneObjects[0].gameObject.SetActive(true);
                 }
                 else
                 {
                     GameManager.instance.sceneObjects[0].gameObject.SetActive(false);
-                }
+                }*/
             }
 
         }
