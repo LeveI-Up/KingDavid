@@ -27,11 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Plishtim Battlefield.unity
     guid: 4dc93c5dedc08d147a4f441c4ce9eb2c
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/battlefield3.unity
-=======
-    path: Assets/Scenes/Amalek Battlefield.unity
->>>>>>> Stashed changes
     guid: a89d1ce5b49c28645b576d239c824769
   - enabled: 1
     path: Assets/Scenes/Cave.unity
@@ -57,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shepherd.unity
     guid: 1bf1d46869389aa4e84cce377bf7266a
+  - enabled: 1
+    path: Assets/Scenes/David's castle.unity
+    guid: 796dedaa8d3e8d04f916b9cf00729a08
+  - enabled: 1
+    path: Assets/Scenes/Gat.unity
+    guid: 685e3c7387b685b4e9cee8e7358b1cdc
   m_configObjects: {}

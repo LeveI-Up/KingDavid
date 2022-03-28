@@ -658,6 +658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Exit (Plishtim Battlefield)
       objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
@@ -1052,12 +1057,12 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: Ella Valley
+      value: Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: Forest
+      value: Ella Valley
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
