@@ -1179,7 +1179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: questToMark
-      value: Level 10
+      value: Level 5
       objectReference: {fileID: 0}
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: levelAchive
@@ -2398,43 +2398,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[5]
-      value: Level 10
+      value: Talk Ishay About Sheep
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[6]
-      value: Appointment To The Squire
+      value: Kill Lion And Bear
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[7]
-      value: Taking Food
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[8]
-      value: Talk Eliav
+      value: Level 5
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[9]
-      value: Kill Goliath
+      value: Appointment To The Squire
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[10]
-      value: 
+      value: Talk Ishay About Food
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[11]
-      value: 
+      value: Taking Food
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[12]
-      value: 
+      value: Talk Saul Before Goliath
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[13]
-      value: 
+      value: Talk Eliav
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[14]
-      value: 
+      value: Kill Goliath
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[15]

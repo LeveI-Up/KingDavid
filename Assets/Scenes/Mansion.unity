@@ -6251,7 +6251,7 @@ MonoBehaviour:
   objectToUnActivate:
   - {fileID: 1844692338}
   questToCheckForUnActivate:
-  - Level 10
+  - Level 5
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &611037403
@@ -18733,7 +18733,7 @@ MonoBehaviour:
   - From now on you are my new squire
   - Before you can start you have to practice
   - Now go to the bottom route and fight the enemies
-  - don't come back before you get enough experience, at least level 10!
+  - don't come back before you get enough experience, at least level 5s!
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Talk Saul
