@@ -15695,9 +15695,9 @@ MonoBehaviour:
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
   musicToPlay: 10
-  canRunAway: 1
-  shouldCompleteQuest: 0
-  questToCompleteName: 
+  canRunAway: 0
+  shouldCompleteQuest: 1
+  questToCompleteName: Kill Lion And Bear
 --- !u!61 &549902181
 BoxCollider2D:
   m_ObjectHideFlags: 0
