@@ -278,13 +278,13 @@ MonoBehaviour:
   - {fileID: 1495083086}
   - {fileID: 1050731993}
   questToCheck:
-  - Taking Food
-  - Talk Saul Before Goliath
-  - Talk Eliav
+  - Take the food from the kitchen
+  - Talk to Saul at the Ella Valley
+  - Talk to your brother Eliav and give him the food
   objectToUnActivate:
   - {fileID: 1195712609}
   questToCheckForUnActivate:
-  - Kill Goliath
+  - Defeat Goliath
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!1 &251928753
@@ -382,7 +382,7 @@ MonoBehaviour:
   - 
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Saul Before Goliath
+  questToMark: Talk to Saul at the Ella Valley
 --- !u!212 &251928757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1684,7 +1684,7 @@ MonoBehaviour:
   musicToPlay: 10
   canRunAway: 0
   shouldCompleteQuest: 1
-  questToCompleteName: Kill Goliath
+  questToCompleteName: Defeat Goliath
 --- !u!61 &1050731996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   - 
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Eliav
+  questToMark: Talk to your brother Eliav and give him the food
 --- !u!61 &1495083088
 BoxCollider2D:
   m_ObjectHideFlags: 0

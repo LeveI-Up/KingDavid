@@ -330,7 +330,7 @@ MonoBehaviour:
   - 'Now go inside, my father is waiting for you '
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Yonatan
+  questToMark: Go and meet Yonatan at the Mansion's backyard
 --- !u!212 &457564831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
     go to the farm and check what he wants
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Ishay About Sheep
+  questToMark: Talk to Ishay at the backyard
 --- !u!212 &516681857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -587,15 +587,15 @@ MonoBehaviour:
   - {fileID: 516681853}
   - {fileID: 1629008538}
   questToCheck:
-  - Talk Yonatan
-  - Talk Saul
-  - Talk Ishay About Sheep
+  - Go and meet Yonatan at the Mansion's backyard
+  - Talk to Saul at the Mansion
+  - Talk to Ishay at the backyard
   objectToUnActivate:
   - {fileID: 457564827}
   - {fileID: 516681853}
   questToCheckForUnActivate:
-  - Talk Saul
-  - Kill Lion And Bear
+  - Talk to Saul at the Mansion
+  - Save the sheep in the forest, defeat the lion and the bear
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &538958677
@@ -30232,7 +30232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1937403973
 PrefabInstance:

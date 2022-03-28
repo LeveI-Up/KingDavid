@@ -634,6 +634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Exit (Town)
       objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
@@ -741,6 +746,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
+--- !u!1 &282470989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 282470988}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &319704831
 GameObject:
   m_ObjectHideFlags: 0
@@ -15697,7 +15708,7 @@ MonoBehaviour:
   musicToPlay: 10
   canRunAway: 0
   shouldCompleteQuest: 1
-  questToCompleteName: Kill Lion And Bear
+  questToCompleteName: Save the sheep in the forest, defeat the lion and the bear
 --- !u!61 &549902181
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15755,12 +15766,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToActivate:
   - {fileID: 825462733}
+  - {fileID: 282470989}
   questToCheck:
-  - Kill Lion And Bear
+  - Save the sheep in the forest, defeat the lion and the bear
+  - Take the food from the kitchen
   objectToUnActivate:
   - {fileID: 549902178}
   questToCheckForUnActivate:
-  - Kill Lion And Bear
+  - Save the sheep in the forest, defeat the lion and the bear
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &580802749

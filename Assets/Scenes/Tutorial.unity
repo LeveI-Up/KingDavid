@@ -160,7 +160,7 @@ MonoBehaviour:
     go to the farm and check what he wants
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Ishay
+  questToMark: Talk to Ishay
 --- !u!212 &38310988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -312,17 +312,17 @@ MonoBehaviour:
   - {fileID: 1643977726}
   - {fileID: 1239340570}
   questToCheck:
-  - Talk Ishay
-  - Appointment To The Squire
-  - Talk Ishay About Food
+  - Talk to Ishay
+  - Go to the Mansion and talk to Saul
+  - Go to your house and talk to Ishay
   objectToUnActivate:
   - {fileID: 38310986}
   - {fileID: 1643977726}
   - {fileID: 1239340570}
   questToCheckForUnActivate:
-  - Talk Samuel
-  - Kill Goliath
-  - Taking Food
+  - Look for Samuel on the farm
+  - Defeat Goliath
+  - Take the food from the kitchen
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &43959125
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7035e004f9d67448b33dea5b8c1160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToMark: Taking Food
+  questToMark: Take the food from the kitchen
   markAsComplet: 1
   markOnEnter: 1
   deactivateOnMarking: 1
@@ -904,11 +904,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Ishay'
-  - 
-  - 
+  - David there is a tough battle in the Ella Valley,
+  - take the food from the kitchen and go bring it to your brothers who are in battle.
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Ishay About Food
+  questToMark: Go to your house and talk to Ishay
 --- !u!212 &1643977731
 SpriteRenderer:
   m_ObjectHideFlags: 0

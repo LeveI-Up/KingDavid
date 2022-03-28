@@ -21017,11 +21017,11 @@ MonoBehaviour:
   objectToActivate:
   - {fileID: 996950937}
   questToCheck:
-  - Talk Samuel
+  - Look for Samuel on the farm
   objectToUnActivate:
   - {fileID: 1962720111}
   questToCheckForUnActivate:
-  - Talk Yonatan
+  - Go and meet Yonatan at the Mansion's backyard
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &981423216
@@ -23286,7 +23286,7 @@ MonoBehaviour:
   - From that day on, "the Spirit of the Lord came to David."
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Samuel
+  questToMark: Look for Samuel on the farm
 --- !u!212 &1962720115
 SpriteRenderer:
   m_ObjectHideFlags: 0

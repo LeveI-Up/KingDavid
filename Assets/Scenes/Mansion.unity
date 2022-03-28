@@ -6247,11 +6247,11 @@ MonoBehaviour:
   objectToActivate:
   - {fileID: 1449117256}
   questToCheck:
-  - Level 10
+  - Reach to level 5
   objectToUnActivate:
   - {fileID: 1844692338}
   questToCheckForUnActivate:
-  - Level 5
+  - Reach to level 5
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &611037403
@@ -6749,7 +6749,7 @@ MonoBehaviour:
   - 
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Appointment To The Squire
+  questToMark: Go to the Mansion and talk to Saul
 --- !u!212 &1449117260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18736,7 +18736,7 @@ MonoBehaviour:
   - don't come back before you get enough experience, at least level 5s!
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk Saul
+  questToMark: Talk to Saul at the Mansion
 --- !u!212 &1844692342
 SpriteRenderer:
   m_ObjectHideFlags: 0
