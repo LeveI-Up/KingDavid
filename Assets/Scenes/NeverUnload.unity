@@ -1518,6 +1518,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: levelAchive.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: questToMark.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: maxHP
       value: 100
       objectReference: {fileID: 0}
@@ -1544,6 +1552,22 @@ PrefabInstance:
     - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
       propertyPath: levelAchive
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: levelAchive.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: levelAchive.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: questToMark.Array.data[0]
+      value: Reach to level 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546900908, guid: 820401e3b285f8546a217f070e4cf18c, type: 3}
+      propertyPath: questToMark.Array.data[1]
+      value: Defeat Plishti and Reach to level 10
       objectReference: {fileID: 0}
     - target: {fileID: 3054614680164496640, guid: 820401e3b285f8546a217f070e4cf18c,
         type: 3}
@@ -3327,19 +3351,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[14]
-      value: 
+      value: Go to the Mansion's backyard and talk to Yonatan
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[15]
-      value: 
+      value: Take the items
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[16]
-      value: 
+      value: "Saul is waiting for you at the mansion, g\u05DD and meet him"
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[17]
-      value: 
+      value: Defeat Plishti and Reach to level 10
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[18]

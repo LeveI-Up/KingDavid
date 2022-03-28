@@ -23,8 +23,9 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField] int maxMana=30;
     [SerializeField] int currnetMana;
-    [SerializeField] int levelAchive;
-    [SerializeField] string questToMark;
+    [SerializeField] int[] levelAchive;
+    [SerializeField] string[] questToMark;
+    [SerializeField] int questToCheck;
 
     [SerializeField] int defence;
     [SerializeField] int dexterity;
@@ -69,10 +70,6 @@ public class PlayerStats : MonoBehaviour
             currentXP -= xpForNextLevel[playerLevel];
             playerLevel++;
             levelup = true;
-            if (playerLevel == levelAchive)
-            {
-                QuestManager.instance.MarkQuestComplete(questToMark);
-            }
             maxHP = (int)(maxHP * hpGrow);
             currentHP = maxHP;
             maxMana = (int)(maxMana * manaGrow);
@@ -85,6 +82,19 @@ public class PlayerStats : MonoBehaviour
             {
                 defence++;
             }
+            if (questToCheck < levelAchive.Length)
+            {
+                CheckForCompleteQuests(questToCheck);
+            }
+        }
+    }
+
+    private void CheckForCompleteQuests(int i)
+    {
+        if (playerLevel == levelAchive[i])
+        {
+            QuestManager.instance.MarkQuestComplete(questToMark[i]);
+            questToCheck++;
         }
     }
 
