@@ -15685,8 +15685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availableBattles:
   - namesOfEnemies:
-    - Bear
-    - Lion
+    - First Bear
+    - First Lion
     rewardXP: 300
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
