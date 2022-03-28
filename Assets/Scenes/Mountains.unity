@@ -276,9 +276,11 @@ MonoBehaviour:
   objectToActivate:
   - {fileID: 1195712609}
   - {fileID: 1050731993}
+  - {fileID: 1495083086}
   questToCheck:
   - Taking Food
   - Talk Eliav
+  - Talk Saul Before Goliath
   objectToUnActivate:
   - {fileID: 1195712609}
   questToCheckForUnActivate:
@@ -1489,6 +1491,7 @@ Transform:
   - {fileID: 1876881970}
   - {fileID: 1569690783}
   - {fileID: 2130204741}
+  - {fileID: 1495083089}
   m_Father: {fileID: 1195712610}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1948,6 +1951,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1495083086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495083089}
+  - component: {fileID: 1495083088}
+  - component: {fileID: 1495083087}
+  m_Layer: 0
+  m_Name: David's Brothers Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1495083087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495083086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072cec6b5dc7a6447b9435cc5b7d07c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - '#Saul'
+  - David we owe your help!
+  - Goliath invites every person from the people of Israel to a duel
+  - Everyone is scared and no one wants to fight him
+  - Help us, fight him!
+  - (In order to defeat Goliath it is recommended to be above level 10, you can check
+    what your level is in the menu - 'M' key)
+  - 
+  shouldActivateQuest: 1
+  markAsComplete: 1
+  questToMark: Talk Eliav
+--- !u!61 &1495083088
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495083086}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -17.76693, y: -1.2878313}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.921875, y: 1.15625}
+    newSize: {x: 1, y: 1.125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.0191345, y: 2.643982}
+  m_EdgeRadius: 0
+--- !u!4 &1495083089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495083086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 943714539}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569690782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +2043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569690783}
   - component: {fileID: 1569690784}
+  - component: {fileID: 1569690785}
   m_Layer: 0
   m_Name: idle1_0
   m_TagString: Untagged
@@ -2030,6 +2116,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1569690785
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569690782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6, y: 1.575}
+    newSize: {x: 2, y: 1.96875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.575}
+  m_EdgeRadius: 0
 --- !u!1001 &1623440537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2421,8 +2533,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1876881970}
   - component: {fileID: 1876881974}
-  - component: {fileID: 1876881973}
-  - component: {fileID: 1876881972}
   - component: {fileID: 1876881971}
   m_Layer: 0
   m_Name: Eliav
@@ -2455,36 +2565,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.3944646, y: -1.5323306}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.921875, y: 1.15625}
-    newSize: {x: 1, y: 1.125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.2103796, y: 2.1549833}
-  m_EdgeRadius: 0
---- !u!61 &1876881972
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876881969}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.095765114, y: 0.14602697}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2495,32 +2579,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5642395, y: 1.3816972}
+  m_Size: {x: 0.921875, y: 1.15625}
   m_EdgeRadius: 0
---- !u!114 &1876881973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1876881969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 072cec6b5dc7a6447b9435cc5b7d07c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sentences:
-  - '#Saul'
-  - David we owe your help!
-  - Goliath invites every person from the people of Israel to a duel
-  - Everyone is scared and no one wants to fight him
-  - Help us, fight him!
-  - (In order to defeat Goliath it is recommended to be above level 10, you can check
-    what your level is in the menu - 'M' key)
-  - 
-  shouldActivateQuest: 1
-  markAsComplete: 1
-  questToMark: Talk Eliav
 --- !u!212 &1876881974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2787,6 +2847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130204741}
   - component: {fileID: 2130204742}
+  - component: {fileID: 2130204743}
   m_Layer: 0
   m_Name: idle1_0 (1)
   m_TagString: Untagged
@@ -2859,6 +2920,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2130204743
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130204740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.175, y: 1.45}
+    newSize: {x: 0.94, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.175, y: 1.45}
+  m_EdgeRadius: 0
 --- !u!1 &944989459073053188
 GameObject:
   m_ObjectHideFlags: 0
