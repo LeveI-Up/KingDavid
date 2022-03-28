@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class QuestPanel : MonoBehaviour
@@ -9,6 +10,7 @@ public class QuestPanel : MonoBehaviour
     public static QuestPanel instance;
 
     [SerializeField] TextMeshProUGUI questText;
+    [SerializeField] TextMeshProUGUI mapNameText;
     [SerializeField] GameObject questScreen;
 
 
@@ -31,11 +33,18 @@ public class QuestPanel : MonoBehaviour
             }
             else
             {
-                questText.text = "ילש םייחב יתשגפש לודג יכה הנוז ןבה התא הירוא";
+                for(int i=1;i< QuestManager.instance.GetQuestNames().Length; i++)
+                {
+                    if (QuestManager.instance.GetQuestMarkersCompleted()[i]==false)
+                    {
+                        questText.text = QuestManager.instance.GetQuestNames()[i];
+                        break;
+                    }
+                }
                 questScreen.SetActive(true);
             }
         }
-
+        mapNameText.text = SceneManager.GetSceneAt(1).name;
     }
     public void CloseQuestScreen()
     {

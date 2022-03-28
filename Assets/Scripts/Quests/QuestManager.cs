@@ -123,4 +123,14 @@ public class QuestManager : MonoBehaviour
 
     }
 
+    public string[] GetQuestNames()
+    {
+        return questNames;
+    }
+
+    public bool[] GetQuestMarkersCompleted()
+    {
+        return questMarkersCompleted;
+    }
+
 }

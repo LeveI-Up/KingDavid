@@ -632,7 +632,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (Town)
+      value: Area Exit (Ella Valley)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -642,17 +642,17 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: EnterToCave-MyMap
+      value: Forest-Ella Valley
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: MyMap
+      value: Ella Valley
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: EnterToCave
+      value: Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -742,7 +742,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: EnterToCave-MyMap
+      value: Forest-Ella Valley
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
@@ -16233,7 +16233,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (EscapeCave)
+      value: Area Exit (Cave)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16243,17 +16243,17 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: EscapeCave-EnterToCave
+      value: Cave-Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: EscapeCave
+      value: Cave
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: EnterToCave
+      value: Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16343,7 +16343,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: EscapeCave-EnterToCave
+      value: Cave-Forest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
@@ -32429,22 +32429,22 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: 'Area Exit (EnterToCave) '
+      value: 'Area Exit (Mansion''s Backyard) '
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Backyard-EnterToCave
+      value: Mansion's Backyard-Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: Backyard
+      value: Mansion's Backyard
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: EnterToCave
+      value: Forest
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -32534,7 +32534,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Backyard-EnterToCave
+      value: Mansion's Backyard-Forest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}

@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1336e66a679898408fbbfbfc1aea49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrivalStation: Tutorial
+  arrivalStation: David's House
 --- !u!4 &360769969
 Transform:
   m_ObjectHideFlags: 0
@@ -408,12 +408,12 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Tutorial-Shepherd
+      value: David's House-Shepherd
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivingFrom
-      value: Tutorial
+      value: David's House
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -483,7 +483,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Tutorial-Shepherd
+      value: David's House-Shepherd
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
