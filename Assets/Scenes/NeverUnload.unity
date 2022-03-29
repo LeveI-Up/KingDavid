@@ -2082,17 +2082,17 @@ PrefabInstance:
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[4]
-      value: GoodLuck!
+      value: You can view your next quest by pressing the 'Q' button.
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[5]
-      value: 
+      value: GoodLuck!
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
@@ -3359,7 +3359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[16]
-      value: "Saul is waiting for you at the mansion, g\u05DD and meet him"
+      value: Saul is waiting for you at the mansion, go and meet him
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[17]
@@ -3681,8 +3681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 845, y: 502.5}
-  m_SizeDelta: {x: 228.9, y: 59}
+  m_AnchoredPosition: {x: -783, y: 497}
+  m_SizeDelta: {x: 322.7, y: 91.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892493818
 MonoBehaviour:
@@ -3704,8 +3704,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Map Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: eae55775dc98dfa44b5835b1b304ffa3, type: 2}
-  m_sharedMaterial: {fileID: 4066039375204317817, guid: eae55775dc98dfa44b5835b1b304ffa3,
+  m_fontAsset: {fileID: 11400000, guid: fb482975dc31b394b95a86f886daf480, type: 2}
+  m_sharedMaterial: {fileID: 4066039375204317817, guid: fb482975dc31b394b95a86f886daf480,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3731,12 +3731,12 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 54.6
+  m_fontSize: 84.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 200
   m_fontStyle: 0
   m_textAlignment: 257
   m_characterSpacing: 0

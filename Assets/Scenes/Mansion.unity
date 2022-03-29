@@ -6062,12 +6062,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.737522
+      value: 37.303516
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8162796
+      value: 3.8132598
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -6529,7 +6529,7 @@ MonoBehaviour:
   - don't come back before you get enough experience, at least level 5s!
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: "Saul is waiting for you at the mansion, g\u05DD and meet him"
+  questToMark: Saul is waiting for you at the mansion, go and meet him
 --- !u!212 &940518711
 SpriteRenderer:
   m_ObjectHideFlags: 0
