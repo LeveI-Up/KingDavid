@@ -16447,17 +16447,17 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Name
-      value: Area Exit (Forest)
+      value: Area Exit (En-Gedi)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Cave-Forest
+      value: En-Gedi-Cave
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: sceneToLoad
-      value: Forest
+      value: En-Gedi
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16542,7 +16542,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Cave-Forest
+      value: En-Gedi-Cave
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
