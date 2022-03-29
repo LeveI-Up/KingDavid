@@ -277,10 +277,12 @@ MonoBehaviour:
   - {fileID: 1195712609}
   - {fileID: 1495083086}
   - {fileID: 1050731993}
+  - {fileID: 456087858}
   questToCheck:
   - Take the food from the kitchen
   - Talk to Saul at the Ella Valley
   - Talk to your brother Eliav and give him the food
+  - "Saul is waiting for you at the mansion, g\u05DD and meet him"
   objectToUnActivate:
   - {fileID: 1195712609}
   questToCheckForUnActivate:
@@ -661,7 +663,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -760,6 +762,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
+--- !u!1 &456087858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 456087857}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &470319569
 GameObject:
   m_ObjectHideFlags: 0

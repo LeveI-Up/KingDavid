@@ -133,12 +133,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 0
   itemName: Bronze Armor
-  itemDescription: +30 Defence
+  itemDescription: +10 Defence
   valueInCoins: 0
   itemImage: {fileID: 0}
   amountOfEffect: 0
   effectType: 0
   weaponAttackPower: 0
-  ArmorDef: 30
+  ArmorDef: 10
   isStackable: 0
   amount: 0
