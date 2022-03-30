@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 149219520}
   - component: {fileID: 149219519}
   m_Layer: 0
-  m_Name: Plishtim Battlefieldw Sign
+  m_Name: Gat Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27465,6 +27465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 149219518}
+  - {fileID: 1810988531}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27500,7 +27501,6 @@ Transform:
   - {fileID: 1526424718}
   - {fileID: 1062453343}
   - {fileID: 2011539837}
-  - {fileID: 1810988531}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27528,7 +27528,7 @@ GameObject:
   - component: {fileID: 1810988533}
   - component: {fileID: 1810988532}
   m_Layer: 0
-  m_Name: Backyard Sign
+  m_Name: Gezer Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27542,12 +27542,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810988530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.55, y: -3.62, z: 0}
+  m_LocalPosition: {x: 27.67601, y: -1.828535, z: 21.34375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 256390657}
-  m_Father: {fileID: 1677015416}
-  m_RootOrder: 4
+  m_Father: {fileID: 1629360856}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1810988532
 BoxCollider2D:
