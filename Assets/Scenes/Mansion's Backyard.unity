@@ -675,7 +675,7 @@ MonoBehaviour:
   - Saul is waiting for you at the mansion, go and meet him
   - Defeat Goliath
   - Go and meet Yonatan at the Mansion's backyard.
-  - Get the sign from Yonatan in the Forest
+  - Yonatan disappear
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &538958677
@@ -31356,6 +31356,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 277654612}
   - {fileID: 156075922}
+  questToComplete: Yonatan disappear
   moveSpeed: 1.5
 --- !u!212 &2079733431
 SpriteRenderer:

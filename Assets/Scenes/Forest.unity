@@ -33825,7 +33825,7 @@ MonoBehaviour:
   - 'Now go inside, my father is waiting for you '
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Go to the Mansion's backyard and talk to Yonatan
+  questToMark: Get the sign from Yonatan in the Forest
 --- !u!212 &2014349522
 SpriteRenderer:
   m_ObjectHideFlags: 0
