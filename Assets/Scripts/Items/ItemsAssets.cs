@@ -14,6 +14,7 @@ public class ItemsAssets : MonoBehaviour
       
        
             instance = this;
+
       
         
     }
@@ -29,7 +30,7 @@ public ItemsManager GetItemAsset(string itemToGetName)
                 return item;
             }
         }
-        print("IM HEREEEEEE");
+    
         return null;
     }
 }
