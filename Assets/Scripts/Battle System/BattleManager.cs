@@ -68,10 +68,7 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            NextTurn();
-        }
+        
         CheckForUIButtons();
     }
     //check if its the player turn - show UI buttons.
