@@ -131,10 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56662ab1dd611eb47b86d7befe3b4a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 2
   itemName: Bronze Armor
   itemDescription: +10 Defence
-  valueInCoins: 0
+  valueInCoins: 20
   itemImage: {fileID: -2343985125647054470, guid: 9d032edff86fe4b4e8e7ef5d1ab2e18b,
     type: 3}
   amountOfEffect: 0

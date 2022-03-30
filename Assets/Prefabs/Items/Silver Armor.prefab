@@ -100,7 +100,7 @@ MonoBehaviour:
   itemDescription: +20 Defence
   valueInCoins: 15
   itemImage: {fileID: 21300000, guid: 4ada5d74de85b2d4396e8895e1465dff, type: 3}
-  amountOfEffect: 0
+  amountOfEffect: 50
   effectType: 0
   weaponAttackPower: 0
   ArmorDef: 15

@@ -131,15 +131,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56662ab1dd611eb47b86d7befe3b4a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemType: 0
+  itemType: 2
   itemName: Holy Armor
-  itemDescription: +120 Defence
-  valueInCoins: 0
+  itemDescription: +150 Defence
+  valueInCoins: 500
   itemImage: {fileID: 1519275667676055075, guid: 9d032edff86fe4b4e8e7ef5d1ab2e18b,
     type: 3}
   amountOfEffect: 0
   effectType: 0
   weaponAttackPower: 0
-  ArmorDef: 120
+  ArmorDef: 150
   isStackable: 0
   amount: 1

@@ -3375,6 +3375,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -3484,11 +3488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[22]
-      value: Defeat Plishtim in Kailla
+      value: Defeat the Plishtim in Ka'illa
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[23]
-      value: Talk to the man of Kailla
+      value: bb
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[24]
@@ -3514,10 +3518,110 @@ PrefabInstance:
       propertyPath: questNames.Array.data[29]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[22]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[23]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[24]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[25]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[26]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[27]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[28]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questMarkersCompleted.Array.data[29]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
       propertyPath: itemsAvailable.Array.size
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
@@ -3619,7 +3723,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemsAvailable.Array.data[22]
       value: 
-      objectReference: {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2,
+      objectReference: {fileID: 9100473693542462487, guid: 498b8f932e518ef4bafc2cfa867a601e,
         type: 3}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}

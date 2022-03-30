@@ -601,6 +601,7 @@ public class BattleManager : MonoBehaviour
 
         if (BattleInstantiator.instance.GetQuestBool())
         {
+            Debug.Log("IM HERE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
             QuestManager.instance.MarkQuestComplete(BattleInstantiator.instance.GetQuest());
         }
 

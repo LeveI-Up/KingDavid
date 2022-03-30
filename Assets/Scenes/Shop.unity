@@ -227,6 +227,7 @@ MonoBehaviour:
   - {fileID: 5839791144039895311, guid: 73e90e017aba50745b1f0392edeeb44d, type: 3}
   - {fileID: 8898971712603596860, guid: fcdf7d6b621875d409c8aec29706b044, type: 3}
   - {fileID: 7686024149185114391, guid: 1952a83e9b117d64abd46a5ecc5101a4, type: 3}
+  - {fileID: 9100473693542462487, guid: 498b8f932e518ef4bafc2cfa867a601e, type: 3}
 --- !u!212 &344278227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -583,12 +584,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2900128
+      value: 0.2759881
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.103989996
+      value: 0.103829995
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
