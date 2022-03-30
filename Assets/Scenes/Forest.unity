@@ -16508,7 +16508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &549902179
 Transform:
   m_ObjectHideFlags: 0
@@ -16612,9 +16612,13 @@ MonoBehaviour:
   objectToActivate:
   - {fileID: 825462733}
   - {fileID: 282470989}
+  - {fileID: 625495523}
+  - {fileID: 2014349518}
   questToCheck:
   - Save the sheep in the forest, defeat the lion and the bear
   - Take the food from the kitchen
+  - Get the sign from Yonatan in the Forest
+  - Go and meet Yonatan at the Mansion's backyard.
   objectToUnActivate:
   - {fileID: 549902178}
   questToCheckForUnActivate:
@@ -16854,7 +16858,7 @@ PrefabInstance:
     - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16884,12 +16888,12 @@ PrefabInstance:
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.7463778
+      value: -1.3994722
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.6828425
+      value: 1.3766537
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16949,12 +16953,12 @@ PrefabInstance:
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.89
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -16966,6 +16970,12 @@ PrefabInstance:
 --- !u!4 &625495522 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 625495521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &625495523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
     type: 3}
   m_PrefabInstance: {fileID: 625495521}
   m_PrefabAsset: {fileID: 0}
@@ -17153,7 +17163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &825462734
 Transform:
   m_ObjectHideFlags: 0
@@ -33480,12 +33490,12 @@ PrefabInstance:
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.28715694
+      value: 0.077531934
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.7644007
+      value: 1.035023
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -33545,12 +33555,12 @@ PrefabInstance:
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.68
+      value: -2.77
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.94
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -33593,7 +33603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997990435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.2, y: 4.5, z: 53.203125}
+  m_LocalPosition: {x: -32.21, y: 5.96, z: 53.203125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1089822078}
@@ -33682,7 +33692,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.062250137, y: 0.008112907}
+  m_Offset: {x: -0.062250137, y: 0.31281662}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -33693,7 +33703,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9969101, y: 2.4042454}
+  m_Size: {x: 1.9969101, y: 1.794838}
   m_EdgeRadius: 0
 --- !u!114 &1997990440
 MonoBehaviour:
@@ -33740,7 +33750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2014349519
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -3368,7 +3368,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.size
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[0]
@@ -3452,11 +3452,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[18]
-      value: 
+      value: Go meet Saul at the mansion and marry his daughter Michal
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[19]
-      value: 
+      value: Go and meet Yonatan at the Mansion's backyard.
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questMarkersCompleted.Array.data[2]
@@ -3469,6 +3469,46 @@ PrefabInstance:
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questMarkersCompleted.Array.data[4]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[20]
+      value: Get the sign from Yonatan in the Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[21]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[22]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[23]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[24]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[25]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[26]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[27]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[28]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[29]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
