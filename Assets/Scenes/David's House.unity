@@ -810,7 +810,6 @@ GameObject:
   - component: {fileID: 1643977730}
   - component: {fileID: 1643977729}
   - component: {fileID: 1643977728}
-  - component: {fileID: 1643977727}
   m_Layer: 0
   m_Name: Ishay (1)
   m_TagString: Untagged
@@ -818,26 +817,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1643977727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643977726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate:
-  - {fileID: 634470630}
-  questToCheck:
-  - Talk Ishay
-  objectToUnActivate: []
-  questToCheckForUnActivate: []
-  activateIfComplete: 1
-  unActivateIfComplete: 0
 --- !u!61 &1643977728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1058,7 +1037,7 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.499622
+      value: 28.06561
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
