@@ -20761,12 +20761,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.302444
+      value: 31.736437
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22468999
+      value: -0.21481
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -23202,7 +23202,6 @@ GameObject:
   - component: {fileID: 1962720114}
   - component: {fileID: 1962720113}
   - component: {fileID: 1962720112}
-  - component: {fileID: 1962720117}
   m_Layer: 0
   m_Name: Samuel
   m_TagString: Untagged
@@ -23350,26 +23349,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1962720117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962720111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afeb00936b2f5f54abc2b0814c9b4eee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate:
-  - {fileID: 996950937}
-  questToCheck:
-  - Talk Samuel
-  objectToUnActivate: []
-  questToCheckForUnActivate: []
-  activateIfComplete: 1
-  unActivateIfComplete: 0
 --- !u!1 &1971763076
 GameObject:
   m_ObjectHideFlags: 0

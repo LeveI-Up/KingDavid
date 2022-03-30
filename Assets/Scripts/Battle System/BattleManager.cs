@@ -255,6 +255,7 @@ public class BattleManager : MonoBehaviour
             }
             else if (allEnemiesAreDead)
             {
+                
                 StartCoroutine(EndBattleCoroutine());
             }
             //StartCoroutine(CloseBattle());
@@ -596,11 +597,18 @@ public class BattleManager : MonoBehaviour
             battleNotice.SetText("You Won");
             battleNotice.ActivateBattleNotification();
         }
-        
+
+
+        if (BattleInstantiator.instance.GetQuestBool())
+        {
+            QuestManager.instance.MarkQuestComplete(BattleInstantiator.instance.GetQuest());
+        }
 
         yield return new WaitForSeconds(3f);
 
-        foreach(BattleCharacters playerInBattle in activeCharacters)
+        
+
+        foreach (BattleCharacters playerInBattle in activeCharacters)
         {
             if (playerInBattle.GetIsPlayer())
             {

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BattleInstantiator : MonoBehaviour
 {
+    public static BattleInstantiator instance;
     [SerializeField] BattleTypeManager[] availableBattles;
     [SerializeField] bool activateOnEnter;
     private bool inArea;
@@ -23,6 +24,7 @@ public class BattleInstantiator : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         battleCounter = Random.Range(timeBetweenBattles * 0.5f, timeBetweenBattles * 1.5f);
     }
 
@@ -51,8 +53,7 @@ public class BattleInstantiator : MonoBehaviour
         BattleManager.instance.SetItemsReward(availableBattles[selectedBattle].GetRewardItems());
         BattleManager.instance.SetXpRewardAmount(availableBattles[selectedBattle].GetRewardXP());
 
-        BattleRewardsManager.instance.SetMarkQuestComplete(shouldCompleteQuest);
-        BattleRewardsManager.instance.SetQuestToMarkName(questToCompleteName);
+        
 
         yield return new WaitForSeconds(2f);
         MenuManager.instance.FadeOut();
@@ -77,5 +78,14 @@ public class BattleInstantiator : MonoBehaviour
                 inArea = true;
             }
         }
+    }
+    public string GetQuest()
+    {
+        return questToCompleteName;
+
+    }
+    public bool GetQuestBool()
+    {
+        return shouldCompleteQuest;
     }
 }

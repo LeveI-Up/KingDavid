@@ -16549,7 +16549,7 @@ MonoBehaviour:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
   activateOnEnter: 1
   timeBetweenBattles: 1
-  deactivateBattleAfterStart: 1
+  deactivateBattleAfterStart: 0
   musicToPlay: 10
   canRunAway: 0
   shouldCompleteQuest: 1
