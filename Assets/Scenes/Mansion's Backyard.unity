@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 343940137}
   - component: {fileID: 343940136}
   m_Layer: 0
-  m_Name: Cave Sign
+  m_Name: Forest Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -542,10 +542,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Ishay'
-  - 'Oh David, you''re here! '
-  - Someone came looking for you, I sent him to the farm to check if you are there,
-    go to the farm and check what he wants
-  shouldActivateQuest: 1
+  - David, David!!
+  - Here you are!
+  - '#David'
+  - What is it father??
+  - '#Ishay'
+  - Quick!
+  - One of our lambs was taken
+  - A lion and a bear took it to the forest!
+  - You have to save it!
+  - Go to the forest to save it!
+  - Quick! before its to late!
+  shouldActivateQuest: 0
   markAsComplete: 1
   questToMark: Talk to Ishay at the backyard
 --- !u!212 &516681857
@@ -832,12 +840,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -1310,18 +1318,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Yonatan'
-  - Hello!  my name is Yonatan, im Saul's son
-  - What is your name?
+  - Hello brother in law!
   - '#David'
-  - Hello Yonatan, my name is David
+  - I have to tell you something
+  - ......
+  - Yonatan, i think your father want to kill me!
   - '#Yonatan'
-  - Nice to meet you David!
-  - You look like a nice guy!
+  - (in shock)
+  - What?!?
+  - No way!
+  - He likes you very much!
   - '#David'
-  - 'Thank you! '
-  - You look like a nice guy too!
+  - I am serious Yonatan
+  - 'I think he is jealous '
+  - I think i should run away
   - '#Yonatan'
-  - 'Now go inside, my father is waiting for you '
+  - I think you are hallucinating!
+  - '#David'
+  - I have an idea!
+  - I am going to hide in the forest
+  - When you father asks you where am i, you say i went to Bethlehem to sacrifice
+    an animal wirh my family
+  - If he is upset then we will know that he want to kill me
+  - '#Yonatan'
+  - OK David
+  - i'm sure that you are wrong but i'll try your idea
+  - Just Be safe!
+  - Now go to the forest
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Go and meet Yonatan at the Mansion's backyard.
@@ -30823,19 +30846,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Yonatan'
-  - Hello!  my name is Yonatan, im Saul's son
-  - What is your name?
+  - David!
+  - Are you OK?
   - '#David'
-  - Hello Yonatan, my name is David
+  - Yonatan!
+  - Yes yes, i feel great!
+  - Havent you heard?
+  - I killed Goliath!!!
   - '#Yonatan'
-  - Nice to meet you David!
-  - You look like a nice guy!
+  - (in shock)
+  - I dont believe you!
+  - He is the greatest warrior to ever live!
   - '#David'
-  - 'Thank you! '
-  - You look like a nice guy too!
+  - And i killed him!
   - '#Yonatan'
-  - 'Now go inside, my father is waiting for you '
-  shouldActivateQuest: 1
+  - WOW
+  - Well, i guess we are brothers in law now, right?
+  - '#David'
+  - Not yet
+  - Unfortunately I have no money!
+  - I cant even afford to buy a simple shield or sword!
+  - '#Yonatan'
+  - Ho no!
+  - You know what, here you shold have mine!
+  - (gives David his sword)
+  - '#David'
+  - Thank you Yonatan!
+  - You are a good friend!
+  - '#Yonatan'
+  - I think we should make an alliance!
+  - You watch my back, and i'll watch your back
+  - Deal?
+  - '#David'
+  - Deal!
+  - '"And Jonathan had David reaffirm his oath out of love for him, because he loved
+    him as he loved himself"'
+  - I need to go to speak with your father
+  shouldActivateQuest: 0
   markAsComplete: 1
   questToMark: Go to the Mansion's backyard and talk to Yonatan
 --- !u!212 &1768377007

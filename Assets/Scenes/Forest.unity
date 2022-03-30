@@ -32788,12 +32788,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -33811,18 +33811,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Yonatan'
-  - Hello!  my name is Yonatan, im Saul's son
-  - What is your name?
+  - David, David!!
+  - (Breathing heavily)
+  - You were right!
+  - I did as you said and he was very angry!
+  - He evem tried to hit me and cursed me!
+  - I really think he wants to kill you
   - '#David'
-  - Hello Yonatan, my name is David
+  - Just like i thaght
+  - I should run know
+  - i guess this is goodbye Yonatan
   - '#Yonatan'
-  - Nice to meet you David!
-  - You look like a nice guy!
+  - I guess so
+  - ......
+  - (start crying)
   - '#David'
-  - 'Thank you! '
-  - You look like a nice guy too!
+  - (start crying)
+  - Promise me you will always be my ally!
   - '#Yonatan'
-  - 'Now go inside, my father is waiting for you '
+  - I swear!!
+  - '#David'
+  - Thank you my friend
+  - I promise you i will always be your ally too!
+  - Now i have to go
+  - goodbye my friend
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Get the sign from Yonatan in the Forest

@@ -689,13 +689,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#Saul'
-  - David we owe your help!
+  - David we need your help!
   - Goliath invites every person from the people of Israel to a duel
-  - Everyone is scared and no one wants to fight him
+  - Everyone is too scared and no one wants to fight him
   - Help us, fight him!
+  - You deafeted a lion and a bear by yourself! you are the only one who can fight
+    him!
   - (In order to defeat Goliath it is recommended to be above level 10, you can check
     what your level is in the menu - 'M' key)
-  - 
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Talk to Saul at the Ella Valley
@@ -1488,12 +1489,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -2666,14 +2667,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Saul'
-  - David we owe your help!
-  - Goliath invites every person from the people of Israel to a duel
-  - Everyone is scared and no one wants to fight him
-  - Help us, fight him!
-  - (In order to defeat Goliath it is recommended to be above level 10, you can check
-    what your level is in the menu - 'M' key)
-  - 
+  - '#David'
+  - Brother, i got you some food from home!
+  - '#Eliav'
+  - David? is that you?
+  - What are you doing here?
+  - Who is watching the sheep and goats?
+  - '#David'
+  - i came to bring you food
+  - '#Eliav'
+  - You just came here to see the war , didn't you?
+  - '#David'
+  - Did you hear about the prize?
+  - King Saul said that whoever defeat Goliath will marry his daughter
+  - '#Eliav'
+  - And you think you can fight him?!
+  - HAHAHAHA
+  - There is no way tou can defeat Goliath!
+  - He is to powerfull!!
+  - '#David'
+  - Wish me luck brother!
+  - I am going to kill Goliath!
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Talk to your brother Eliav and give him the food
