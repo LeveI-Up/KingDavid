@@ -886,7 +886,7 @@ MonoBehaviour:
   - David there is a tough battle in the Ella Valley,
   - take the food from the kitchen and go bring it to your brothers who are fighting
     in the battle
-  shouldActivateQuest: 0
+  shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Go to your house and talk to Ishay
 --- !u!212 &1643977731
