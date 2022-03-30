@@ -27,18 +27,21 @@ public class Inventory : MonoBehaviour
     {
         if (item.GetIsStackable())
         {
+            Debug.Log("Im stackable");
             bool itemAlreadyInInventory = false;
             foreach(ItemsManager itemInInventory in itemsList)
             {
                 if(itemInInventory.itemName == item.itemName)
                 {
-                    itemInInventory.amount += item.amount;
+                    itemInInventory.amount++;
+                    Debug.Log("Im here");
                     itemAlreadyInInventory = true;
                 }
             }
             if (!itemAlreadyInInventory)
             {
                 itemsList.Add(item);
+                Debug.Log("wasnt in inventory");
             }
         }
         else

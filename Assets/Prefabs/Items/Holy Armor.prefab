@@ -69,9 +69,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1030454633
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1519275667676055075, guid: 9d032edff86fe4b4e8e7ef5d1ab2e18b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -101,7 +101,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -135,10 +135,11 @@ MonoBehaviour:
   itemName: Holy Armor
   itemDescription: +120 Defence
   valueInCoins: 0
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 1519275667676055075, guid: 9d032edff86fe4b4e8e7ef5d1ab2e18b,
+    type: 3}
   amountOfEffect: 0
   effectType: 0
   weaponAttackPower: 0
   ArmorDef: 120
   isStackable: 0
-  amount: 0
+  amount: 1

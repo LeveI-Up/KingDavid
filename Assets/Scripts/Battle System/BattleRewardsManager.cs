@@ -45,7 +45,7 @@ public class BattleRewardsManager : MonoBehaviour
         }
         
         itemsText.text = "";
-        PlayerStats.instance.levelup = false;
+        
 
 
         foreach (ItemsManager rewardItemText in rewardItems)
@@ -69,7 +69,10 @@ public class BattleRewardsManager : MonoBehaviour
         }
         foreach(ItemsManager itemRewarded in rewardItems)
         {
+            
             Inventory.instance.AddItems(itemRewarded);
+            Debug.Log(itemRewarded.name+"1");
+
         }
         rewardScreen.SetActive(false);
         GameManager.instance.battleIsActive = false;

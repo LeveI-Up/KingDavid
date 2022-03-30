@@ -16833,9 +16833,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Boar
     rewardXP: 300
-    rewardItems:
-    - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
-    - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
+    rewardItems: []
   activateOnEnter: 1
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
@@ -17481,9 +17479,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Bear
     rewardXP: 300
-    rewardItems:
-    - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
-    - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
+    rewardItems: []
   activateOnEnter: 1
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
@@ -33721,9 +33717,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Bear
     rewardXP: 300
-    rewardItems:
-    - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
-    - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
+    rewardItems: []
   activateOnEnter: 1
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
@@ -34075,9 +34069,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Boar
     rewardXP: 300
-    rewardItems:
-    - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
-    - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
+    rewardItems: []
   activateOnEnter: 1
   timeBetweenBattles: 1
   deactivateBattleAfterStart: 1
