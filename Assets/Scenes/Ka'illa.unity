@@ -14062,19 +14062,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - '#Yonatan'
-  - Hello!  my name is Yonatan, im Saul's son
-  - What is your name?
-  - '#David'
-  - Hello Yonatan, my name is David
-  - '#Yonatan'
-  - Nice to meet you David!
-  - You look like a nice guy!
-  - '#David'
-  - 'Thank you! '
-  - You look like a nice guy too!
-  - '#Yonatan'
-  - 'Now go inside, my father is waiting for you '
+  - '#Men of Ka''illa'
+  - Saul is chasing you.
+  - Unfortunately my people told him you were in Ka'illa
+  - Hurry up to En-Gedi!
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Talk to the man of Kailla

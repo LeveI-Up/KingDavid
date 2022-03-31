@@ -74,14 +74,8 @@ public class PlayerStats : MonoBehaviour
             currentHP = maxHP;
             maxMana = (int)(maxMana * manaGrow);
             currnetMana = maxMana;
-            if (playerLevel % 2 == 0)
-            {
-                dexterity++;
-            }
-            else
-            {
-                defence++;
-            }
+            dexterity += 2;
+            defence += 2;
             if (questToCheck < levelAchive.Length)
             {
                 CheckForCompleteQuests(questToCheck);

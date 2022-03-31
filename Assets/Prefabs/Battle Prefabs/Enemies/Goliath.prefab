@@ -101,14 +101,14 @@ MonoBehaviour:
   - Tentacles
   - Water
   charcterName: Goliath
-  currentHP: 500
-  maxHP: 500
-  currentMana: 250
-  maxMana: 250
-  dexterity: 50
-  defence: 50
-  weaponPower: 20
-  armorDefence: 30
+  currentHP: 150
+  maxHP: 150
+  currentMana: 80
+  maxMana: 80
+  dexterity: 10
+  defence: 10
+  weaponPower: 5
+  armorDefence: 0
   isDead: 0
   deadSprite: {fileID: 0}
   deathEffect: {fileID: 4278292553604530028, guid: e1f05a5b1135c3844abdd9214e985074,

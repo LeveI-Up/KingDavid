@@ -17796,7 +17796,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Forest
+  m_text: Ka'illa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eae55775dc98dfa44b5835b1b304ffa3, type: 2}
   m_sharedMaterial: {fileID: 4066039375204317817, guid: eae55775dc98dfa44b5835b1b304ffa3,
@@ -17866,7 +17866,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -0.024087429}
   m_textInfo:
     textComponent: {fileID: 1022192641}
-    characterCount: 6
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -17988,12 +17988,12 @@ GameObject:
   - component: {fileID: 1031849132}
   - component: {fileID: 1031849131}
   m_Layer: 0
-  m_Name: Cave Sign
+  m_Name: Ka'illa Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1031849130
 Transform:
   m_ObjectHideFlags: 0
@@ -18002,7 +18002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031849129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.24399, y: 10.251465, z: 21.34375}
+  m_LocalPosition: {x: -20.24399, y: 15.36, z: 21.34375}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 1022192640}
@@ -32788,12 +32788,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.26319
+      value: 34.69721
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20518999
+      value: -0.20211999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}

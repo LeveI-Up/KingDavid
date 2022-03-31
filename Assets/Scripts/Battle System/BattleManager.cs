@@ -447,7 +447,7 @@ public class BattleManager : MonoBehaviour
     public void OpenSpellPanel()
     {
         spellPanel.SetActive(true);
-        for (int i = 0; i < magicButton.Length; i++)
+        for (int i = 0; i < magicButton.Length-1; i++)
         {
             if (activeCharacters[currentTurn].GetAttacksAvaliable().Length > i)
             {
@@ -584,6 +584,12 @@ public class BattleManager : MonoBehaviour
     {
         CharacterChoicePanel.SetActive(false);
         itemsToUseMenu.SetActive(false);
+    }
+
+    //Close the spell panel
+    public void CloseSpellPanel()
+    {
+        spellPanel.SetActive(false);
     }
     //close the battle and update the remaining players stats
     public IEnumerator EndBattleCoroutine()
