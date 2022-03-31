@@ -7,7 +7,15 @@ public class FollowAndDisappear : MonoBehaviour
     private Transform[] waypoints;
     [SerializeField]
     private string questToComplete;
+    [SerializeField]
+    private bool changeAnimation;
+
+    [SerializeField]
+    private bool shouldMarkQuest;
     
+
+    [SerializeField] Animator AnimalAnimation;
+
     // Walk speed that can be set in Inspector
     [SerializeField]
     private float moveSpeed ;
@@ -36,12 +44,34 @@ public class FollowAndDisappear : MonoBehaviour
         // If enemy reached last waypoint then it stops
         if (waypointIndex <= waypoints.Length - 1)
         {
-            
             // Move Enemy from current waypoint to the next one
             // using MoveTowards method
             transform.position = Vector2.MoveTowards(transform.position,
                waypoints[waypointIndex].transform.position,
                moveSpeed * Time.deltaTime);
+
+            if (changeAnimation)
+            {
+                if (transform.position.y < waypoints[waypointIndex].transform.position.y)
+                {
+                    AnimalAnimation.SetBool("FacingDown", false);
+                }
+                else if (transform.position.y > waypoints[waypointIndex].transform.position.y)
+                {
+                    AnimalAnimation.SetBool("FacingDown", true);
+                }
+                else if (transform.position.x > waypoints[waypointIndex].transform.position.x)
+                {
+                    AnimalAnimation.SetBool("FacingRight", false);
+                }
+                else if (transform.position.x < waypoints[waypointIndex].transform.position.x)
+                {
+                    
+                    AnimalAnimation.SetBool("FacingRight", true);
+                }
+            }
+
+            Debug.Log("f");
             // If Enemy reaches position of waypoint he walked towards
             // then waypointIndex is increased by 1
             // and Enemy starts to walk to the next waypoint
@@ -52,7 +82,10 @@ public class FollowAndDisappear : MonoBehaviour
         }
         else
         {
-            QuestManager.instance.MarkQuestComplete(questToComplete);
+            if (shouldMarkQuest)
+            {
+                QuestManager.instance.MarkQuestComplete(questToComplete);
+            }
         }
     }
 }
