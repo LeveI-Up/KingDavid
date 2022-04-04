@@ -2800,6 +2800,7 @@ MonoBehaviour:
   questText: {fileID: 1276568509}
   mapNameText: {fileID: 1892493818}
   questScreen: {fileID: 199066077}
+  isActive: 0
   markQuestComplete: 0
   questToMarkName: 
 --- !u!1 &1461481209
@@ -3916,7 +3917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[30]
-      value: Go
+      value: Show Saul the piece you tore from the wing of his coat.
       objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
