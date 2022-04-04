@@ -13,13 +13,14 @@ public class QuestPanel : MonoBehaviour
     [SerializeField] TextMeshProUGUI mapNameText;
     [SerializeField] GameObject questScreen;
 
-
+    public bool isActive;
     [SerializeField] bool markQuestComplete;
     [SerializeField] string questToMarkName;
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+        setIsActive(false);
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class QuestPanel : MonoBehaviour
             if (questScreen.activeInHierarchy)
             {
                 questScreen.SetActive(false);
+                setIsActive(false);
             }
             else
             {
@@ -42,6 +44,7 @@ public class QuestPanel : MonoBehaviour
                     }
                 }
                 questScreen.SetActive(true);
+                setIsActive(true);
             }
         }
         mapNameText.text = SceneManager.GetSceneAt(1).name;
@@ -49,6 +52,17 @@ public class QuestPanel : MonoBehaviour
     public void CloseQuestScreen()
     {
         questScreen.SetActive(false);
+        setIsActive(false);
+    }
+
+    public void setIsActive(bool b)
+    {
+        isActive = b;
+    }
+
+    public bool getIsActive()
+    {
+        return isActive;
     }
 
 

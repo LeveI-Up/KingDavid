@@ -19,7 +19,7 @@ public class DialogHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canActiveBox && Input.GetButtonDown("Fire1") && !DialogController.instacne.IsDialogBoxActive())
+        if (canActiveBox && Input.GetButtonDown("Fire1") && !DialogController.instacne.IsDialogBoxActive() && !QuestPanel.instance.getIsActive())
         {
             DialogController.instacne.ActivateDialog(sentences);
 
