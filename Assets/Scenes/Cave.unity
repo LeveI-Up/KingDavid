@@ -719,7 +719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 513203945}
   m_Layer: 0
-  m_Name: Hiding Place
+  m_Name: Hiding Places
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
