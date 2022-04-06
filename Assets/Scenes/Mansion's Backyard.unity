@@ -555,7 +555,7 @@ MonoBehaviour:
   - Quick! before its to late!
   shouldActivateQuest: 1
   markAsComplete: 1
-  questToMark: Talk to Ishay at the backyard
+  questToMark: Talk to Ishay Mansion's at the backyard
 --- !u!212 &516681857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
   questToCheck:
   - Go and meet Yonatan at the Mansion's backyard
   - Talk to Saul at the Mansion
-  - Talk to Ishay at the backyard
+  - Talk to Ishay Mansion's at the backyard
   - Defeat Goliath
   - Go to the Mansion's backyard and talk to Yonatan
   - Take the items
