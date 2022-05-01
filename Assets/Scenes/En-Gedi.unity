@@ -487,7 +487,7 @@ MonoBehaviour:
   objectToUnActivate:
   - {fileID: 778494505}
   questToCheckForUnActivate:
-  - Show Saul the piece you tore from the wing of his coat.
+  - Find hiding in a cave
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!1001 &409411532
