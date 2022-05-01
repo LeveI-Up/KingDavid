@@ -14766,8 +14766,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.64, y: 0.64}
-  m_SizeDelta: {x: 2.38, y: 1.104}
+  m_AnchoredPosition: {x: -0.1, y: 0.26}
+  m_SizeDelta: {x: 2.133, y: 0.968}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052474878
 MonoBehaviour:
@@ -14787,7 +14787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Town
+  m_text: Plishtim Battlefield
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eae55775dc98dfa44b5835b1b304ffa3, type: 2}
   m_sharedMaterial: {fileID: 4066039375204317817, guid: eae55775dc98dfa44b5835b1b304ffa3,
@@ -14816,7 +14816,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 10.4
+  m_fontSize: 4.2
   m_fontSizeBase: 6.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14857,10 +14857,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -0.024087429}
   m_textInfo:
     textComponent: {fileID: 1052474878}
-    characterCount: 4
+    characterCount: 20
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
