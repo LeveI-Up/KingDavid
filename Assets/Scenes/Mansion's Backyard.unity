@@ -659,6 +659,7 @@ MonoBehaviour:
   - {fileID: 1648272838}
   - {fileID: 892679433}
   - {fileID: 2079733427}
+  - {fileID: 657471097}
   questToCheck:
   - Go and meet Yonatan at the Mansion's backyard
   - Talk to Saul at the Mansion
@@ -668,6 +669,7 @@ MonoBehaviour:
   - Take the items
   - Go meet Saul at the mansion and marry his daughter Michal
   - Go and meet Yonatan at the Mansion's backyard.
+  - Saul is waiting for you at the mansion, go and meet him
   objectToUnActivate:
   - {fileID: 457564827}
   - {fileID: 516681853}
@@ -830,6 +832,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 657471095}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &657471097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 657471095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &663485373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,12 +848,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.26319
+      value: 34.69721
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20518999
+      value: -0.20211999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
