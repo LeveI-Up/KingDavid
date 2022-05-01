@@ -341,7 +341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &31236607
 Transform:
   m_ObjectHideFlags: 0
@@ -590,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364728654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2660093, y: -2.5685353, z: 21.34375}
+  m_LocalPosition: {x: -20.54, y: 12.43, z: 21.34375}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 1581233136}
@@ -18193,7 +18193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1229303571
 Transform:
   m_ObjectHideFlags: 0
@@ -28227,8 +28227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.64, y: 0.64}
-  m_SizeDelta: {x: 2.38, y: 1.104}
+  m_AnchoredPosition: {x: -0.189, y: 0.531}
+  m_SizeDelta: {x: 2.018, y: 0.887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1581233137
 MonoBehaviour:
@@ -28248,7 +28248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Town
+  m_text: En-Gedi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eae55775dc98dfa44b5835b1b304ffa3, type: 2}
   m_sharedMaterial: {fileID: 4066039375204317817, guid: eae55775dc98dfa44b5835b1b304ffa3,
@@ -28277,7 +28277,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 10.4
+  m_fontSize: 8.4
   m_fontSizeBase: 6.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28318,7 +28318,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -0.024087429}
   m_textInfo:
     textComponent: {fileID: 1581233137}
-    characterCount: 4
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -28626,7 +28626,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1937403973
 PrefabInstance:
@@ -28754,7 +28754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1949131035
 Transform:
   m_ObjectHideFlags: 0
