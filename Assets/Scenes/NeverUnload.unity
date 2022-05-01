@@ -3909,7 +3909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[32]
-      value: URIYA HOMO
+      value: Run away to Ziff Desert
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[31]
@@ -3918,6 +3918,10 @@ PrefabInstance:
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[30]
       value: Show Saul the piece you tore from the wing of his coat.
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[33]
+      value: UriyaHomo
       objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
