@@ -253,7 +253,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1843366095}
-  - {fileID: 1250250117}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -838,7 +837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594956906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.68, y: 16.71, z: -2058.7734}
+  m_LocalPosition: {x: 18.28, y: 16.54, z: -2058.7734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1126,132 +1125,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1250250115
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 330629401}
-    m_Modifications:
-    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_Name
-      value: Area Exit (En-Gedi) (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: goingTo
-      value: En-Gedi-Cave
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: sceneToLoad
-      value: En-Gedi
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: arrivingFrom
-      value: Cave
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.40601242
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2.4425008
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 11.474747
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4016094
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2739.364
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7058524
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.708359
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.797005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
-        type: 3}
-      propertyPath: arrivalStation
-      value: En-Gedi-Cave
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
---- !u!1 &1250250116 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
-    type: 3}
-  m_PrefabInstance: {fileID: 1250250115}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1250250117 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
-    type: 3}
-  m_PrefabInstance: {fileID: 1250250115}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1286989928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4881,21 +4754,17 @@ MonoBehaviour:
   - {fileID: 1399875014}
   - {fileID: 1596290410}
   - {fileID: 751834777}
-  - {fileID: 1250250116}
   questToCheck:
   - Cut a piece from the wing of Saul's coat.
   - Find hiding in a cave
   - Find hiding in a cave.
   - Cut a piece from the wing of Saul's coat
-  - Show Saul the piece you tore from the wing of his coat.
   objectToUnActivate:
-  - {fileID: 1843366094}
   - {fileID: 1399875014}
   - {fileID: 1868322320}
   - {fileID: 124715325}
   - {fileID: 1596290410}
   questToCheckForUnActivate:
-  - Hide from Saul in the cave
   - Cut a piece from the wing of Saul's coat.
   - Find hiding in a cave.
   - Cut a piece from the wing of Saul's coat
@@ -17774,6 +17643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area Exit (En-Gedi)
       objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
@@ -17857,12 +17731,12 @@ PrefabInstance:
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.66
+      value: -4.44
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.12
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -17871,12 +17745,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
---- !u!1 &1843366094 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
-    type: 3}
-  m_PrefabInstance: {fileID: 1843366093}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1843366095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
