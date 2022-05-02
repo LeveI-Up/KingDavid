@@ -337,7 +337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &105964748
 GameObject:
@@ -369,7 +369,7 @@ Transform:
   - {fileID: 38310989}
   - {fileID: 1643977732}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &360769967
 GameObject:
@@ -413,7 +413,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &634470629
 PrefabInstance:
@@ -827,7 +827,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1643977726
 GameObject:
@@ -1169,6 +1169,97 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af0ed6101062ef4db6a7bc64e64b978, type: 3}
+--- !u!1001 &1905790188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3397265333740259713, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Golden Spear
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.63878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19426584
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3397265333740259725, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d70524f21f58cd54bbc7ae7b706d9e5e, type: 3}
+--- !u!1 &1905790189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3397265333740259713, guid: d70524f21f58cd54bbc7ae7b706d9e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1905790188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1905790190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905790189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7035e004f9d67448b33dea5b8c1160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToMark: Steal Saul's spearw
+  markAsComplet: 1
+  markOnEnter: 1
+  deactivateOnMarking: 1
 --- !u!483693784 &4922482655559361876
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -1657,7 +1748,7 @@ Transform:
   - {fileID: 4922482656664018202}
   - {fileID: 4922482655559361879}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4922482656664018197
 GameObject:
