@@ -32,6 +32,7 @@ public class QuestPanel : MonoBehaviour
             {
                 questScreen.SetActive(false);
                 setIsActive(false);
+                GameManager.instance.questPanelOpened = false;
             }
             else
             {
@@ -45,6 +46,7 @@ public class QuestPanel : MonoBehaviour
                 }
                 questScreen.SetActive(true);
                 setIsActive(true);
+                GameManager.instance.questPanelOpened = true;
             }
         }
         mapNameText.text = SceneManager.GetSceneAt(1).name;
@@ -53,6 +55,7 @@ public class QuestPanel : MonoBehaviour
     {
         questScreen.SetActive(false);
         setIsActive(false);
+        GameManager.instance.questPanelOpened = false;
     }
 
     public void setIsActive(bool b)

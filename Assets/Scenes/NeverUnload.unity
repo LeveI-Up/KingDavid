@@ -4235,6 +4235,11 @@ PrefabInstance:
       propertyPath: currentCoines
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 1215674947727949049, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
+        type: 3}
+      propertyPath: quest
+      value: 38
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
 --- !u!114 &1869505210 stripped

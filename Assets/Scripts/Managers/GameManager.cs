@@ -9,9 +9,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] PlayerStats[] playerStats;
     public GameObject[] sceneObjects;
+    [SerializeField] int quest;
 
     private bool loaded, unloaded;
-    public bool gameMenuOpened, dialogBoxOpned, shopOpened, battleIsActive;
+    public bool gameMenuOpened, dialogBoxOpned, shopOpened, battleIsActive,questPanelOpened;
 
     [SerializeField] int currentCoines;
     // Start is called before the first frame update
@@ -34,13 +35,21 @@ public class GameManager : MonoBehaviour
             
             SaveData();
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+
+            for(int i =0; i < quest; i++)
+            {
+                QuestManager.instance.MarkQuestComplete(QuestManager.instance.GetQuestNames()[i]);
+            }
+        }
         if (Input.GetKeyDown(KeyCode.O))
         {
             
             LoadData();
         }
 
-        if (gameMenuOpened || dialogBoxOpned || shopOpened || battleIsActive)
+        if (gameMenuOpened || dialogBoxOpned || shopOpened || battleIsActive || questPanelOpened)
         {
             Player.instance.DeactiveMovement(true);
         }
@@ -242,6 +251,7 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
 
     //Getters and Setters
     public PlayerStats[] GetPlayerStats()
