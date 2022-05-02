@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ka'illa.unity
     guid: a89d1ce5b49c28645b576d239c824769
   - enabled: 1
-    path: Assets/Scenes/David's castle.unity
+    path: Assets/Scenes/David's Castle.unity
     guid: d178fd17e984d5447a3d799b51449b8b
   - enabled: 1
     path: Assets/Scenes/Cave.unity
@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ziklag.unity
     guid: 19c3333a94400354ba0ea008d0935e05
+  - enabled: 1
+    path: Assets/Scenes/Shop(Ziklag).unity
+    guid: 385b73c01094dd44b99053e5a4058320
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: fa6cc7c4280486149803c8ebaf99c37c

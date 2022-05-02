@@ -450,7 +450,17 @@ PrefabInstance:
     - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: goingTo
-      value: Shop-MyMap
+      value: Shop(Ziklag)-Ziklag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: arrivingFrom
+      value: Ziklag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Shop(Ziklag)
       objectReference: {fileID: 0}
     - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
@@ -520,7 +530,7 @@ PrefabInstance:
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Shop-MyMap
+      value: Shop(Ziklag)-Ziklag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}

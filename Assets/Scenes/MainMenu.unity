@@ -1693,5 +1693,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0377b63ea6105d34b8063db66a2ce070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameScene: Forest
+  newGameScene: David's House
   continueButton: {fileID: 1196979055}
