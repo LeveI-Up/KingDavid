@@ -3925,7 +3925,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
       propertyPath: questNames.Array.data[34]
-      value: Run away to Ziff Desert
+      value: Go to Ziff Desert and talk to David's men
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[35]
+      value: Steal Saul's spear
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[36]
+      value: Go to the bridge that leads to Ziklag
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[37]
+      value: Shout to Saul from the bridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 489224949, guid: 5c50b1913d86b6e4c898b5e53b68c5ac, type: 3}
+      propertyPath: questNames.Array.data[38]
+      value: Go to Ziklag and talk to king Achish
       objectReference: {fileID: 0}
     - target: {fileID: 1115158543308202409, guid: 5c50b1913d86b6e4c898b5e53b68c5ac,
         type: 3}
