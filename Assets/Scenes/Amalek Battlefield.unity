@@ -28472,8 +28472,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043139920}
-  - component: {fileID: 2043139921}
   - component: {fileID: 2043139922}
+  - component: {fileID: 2043139921}
   m_Layer: 0
   m_Name: First Amaleks
   m_TagString: Untagged
@@ -28519,7 +28519,7 @@ MonoBehaviour:
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
   activateOnEnter: 1
   timeBetweenBattles: 1
-  deactivateBattleAfterStart: 1
+  deactivateBattleAfterStart: 0
   musicToPlay: 10
   canRunAway: 0
   shouldCompleteQuest: 1

@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
 
-            for(int i =0; i < quest; i++)
+            for(int i =0; i <= quest; i++)
             {
                 QuestManager.instance.MarkQuestComplete(QuestManager.instance.GetQuestNames()[i]);
             }
