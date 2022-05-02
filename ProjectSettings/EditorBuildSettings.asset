@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ka'illa.unity
     guid: a89d1ce5b49c28645b576d239c824769
   - enabled: 1
-    path: Assets/Scenes/David's Castle.unity
+    path: Assets/Scenes/David's castle.unity
     guid: d178fd17e984d5447a3d799b51449b8b
   - enabled: 1
     path: Assets/Scenes/Cave.unity
@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gat.unity
     guid: 685e3c7387b685b4e9cee8e7358b1cdc
+  - enabled: 1
+    path: Assets/Scenes/Ziff Desert.unity
+    guid: 35f4ccbe278e85f4595bfc2f079ef5ef
   m_configObjects: {}
