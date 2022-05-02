@@ -495,11 +495,13 @@ MonoBehaviour:
   - {fileID: 2111645717}
   - {fileID: 1215252978}
   - {fileID: 680749451}
+  - {fileID: 1346907646}
   questToCheckForUnActivate:
   - Find hiding in a cave
   - Show Saul the piece you tore from the wing of his coat
   - Talk to David's men.
   - Hide from Saul in the cave
+  - Go to Ziff Desert and talk to David's men
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!1 &353020101

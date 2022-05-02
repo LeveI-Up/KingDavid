@@ -934,10 +934,16 @@ MonoBehaviour:
   - {fileID: 7421594}
   - {fileID: 939752122}
   - {fileID: 691710444}
+  - {fileID: 1003553331}
+  - {fileID: 1486445647}
+  - {fileID: 2010100827}
   questToCheckForUnActivate:
   - Go to the bridge that leads to Ziklag
   - Go to Ziff Desert and talk to David's men
   - Steal Saul's spear
+  - Go to Ziklag and talk to king Achish
+  - Go to Ziklag and talk to king Achish
+  - Go to Ziklag and talk to king Achish
   activateIfComplete: 1
   unActivateIfComplete: 0
 --- !u!4 &538958677
