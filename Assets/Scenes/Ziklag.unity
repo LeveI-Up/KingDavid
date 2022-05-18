@@ -570,6 +570,7 @@ Transform:
   - {fileID: 1425279234}
   - {fileID: 422365860}
   - {fileID: 657471096}
+  - {fileID: 1289226738}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15256,6 +15257,136 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1289226737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 570707737}
+    m_Modifications:
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Name
+      value: Area Exit (Jerusalem)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: goingTo
+      value: Ziklag-Jerusalem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Jerusalem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434286, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: arrivingFrom
+      value: Ziklag
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -1.6384928
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9797039
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -1.3154314
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434287, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.9864473
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 87.00513
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.71092635
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70326644
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
+        type: 3}
+      propertyPath: arrivalStation
+      value: Ziklag-Jerusalem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
+--- !u!4 &1289226738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434288, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1289226737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1353071383
 GameObject:
   m_ObjectHideFlags: 0
