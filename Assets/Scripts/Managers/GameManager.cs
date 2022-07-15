@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.I))
         {
             
@@ -43,11 +44,13 @@ public class GameManager : MonoBehaviour
                 QuestManager.instance.MarkQuestComplete(QuestManager.instance.GetQuestNames()[i]);
             }
         }
+        
         if (Input.GetKeyDown(KeyCode.O))
         {
             
             LoadData();
         }
+        */
 
         if (gameMenuOpened || dialogBoxOpned || shopOpened || battleIsActive || questPanelOpened)
         {
