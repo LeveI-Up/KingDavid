@@ -27,10 +27,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Plishtim Battlefield.unity
     guid: 4dc93c5dedc08d147a4f441c4ce9eb2c
   - enabled: 1
+    path: Assets/Scenes/You Won.unity
+    guid: e4fbf7d8ef64a9d4292434e76b0e126a
+  - enabled: 1
     path: Assets/Scenes/Ka'illa.unity
     guid: a89d1ce5b49c28645b576d239c824769
   - enabled: 1
-    path: Assets/Scenes/David's Castle.unity
+    path: Assets/Scenes/David's castle.unity
     guid: d178fd17e984d5447a3d799b51449b8b
   - enabled: 1
     path: Assets/Scenes/Cave.unity
