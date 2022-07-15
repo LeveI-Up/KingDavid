@@ -360,6 +360,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 255355068}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &255355070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918292147951434285, guid: 0acd39953166ce14c97ecbe442768bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 255355068}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &256390656
 GameObject:
   m_ObjectHideFlags: 0
@@ -27645,9 +27651,11 @@ MonoBehaviour:
   - {fileID: 974155105}
   - {fileID: 1425279235}
   - {fileID: 1289226739}
+  - {fileID: 255355070}
   questToCheck:
   - Defeat Amalek in Amalek Battlefield
   - Go to Ziklag and talk to king Achish
+  - Talk to Amalek's boy in Ziklag
   - Talk to Amalek's boy in Ziklag
   objectToUnActivate:
   - {fileID: 1523328127}
