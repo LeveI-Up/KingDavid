@@ -12,7 +12,7 @@
   
   לפירוט המלא יש ללחוץ [כאן](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
-לטריילר של המשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=sxJfB0S_jXw)
+לטריילר של המשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=eFt96zr7KeM)
   
   לצפייה בסירטון דמו קצר של המשחק יש ללחוץ [כאן](https://youtu.be/x6bMpKlQ_Uw)
 
@@ -32,8 +32,8 @@
   * שימוש בטכנולוגיית [CinemaMachine](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/CamController.cs)
   * מסך [MainMenu](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MainMenu.cs)
   * סצינת "לימוד משחק" בה המשתמש לומד את מקשי המשחק הבסיסים
-  * כ4-5 סצינות מלאות
-  * [דמות](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/Player.cs) בעלת אנימציה שזזה לכל כיוון
+  * כ25 סצינות מלאות
+  * [דמויות](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/Player.cs) בעלת אנימציה שזזה לכל כיוון
   * [MenuManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MenuManager.cs) תפריט ראשי בעל 7 כפתורים (Inventory,Stats,Save,Load,MainMenu,Close,Exit) 
   * מוזיקה ייחודית לכל סצינה [AudioManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/AudioManager.cs)
   * אפקטים יחודיים למשחק (איסוף חפצים,לבישת חפצים,שתיית שיקויים,פתיחת התפריט הראשי וכו')

@@ -2369,22 +2369,22 @@ PrefabInstance:
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[4]
-      value: You can view your next quest by pressing the 'Q' button.
+      value: You can equip items and view your stats at the menu.
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[5]
-      value: GoodLuck!
+      value: You can view your next quest by pressing the 'Q' button.
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[6]
-      value: 
+      value: GoodLuck!
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
@@ -2435,19 +2435,20 @@ PrefabInstance:
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
       propertyPath: dialogSentences.Array.data[1]
+      value: 'Hello adventurer and welcome to King David, Here is some instruction
+        for you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
+        type: 3}
+      propertyPath: dialogSentences.Array.data[2]
       value: Use the W,A,S,D or Arrows keyboard buttons to move. Use the left mouse
         button to interact with other NPC's.
       objectReference: {fileID: 0}
     - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
-      propertyPath: dialogSentences.Array.data[2]
+      propertyPath: dialogSentences.Array.data[3]
       value: Press the M keyborad button to open the menu,You cant move when the
         menu is open.
-      objectReference: {fileID: 0}
-    - target: {fileID: 955452849304985107, guid: 844e67647d47c474db699994b57c3103,
-        type: 3}
-      propertyPath: dialogSentences.Array.data[3]
-      value: You can equip items and view your stats at the menu.
       objectReference: {fileID: 0}
     - target: {fileID: 1050584298443252729, guid: 844e67647d47c474db699994b57c3103,
         type: 3}
