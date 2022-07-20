@@ -1100,12 +1100,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -29278,12 +29278,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - '#David'
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Saul I'm here on the bridge!
+  - Why do you keep chasing after, after all I have done for you
+  - '#Saul'
+  - I have sinned; return, my son David.
+  - for I will no more do thee harm, because my life was precious in
+  - thine eyes this day; behold, I have played the fool and erred exceedingly.
   shouldActivateQuest: 1
   markAsComplete: 1
   questToMark: Shout to Saul from the bridge

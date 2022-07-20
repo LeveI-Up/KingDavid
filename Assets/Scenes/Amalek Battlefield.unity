@@ -220,7 +220,7 @@ MonoBehaviour:
   availableBattles:
   - namesOfEnemies:
     - Amalek
-    rewardXP: 200
+    rewardXP: 700
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
@@ -14173,12 +14173,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -15261,7 +15261,7 @@ MonoBehaviour:
   availableBattles:
   - namesOfEnemies:
     - Amalek
-    rewardXP: 200
+    rewardXP: 700
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
@@ -15552,7 +15552,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Amalek
     - Black Amalek
-    rewardXP: 500
+    rewardXP: 1000
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
@@ -16690,7 +16690,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Amalek
     - Black Amalek
-    rewardXP: 500
+    rewardXP: 1000
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
@@ -16826,7 +16826,7 @@ MonoBehaviour:
   availableBattles:
   - namesOfEnemies:
     - Black Amalek
-    rewardXP: 200
+    rewardXP: 1000
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}
@@ -28513,7 +28513,7 @@ MonoBehaviour:
   - namesOfEnemies:
     - Amalek
     - Black Amalek
-    rewardXP: 500
+    rewardXP: 1500
     rewardItems:
     - {fileID: 2053548027494873367, guid: f2ee5f64241c4a546b6c42496e287779, type: 3}
     - {fileID: 5248697702601554772, guid: 30ba9fe951d527a4a8934c2f45e156f2, type: 3}

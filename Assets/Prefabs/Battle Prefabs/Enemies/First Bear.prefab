@@ -105,7 +105,7 @@ MonoBehaviour:
   currentMana: 0
   maxMana: 0
   dexterity: 5
-  defence: 5
+  defence: 10
   weaponPower: 0
   armorDefence: 0
   isDead: 0

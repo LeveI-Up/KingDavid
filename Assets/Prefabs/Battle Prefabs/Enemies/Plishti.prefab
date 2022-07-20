@@ -99,12 +99,12 @@ MonoBehaviour:
   attacksAvailable:
   - Slash
   charcterName: Plishti
-  currentHP: 70
-  maxHP: 70
+  currentHP: 200
+  maxHP: 200
   currentMana: 0
   maxMana: 0
-  dexterity: 20
-  defence: 20
+  dexterity: 60
+  defence: 60
   weaponPower: 5
   armorDefence: 0
   isDead: 0

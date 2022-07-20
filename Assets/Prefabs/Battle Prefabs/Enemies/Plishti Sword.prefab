@@ -99,12 +99,12 @@ MonoBehaviour:
   attacksAvailable:
   - Slash
   charcterName: Plishti Sword
-  currentHP: 100
-  maxHP: 100
+  currentHP: 200
+  maxHP: 200
   currentMana: 20
   maxMana: 20
-  dexterity: 30
-  defence: 30
+  dexterity: 80
+  defence: 80
   weaponPower: 10
   armorDefence: 10
   isDead: 0

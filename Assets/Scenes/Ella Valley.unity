@@ -1516,12 +1516,12 @@ PrefabInstance:
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.69721
+      value: 37.26319
       objectReference: {fileID: 0}
     - target: {fileID: 2452346996278224947, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20211999
+      value: -0.20518999
       objectReference: {fileID: 0}
     - target: {fileID: 2452346997480623890, guid: 8af0ed6101062ef4db6a7bc64e64b978,
         type: 3}
@@ -2205,7 +2205,7 @@ MonoBehaviour:
   availableBattles:
   - namesOfEnemies:
     - Goliath
-    rewardXP: 200
+    rewardXP: 1000
     rewardItems:
     - {fileID: 673524281611205561, guid: e05a3f1450fff7d4eb40949b0acb949a, type: 3}
     - {fileID: 1041138888566082487, guid: 577870f580e8cac4e8f03403a51c75ad, type: 3}

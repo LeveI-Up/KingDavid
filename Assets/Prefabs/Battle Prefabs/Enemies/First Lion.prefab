@@ -104,9 +104,9 @@ MonoBehaviour:
   maxHP: 70
   currentMana: 0
   maxMana: 0
-  dexterity: 5
-  defence: 5
-  weaponPower: 0
+  dexterity: 10
+  defence: 10
+  weaponPower: 10
   armorDefence: 0
   isDead: 0
   deadSprite: {fileID: 0}
