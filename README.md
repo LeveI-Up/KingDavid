@@ -1,52 +1,49 @@
-<div dir='rtl' lang='he'>
-  
+
 # KingDavid
 
-
-  המשחק מתרחש בתקופתו של דוד מלכה של ממלכת ישראל המאוחדת ועד לחורבן בית ראשון. אלוקים מואס בידי שאול המלך ומצווה על שמואל למצוא מלך חדש. המשחק הינו משחק תפקידים בו המשתמש מגלם את דוד המלך .
-  המשחק מספר את סיפורו של דוד המלך וכולל את כלל הסיטואציות אליהם נקלע דוד (דוד ושאול,דוד וגוליית, מרד אבשלום, נבל ואביגיל וכדו')
-  כמו בכל משחק תפקידים המשחק כולל רמות,מפלצות,"סטאטים", חפצים ועוד שלל דברים מיוחדים.
+The game takes place during the time of David, King of the United Kingdom of Israel until the destruction of the First Temple. God is dismayed by King Saul and orders Shmuel to find a new king. The game is a role-playing game in which the user plays King David.
+   The game tells the story of King David and includes all the situations that David found himself in (David and Saul, David and Goliath, Absalom's rebellion, Navel and Abigail, etc.)
+   As in any role-playing game, the game includes levels, monsters, "stats", objects and many other special things.
   
   
 ![1](https://user-images.githubusercontent.com/20986238/142910402-7a07fb44-7e06-43d7-b309-72a94111da6d.png)
   
-  לפירוט המלא יש ללחוץ [כאן](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
+  For more details [press here](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
-לטריילר של המשחק יש ללחוץ [כאן](https://www.youtube.com/watch?v=eFt96zr7KeM)
+ To watch the Game Trailer click [HERE](https://www.youtube.com/watch?v=eFt96zr7KeM)
   
-  לצפייה בסירטון דמו קצר של המשחק יש ללחוץ [כאן](https://youtu.be/x6bMpKlQ_Uw)
+  To watch a short demo clip of the game, click [HERE](https://youtu.be/x6bMpKlQ_Uw)
 
   
-  על מנת לשחק במשחק יש ללחוץ [כאן](https://saar95.itch.io/kingdavid)
+  In order to play the game you have to click [HERE](https://saar95.itch.io/kingdavid)
   
   
 
 
 
   
-המשחק מיועד לפלטפורמת המחשב 
   
-  
-  
-  ### המשחק כולל
-  * שימוש בטכנולוגיית [CinemaMachine](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/CamController.cs)
-  * מסך [MainMenu](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MainMenu.cs)
-  * סצינת "לימוד משחק" בה המשתמש לומד את מקשי המשחק הבסיסים
-  * כ25 סצינות מלאות
-  * [דמויות](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/Player.cs) בעלת אנימציה שזזה לכל כיוון
-  * [MenuManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MenuManager.cs) תפריט ראשי בעל 7 כפתורים (Inventory,Stats,Save,Load,MainMenu,Close,Exit) 
-  * מוזיקה ייחודית לכל סצינה [AudioManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/AudioManager.cs)
-  * אפקטים יחודיים למשחק (איסוף חפצים,לבישת חפצים,שתיית שיקויים,פתיחת התפריט הראשי וכו')
-  * מערכת דיאלוג [DialogController](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/DialogManager/DialogController.cs) עם דמויות במשחק
-  * מערכת קנייה ומכירה של חפצים [ShopManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Shop/ShopManager.cs)
-  * אפשרות Use/Discard בחפצים האישיים
+  ### The game includes
+  * Using [CinemaMachine] technology(https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/CamController.cs)
+  * Screen [MainMenu](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MainMenu.cs)
+  * A "game learning" scene where the user learns the basic game keys
+  * About 25 full scenes
+  * [Characters](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/Player.cs) has an animation that moves in any direction
+  * [MenuManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/MenuManager.cs) Main menu with 7 buttons (Inventory,Stats,Save,Load,MainMenu,Close (Exit)
+  * Unique music for each scene [AudioManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/AudioManager.cs)
+  * Unique effects for the game (collecting objects, wearing objects, drinking potions, opening the main menu, etc.)
+  * Dialog system [DialogController](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/DialogManager/DialogController.cs) with characters in the game
+  * System for buying and selling objects [ShopManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Shop/ShopManager.cs)
+  * Use/Discard option in the personal belongings
   * Singleton Pattern
-  *  [Player Stats](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/PlayerStats.cs) צבירת נקודות ניסיון, עליית רמות, שיפור סטאטים (חיים,התקפה וכדו)
-  * מערכת משימות [QuestManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Quests/QuestManager.cs)
-  * [GameManger](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/GameManager.cs) מערכת Save Data/Load Data השומרת את המיקום, הסטאטים והחפצים של השחקן.  
-  * בניית מפות בעזרת TileMaps
-  * גרפיקת המשחק בעלת UI קבוע ויחודי.
-  * שימוש בPlayerPrefs
-  * תיעוד מלא
-  * מערכת קרבות מלאה הכוללת אפקים,קסמים,שימוש בחפפצים,בריחה מקרבות,מכות "קריטיות" ועוד המון.
-  </div>
+  * [Player Stats](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Player/PlayerStats.cs) Accumulating experience points, leveling up, improving stats (life, attack, etc.)
+  * Quest system [QuestManager](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Quests/QuestManager.cs)
+  * [GameManger](https://github.com/LeveI-Up/KingDavid/blob/main/Assets/Scripts/Managers/GameManager.cs) Save Data/Load Data system that saves the player's location, stats and objects.
+  * Building maps with TileMaps
+  * The game graphics have a fixed and unique UI.
+  * Using PlayerPrefs
+  * Full documentation
+  * A complete battle system that includes spells, charms, use of gloves, escape from battles, "critical" hits and much more.
+  
+  The game is designed for the PC platform
+
