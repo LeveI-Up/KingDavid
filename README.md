@@ -8,14 +8,14 @@ The game takes place during the time of David, King of the United Kingdom of Isr
   
 ![1](https://user-images.githubusercontent.com/20986238/142910402-7a07fb44-7e06-43d7-b309-72a94111da6d.png)
   
-  For more details [press here](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
+  For more click [HERE](https://github.com/LeveI-Up/The-Lost-Continent/blob/main/formal-elements.md)
   
  To watch the Game Trailer click [HERE](https://www.youtube.com/watch?v=eFt96zr7KeM)
   
   To watch a short demo clip of the game, click [HERE](https://youtu.be/x6bMpKlQ_Uw)
 
   
-  In order to play the game you have to click [HERE](https://saar95.itch.io/kingdavid)
+  ## In order to play the game you have to click [HERE](https://saar95.itch.io/kingdavid)
   
   
 
