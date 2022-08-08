@@ -402,17 +402,17 @@ PrefabInstance:
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.32
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140376, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.43
+      value: 0.98
       objectReference: {fileID: 0}
     - target: {fileID: 8918292148668140377, guid: 0acd39953166ce14c97ecbe442768bba,
         type: 3}
       propertyPath: arrivalStation
-      value: Ziklag-Gezerw
+      value: Ziklag-Gezer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0acd39953166ce14c97ecbe442768bba, type: 3}
